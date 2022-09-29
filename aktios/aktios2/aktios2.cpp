@@ -30,6 +30,7 @@ normalNumber divNN(normalNumber a, normalNumber b);
 string reverse(string a); //help
 long long StringToInt(string str);
 string IntToString(long long a);
+int Rank(int a);
 void module();
 
 string plus2(int a, int b);
@@ -182,7 +183,7 @@ normalNumber toNN(double a)
 	num.step = 0;
 
 	if (num.number == 0) return num;
-	
+
 	while (abs((int)num.number) > 0)
 	{
 		num.number /= 10;
@@ -221,8 +222,10 @@ string reverseCode(string str)
 }
 string reverseplus(string str1, string str2)
 {
+	int cc = from10bi(str1) + from10bi(str2); // proverka znaka
+	if (cc == 0) return "0";
+
 	string str;
-	int rev = 0;
 	if (str1[0] == '1') {
 		str1 = reverseCode(str1);
 	}
@@ -231,8 +234,18 @@ string reverseplus(string str1, string str2)
 	}
 
 	str = plus2(StringToInt(str1), StringToInt(str2));
-	if (from10bi(str1) + from10bi(str2) < 0) str = reverseCode(str);
-	else str = to10bi(from2(str));
+
+	if ((from10bi(str1) + from10bi(str2) < 0) and (str.size() > max(str1.size(), str2.size()) )) { //magick
+			str = plus2(StringToInt(str), 1);
+			str = plus2(StringToInt(str), pow(10, str.size() - 1) * -1);
+			if (cc < 0) {
+				str = reverseCode(str);
+			}
+		}
+	else if (from10bi(str1) + from10bi(str2) < 0) str = reverseCode(str);
+
+	if (cc < 0) return str;
+	else return str = to10bi(from2(str));
 
 	return str;
 }
@@ -250,6 +263,9 @@ string dopCode(string str)
 }
 string dopPlus(string str1, string str2)
 {
+	int cc = from10bi(str1) + from10bi(str2); // proverka znaka
+	if (cc == 0) return "0";
+
 	string str;
 	int rev = 0;
 	if (str1[0] == '1') {
@@ -260,13 +276,22 @@ string dopPlus(string str1, string str2)
 		str2 = reverseCode(str2);
 		str2 = plus2(StringToInt(str2), 1);
 	}
-	long long a;
 	str = plus2(StringToInt(str1), StringToInt(str2));
-	if (from10bi(str1) + from10bi(str2) < 0) {
+
+	if ((from10bi(str1) + from10bi(str2) < 0) and (str.size() > max(str1.size(), str2.size()))) { //magick
+		str = plus2(StringToInt(str), pow(10, str.size() - 1) * -1);
+		if (from10bi(str) < 0) { 
+			str = minus2(StringToInt(str), 1);
+			str = reverseCode(str); 
+		}
+	}
+	else if (from10bi(str1) + from10bi(str2) < 0) {
 		str = minus2(StringToInt(str), 1);
 		str = reverseCode(str);
 	}
-	else str = to10bi(from2(str));
+
+	if (cc < 0) return str;
+	else return str = to10bi(from2(str));
 
 	return str;
 }
@@ -296,6 +321,17 @@ string IntToString(long long a)
 	}
 	str = reverse(str);
 	return str;
+}
+
+int Rank(int a) {
+	int rank = 0;
+
+	while (a > 0) {
+		rank++;
+		a /= 10;
+	}
+
+	return rank;
 }
 
 int* toASCII(string str)
@@ -400,7 +436,6 @@ string to10bi(float a)
 		{
 			str.push_back('0');
 		}
-	//cout << str << endl;
 	if (a < 0) str.push_back('1');
 	else str.push_back('0');
 
@@ -440,14 +475,6 @@ a: //
 	}
 
 	петя--;
-
-	//string str1 = IntToString(a), str2 = IntToString(b); ahahahahahahahhahahahhahhahahhhhhhhhhhhhhhahhaahhhahah
-	//if (
-	// (str1[0] == '1' or str2[0] == '1') and (Rank(a) < Rank(result) and Rank(b) < Rank(result))) { //
-	//	result++;											 
-	//	result -= 1 * pow(10, петя);				
-	//	//goto a;												 
-	//}
 
 	string str = IntToString(result);
 	return str;
