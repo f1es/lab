@@ -181,6 +181,8 @@ normalNumber toNN(double a)
 	num.number = a;
 	num.step = 0;
 
+	if (num.number == 0) return num;
+	
 	while (abs((int)num.number) > 0)
 	{
 		num.number /= 10;
