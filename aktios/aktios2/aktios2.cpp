@@ -18,10 +18,10 @@ string toBiTen(int a);
 int fromBiTen(string str);
 
 struct normalNumber {
-	float number;
+	double number;
 	int step;
 };
-normalNumber toNN(int a);
+normalNumber toNN(double a);
 normalNumber plusNN(normalNumber a, normalNumber b);
 normalNumber minusNN(normalNumber a, normalNumber b);
 normalNumber xNN(normalNumber a, normalNumber b);
@@ -39,7 +39,11 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-
+	/*while (1) {
+		double b; cin >> b;
+		normalNumber a = toNN(b);
+		cout << "numb = " << a.number << " step = " << a.step << endl;
+	}*/
 	module();
 }
 
@@ -59,7 +63,7 @@ void module()
 		string from_number;
 		int choice = 0; cin >> choice;
 		int sschoice;
-		int first_number, second_number;
+		double first_number, second_number;
 		string first_str_number, second_str_number;
 		switch (choice)
 		{
@@ -171,16 +175,22 @@ normalNumber plusNN(normalNumber a, normalNumber b)
 	Summa = toNN(Summa.number);
 	return Summa;
 }
-normalNumber toNN(int a)
+normalNumber toNN(double a)
 {
 	normalNumber num;
 	num.number = a;
 	num.step = 0;
 
-	while ((int)num.number > 0)
+	while (abs((int)num.number) > 0)
 	{
 		num.number /= 10;
 		num.step++;
+	}
+
+	while (abs(num.number) < 0.1)
+	{
+		num.number *= 10;
+		num.step--;
 	}
 
 	return num;
