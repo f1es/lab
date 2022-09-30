@@ -1,0 +1,17 @@
+X:\vs\mda\mda\bin\Debug\net6.0-windows\mda.exe
+X:\vs\mda\mda\bin\Debug\net6.0-windows\mda.deps.json
+X:\vs\mda\mda\bin\Debug\net6.0-windows\mda.runtimeconfig.json
+X:\vs\mda\mda\bin\Debug\net6.0-windows\mda.dll
+X:\vs\mda\mda\bin\Debug\net6.0-windows\mda.pdb
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.csproj.AssemblyReference.cache
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.Form1.resources
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.csproj.GenerateResource.cache
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.GeneratedMSBuildEditorConfig.editorconfig
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.AssemblyInfoInputs.cache
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.AssemblyInfo.cs
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.csproj.CoreCompileInputs.cache
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.dll
+X:\vs\mda\mda\obj\Debug\net6.0-windows\refint\mda.dll
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.pdb
+X:\vs\mda\mda\obj\Debug\net6.0-windows\mda.genruntimeconfig.cache
+X:\vs\mda\mda\obj\Debug\net6.0-windows\ref\mda.dll
