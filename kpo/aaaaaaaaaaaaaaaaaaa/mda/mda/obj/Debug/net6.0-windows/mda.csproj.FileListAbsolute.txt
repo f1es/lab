@@ -32,3 +32,4 @@ X:\vs\git\lab\kpo\aaaaaaaaaaaaaaaaaaa\mda\mda\bin\Debug\net6.0-windows\mda.dll
 X:\vs\git\lab\kpo\aaaaaaaaaaaaaaaaaaa\mda\mda\bin\Debug\net6.0-windows\mda.pdb
 X:\vs\git\lab\kpo\aaaaaaaaaaaaaaaaaaa\mda\mda\obj\Debug\net6.0-windows\mda.genruntimeconfig.cache
 X:\vs\git\lab\kpo\aaaaaaaaaaaaaaaaaaa\mda\mda\obj\Debug\net6.0-windows\ref\mda.dll
+X:\vs\git\lab\kpo\aaaaaaaaaaaaaaaaaaa\mda\mda\obj\Debug\net6.0-windows\mda.Properties.Resources.resources

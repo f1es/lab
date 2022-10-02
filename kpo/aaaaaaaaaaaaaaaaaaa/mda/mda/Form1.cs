@@ -17,8 +17,30 @@ namespace mda
         {
             str2 = Input.Text;
             //MessageBox.Show(str2);
-            str2 = N2(str2);
-            label2.Text = str2;
+            if (Convert.ToInt32(comboBox1.SelectedItem) == 1)
+            {
+                str2 = N1(str2);
+                label2.Text = str2;
+            }
+            switch(Convert.ToInt32(comboBox1.SelectedItem))
+            {
+                case 1:
+                    str2 = N1(str2);
+                    label2.Text = str2;
+                    break;
+                case 2:
+                    str2 = N2(str2);
+                    label2.Text = str2;
+                    break;
+                case 3:
+                    str2 = N1(str2);
+                    label2.Text = str2;
+                    break;
+                case 4:
+                    str2 = N4(str2);
+                    label2.Text = str2;
+                    break;
+            }
         }
 
         string N1(string str2)
@@ -27,17 +49,15 @@ namespace mda
             int i = str2.Length;
             if (str2.Length > 2)
             {
-                str += "first el : "; str += str2[0];
-                str += " middle el : "; str += str2[str2.Length / 2];
-
-                str += " last el : "; str += str2[i - 1];
+                str += "first element : ";str += str2[0];
+                str += "middle element :"; str += str2[str2.Length / 2];
+                str += "last element : "; str += str2[i - 1];
                 return str;
             }
             if (str2.Length == 2)
             {
-                str += "first el : "; str += str2[0];
-
-                str += " last el : "; str += str2[i - 1];
+                str += "first element : \'"; str += str2[0];
+                str += " last element : "; str += str2[i - 1];
                 return str;
             }
 
@@ -59,43 +79,43 @@ namespace mda
             str2 = "aba count : " + Convert.ToString(counter);
             return str2;
         }
-        string N3(string str)
-        {
-            Regex regex = new Regex("\\b[\\wР-пр-џ]+\\b");
-            str = textBox1.Text;
-            var words = regex.Matches(str).Cast<Match>()
-                .Select(x => x.Value)
-                .OrderBy(x => x)
-                .ToArray();
-            string str2 = "";
-            for (int i = 0; i < words.Length; i++)
-            {
-               str2 += words[i];
-                str2 += ' ';
-            }
+        //string N3(string str)
+        //{
+        //    Regex regex = new Regex("\\b[\\wР-пр-џ]+\\b");
+        //    str = textBox1.Text;
+        //    var words = regex.Matches(str).Cast<Match>()
+        //        .Select(x => x.Value)
+        //        .OrderBy(x => x)
+        //        .ToArray();
+        //    string str2 = "";
+        //    for (int i = 0; i < words.Length; i++)
+        //    {
+        //       str2 += words[i];
+        //        str2 += ' ';
+        //    }
 
-            str2 += Environment.NewLine;
+        //    str2 += Environment.NewLine;
 
-            //str2 += "weewgw";
+        //    //str2 += "weewgw";
 
-            int count = 0;
-            for(int i = 0; i < words.Length; i++)
-            {
-                for(int j = 0; j < words[i].Length; j++)
-                {
-                    if (words[i][j] == 'р') count++;
-                }
+        //    int count = 0;
+        //    for(int i = 0; i < words.Length; i++)
+        //    {
+        //        for(int j = 0; j < words[i].Length; j++)
+        //        {
+        //            if (words[i][j] == 'р') count++;
+        //        }
 
-                if (count >= 2)
-                {
-                    str2 += ' ';
-                    str2 += words[i];
-                }
-                count = 0;
-            }
+        //        if (count >= 2)
+        //        {
+        //            str2 += ' ';
+        //            str2 += words[i];
+        //        }
+        //        count = 0;
+        //    }
 
-            return str2;
-        }
+        //    return str2;
+        //}
 
         string N4(string str)
         {
@@ -122,6 +142,10 @@ namespace mda
             }
 
             return str2;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }
