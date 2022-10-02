@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\vs\\mda\\mda\\mda.csproj": {}
+    "X:\\vs\\git\\lab\\kpo\\aaaaaaaaaaaaaaaaaaa\\mda\\mda\\mda.csproj": {}
   },
   "projects": {
-    "X:\\vs\\mda\\mda\\mda.csproj": {
+    "X:\\vs\\git\\lab\\kpo\\aaaaaaaaaaaaaaaaaaa\\mda\\mda\\mda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\vs\\mda\\mda\\mda.csproj",
+        "projectUniqueName": "X:\\vs\\git\\lab\\kpo\\aaaaaaaaaaaaaaaaaaa\\mda\\mda\\mda.csproj",
         "projectName": "mda",
-        "projectPath": "X:\\vs\\mda\\mda\\mda.csproj",
+        "projectPath": "X:\\vs\\git\\lab\\kpo\\aaaaaaaaaaaaaaaaaaa\\mda\\mda\\mda.csproj",
         "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-        "outputPath": "X:\\vs\\mda\\mda\\obj\\",
+        "outputPath": "X:\\vs\\git\\lab\\kpo\\aaaaaaaaaaaaaaaaaaa\\mda\\mda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,7 +17,7 @@ namespace mda
         {
             str2 = Input.Text;
             //MessageBox.Show(str2);
-            str2 = N3(str2);
+            str2 = N2(str2);
             label2.Text = str2;
         }
 
@@ -25,19 +25,19 @@ namespace mda
         {
             string str = "";
             int i = str2.Length;
-            if(str2.Length > 2)
+            if (str2.Length > 2)
             {
-                str += "Первый символ : "; str += str2[0];
-                str += " Средний символ : "; str += str2[str2.Length / 2];
+                str += "first el : "; str += str2[0];
+                str += " middle el : "; str += str2[str2.Length / 2];
 
-                str += " Последний символ : "; str += str2[i - 1];
+                str += " last el : "; str += str2[i - 1];
                 return str;
             }
             if (str2.Length == 2)
             {
-                str += "Первый символ : "; str += str2[0];
+                str += "first el : "; str += str2[0];
 
-                str += " Последний символ : "; str += str2[i - 1];
+                str += " last el : "; str += str2[i - 1];
                 return str;
             }
 
@@ -56,82 +56,68 @@ namespace mda
             }
 
             string str2;
-            str2 = "Количество вхождений : " + Convert.ToString(counter);
+            str2 = "aba count : " + Convert.ToString(counter);
             return str2;
         }
-
         string N3(string str)
         {
+            Regex regex = new Regex("\\b[\\wА-Яа-я]+\\b");
+            str = textBox1.Text;
+            var words = regex.Matches(str).Cast<Match>()
+                .Select(x => x.Value)
+                .OrderBy(x => x)
+                .ToArray();
             string str2 = "";
-            int glasniy_counter = 0;
-            int glasniy_counter_max = 0;
-            int pos = 0;
-            for(int i = 0; i < str.Length; i++)
+            for (int i = 0; i < words.Length; i++)
             {
-               if (str[i] == 'a' || str[i] == 'e' || str[i] == 'y' || str[i] == 'u' || str[i] == 'i' || str[i] == 'o') glasniy_counter++;
-                if (str[i] == ' ' && glasniy_counter_max < glasniy_counter)
-                {
-                    pos = i;
-                    glasniy_counter_max = glasniy_counter;
-                    glasniy_counter = 0;
-                }
-                if (str[i] == ' ') glasniy_counter = 0;
+               str2 += words[i];
+                str2 += ' ';
             }
 
-            glasniy_counter = 0;
-            string str_temp = " ";
-            for (int i = 0; i < str.Length; i++)
+            str2 += Environment.NewLine;
+
+            //str2 += "weewgw";
+
+            int count = 0;
+            for(int i = 0; i < words.Length; i++)
             {
-                if (str[i] == 'a' || str[i] == 'e' || str[i] == 'y' || str[i] == 'u' || str[i] == 'i' || str[i] == 'o') glasniy_counter++;
-                if (str[i] == ' ' && glasniy_counter == glasniy_counter_max)
+                for(int j = 0; j < words[i].Length; j++)
                 {
-                    pos = i - 1;
-                    while (str[pos] != ' ') 
-                    {
-                        str_temp += str[pos];
-                        pos--;
-                    }
-                    str_temp += ' ';
+                    if (words[i][j] == 'а') count++;
                 }
-                if (str[i] == ' ') glasniy_counter = 0;
+
+                if (count >= 2)
+                {
+                    str2 += ' ';
+                    str2 += words[i];
+                }
+                count = 0;
             }
-
-            //glasniy_counter_prev = glasniy_counter;
-            //glasniy_counter = 0;
-
-            //int a = ++pos;
-            //while (str[a] != ' ' || a == str.Length)
-            //{
-            //    str2 += str[a];
-            //    str = str.Remove(a,a);
-            //    a++;
-            //}
 
             return str2;
         }
-
-        //StringBuilder someString = new StringBuilder(drb);
-        //someString[k] = str[k + 2];
-        //drb = someString.ToString();
 
         string N4(string str)
         {
             string str2 = "";
+            string[] words = str.Split(' ').ToArray(); 
 
-            int pos = 0, aaaaaa = 1;
-            for(int i = 0; i < str.Length; i++)
+            for(int i = 0; i < words.Length; i++)
             {
-                if (aaaaaa == 0 && str[i] == ' ')
+                try
                 {
-                    str[pos] = '<';
-                    str[i] = '>';
+                   int a = int .Parse(words[i]);
+
+                    str2 += '<';
+                   str2 += Convert.ToString(a);
+                    str2 += '>';
                 }
-                if (str[i] == ' ') 
+                catch(Exception e)    
                 {
-                    pos = i;
-                    aaaaaa = 0;
+                    str2 += words[i];
                 }
-                if (str[i] < 48 || str[i] > 57) aaaaaa = 1;
+
+                //str2 += Convert.ToString(a);
 
             }
 
