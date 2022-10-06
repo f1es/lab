@@ -8,27 +8,27 @@ namespace mda
         {
             InitializeComponent();
 
-            BOOK[0].name.Name = "Александр";
-            BOOK[0].name.Surname = "Иванов";
-            BOOK[0].zodiac = "Водолей";
+            BOOK[0].name.Name = "Alexandr";
+            BOOK[0].name.Surname = "Ivanov";
+            BOOK[0].zodiac = "Vodoley";
             int[] a = { 15, 7, 2006 };
             BOOK[0].bdate = a;
             //
-            BOOK[1].name.Name = "Сергей";
-            BOOK[1].name.Surname = "Павлов";
-            BOOK[1].zodiac = "Стрелец";
+            BOOK[1].name.Name = "Sergey";
+            BOOK[1].name.Surname = "Pavlov";
+            BOOK[1].zodiac = "Strelec";
             int[] g = { 6, 9, 2007 };
             BOOK[1].bdate = g;
             //
-            BOOK[2].name.Name = "Иван";
-            BOOK[2].name.Surname = "Иванов";
-            BOOK[2].zodiac = "Скорпион";
+            BOOK[2].name.Name = "Ivan";
+            BOOK[2].name.Surname = "Ivanov";
+            BOOK[2].zodiac = "Scorpion";
             int[] c = { 12, 12, 2004 };
             BOOK[2].bdate = c;
             //
-            BOOK[3].name.Name = "Алексей";
-            BOOK[3].name.Surname = "Алексеев";
-            BOOK[3].zodiac = "Козерог";
+            BOOK[3].name.Name = "Alexey";
+            BOOK[3].name.Surname = "Alexeev";
+            BOOK[3].zodiac = "Kozerog";
             int[] d = { 7, 8, 2007 };
             BOOK[3].bdate = d;
 
@@ -51,13 +51,13 @@ namespace mda
 
             switch (comboBox1.SelectedItem)
             {
-                case "Ввести имя и фамилию":
+                case "Input Name and Surname Ввести имя и фамилию":
                     BOOK[number] = AddName(BOOK[number], Input.Text);
                     break;
-                case "Ввести знак зодиака":
+                case "Input Zank Ввести знак зодиака":
                     BOOK[number] = AddZodiac(BOOK[number], Input.Text);
                     break;
-                case "Ввести день рождения":
+                case "Input Birthsday Ввести день рождения":
                     BOOK[number] = AddBDay(BOOK[number], Input.Text);
                     ZNAK temp;
                     for (int i = 0; i < 8; i++)
@@ -90,7 +90,7 @@ namespace mda
                             }
                         }
                     break;
-                case "Информация по фамилии":
+                case "Info from Surname Информация по фамилии":
                     int[] bb = { 0, 0, 0 };
                     for (int i = 0; i < BOOK.Length; i++)
                     {
@@ -112,7 +112,7 @@ namespace mda
                     }
                     label2.Text = str2;
                     break;
-                case "Информация о всех":
+                case "Info about All Информация о всех":
                     int[] b = { 0, 0, 0 };
                     for (int i = 0; i < BOOK.Length - 1; i++)
                     {
