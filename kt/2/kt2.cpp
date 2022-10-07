@@ -1,42 +1,90 @@
 ﻿#include<iostream>
 #include<string>
+#include<list>
 
 using namespace std;
 
 int hash_function(string str);
-//string multi_hash(string str, int id);
 
 int main()
 {
-	string hash_table[200];
-	int a[3];
-	int b[3];
-	//a = b;
+	int const AMOUNT = 100;
+	string hash_table1[AMOUNT];
+	list<string> hash_table2;
+	
+
 	string str;
-	//cin >> str;
 
 	int id = hash_function(str), n = 1;
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < AMOUNT; i++)
 	{
-		cin >> str;
+		for (int j = 0; j < 5; j++) str += (rand() % 26) + 97;
+		hash_table2.push_back(str);
+
 		id = hash_function(str);
+		int breaker = 0;
 		while (1)
 		{
-			if (hash_table[id] == "")
+			if (hash_table1[id] == "")
 			{
-				hash_table[id] = str;
+				hash_table1[id] = str;
+
+				breaker = 0;
 				break;
 			}
-			else id *= ++n;
+			else if (breaker < 50) id = (id * ++n) % AMOUNT;
+			else id = (id + 1) % AMOUNT;
+
+			breaker++;
 		}
+		str = "";
 	}
 
+
+	//hash_table2.sort(hash_table2.front(), hash_table2.back());
 	//hash_table = hash_function(hash_table, str);
-	for (int i = 0; i < 200; i++)
+
+	for (int i = 0; i < AMOUNT; i++)
 	{
-		if (hash_table[i] != "") cout << hash_table[i] << endl;
+		if (hash_table1[i] != "") cout << hash_table1[i] << " | ";
 	}
-	//cout << hash_table[hash_function(str)] << endl;
+	cout << endl;
+
+	string search = ""; cin >> search;
+
+	n = 0; id = hash_function(search);
+	int breaker = 0;
+	int counter = 0;
+	while (1)
+	{
+		if (search == hash_table1[id])
+		{
+			cout << "Rehashing with multiplication" << endl;
+			cout << "\t" << search << " was Found" << endl;
+			cout << "\tCounts = "<< counter + 1<< endl;
+			break;
+		}
+		else if (breaker < 50)id = (id * ++n) % AMOUNT;
+		if (breaker > 50) id = (id + 1) % AMOUNT;
+
+		counter++;
+		breaker++;
+	}
+	
+	counter = 0;
+	while (1)
+	{
+		if (search == hash_table2.front())
+		{
+			cout << "List" << endl;
+			cout << "\t" << search << " was Found" << endl;
+			cout << "\tCounts = " << counter + 1<< endl;
+			break;
+		}
+		else hash_table2.pop_front();
+
+		counter++;
+	}
 }
 
 int hash_function(string str)
@@ -47,9 +95,7 @@ int hash_function(string str)
 	{
 		id += str[i];
 	}
-
-	id %= 200;
-	//hash_table[id] = str;
+	id %= 100;
 
 	return id;
 }
