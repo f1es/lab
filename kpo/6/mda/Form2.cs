@@ -30,7 +30,7 @@
                     int x = rnd.Next(0, 1280);
                     int y = rnd.Next(0, 720);
 
-                    int n = 2;
+                    int n = 4;
 
                     Point[] points = {
                  new Point(10 * n + x, 10 * n + y),

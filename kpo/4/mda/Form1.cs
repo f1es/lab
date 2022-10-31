@@ -26,13 +26,13 @@ namespace mda
 
             switch (comboBox1.SelectedItem)
             {
-                case "Zadanie Задание 1":
+                case "Задание 1":
                     //FileInfo fileInf = new FileInfo(path);
                     //fileInf.Create();
                     //File.WriteAllTextAsync(path, "\n123");
                     N1(path);
                     break;
-                case "Zadanie Задание 2":
+                case "Задание 2":
                     N2(path);
                     break;
             }

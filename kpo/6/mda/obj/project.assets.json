@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\vs\\git\\lab\\kpo\\mda\\mda\\mda.csproj",
+      "projectUniqueName": "X:\\vs\\git\\lab\\kpo\\6\\mda\\mda.csproj",
       "projectName": "mda",
-      "projectPath": "X:\\vs\\git\\lab\\kpo\\mda\\mda\\mda.csproj",
+      "projectPath": "X:\\vs\\git\\lab\\kpo\\6\\mda\\mda.csproj",
       "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-      "outputPath": "X:\\vs\\git\\lab\\kpo\\mda\\mda\\obj\\",
+      "outputPath": "X:\\vs\\git\\lab\\kpo\\6\\mda\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",
