@@ -162,8 +162,21 @@ void pushTree(token token, node** t) //Add
 		return;                         //Заложили семечко, выходим
 	}
 	//Дерево есть
-	if (token.token_name == num or token.token_name == romnum) pushTree(token, &(*t)->l); //Если аргумент а больше чем текущий элемент, кладем его вправо
-	else pushTree(token, &(*t)->r);         //Иначе кладем его влево
+	if (token.token_name == OR) {
+		pushTree(token, &(*t)->r);
+		return;
+	}
+	if (token.token_name == romnum and (*t)->l == NULL) {
+		pushTree(token, &(*t)->l);
+		return; 
+	}
+	else {
+		pushTree(token, &(*t)->r);
+		return;
+	}
+	//if (token.token_name == romnum and (*t)->l == NULL ) pushTree(token, &(*t)->l); //Если аргумент а больше чем текущий элемент, кладем его вправо
+	//else if (token.token_name == num or token.token_name == romnum) pushTree(token, &(*t)->r);
+	//if (token.token_name == OR)pushTree(token, &(*t)->r);         //Иначе кладем его влево
 }
 
 void printTree(node* t, int u) //Input
@@ -202,7 +215,7 @@ void printTree(node* t, int u) //Input
 int main()
 {
 	token tok;
-	string str = "X or X and X";
+	string str = "X or X or X";
 	list<token> lexeme_table = lexer(str);
 
 	/*while (lexeme_table.empty() == 0) {
@@ -229,6 +242,8 @@ int main()
 	}
 	
 	node* sosna = NULL;
+//	sosna->l = NULL;
+	//sosna->r = NULL;
 
 	while (znak.size() > 0 or ident.size() > 0)
 	{
