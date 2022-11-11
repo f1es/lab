@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using SimpleAlgorithmsApp;
+using SimpleAlgorithmsQueue;
 
 
 namespace mda
@@ -29,7 +30,7 @@ namespace mda
                     label2.Text = Convert.ToString(Calc());
                     break;
                 case "Задание 2":
-                    N2();
+                    куеуе();
                     break;
             }
         }
@@ -86,9 +87,11 @@ namespace mda
             return NumStack.Peek();
         }
 
-        void N2()
+        void куеуе()
         {
-            
+            QUEUE<int> queue = new QUEUE<int>();
+            queue.Enqueue(1);
+            label2.Text = Convert.ToString(queue.First());
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

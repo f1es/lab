@@ -2,6 +2,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Collections;
 using System.Collections.Generic;
 using SimpleAlgorithmsApp;
+using SimpleAlgorithmsQueue;
 
 public class Node<T>
 {
@@ -77,68 +78,94 @@ namespace SimpleAlgorithmsApp
     }
 }
 
+namespace SimpleAlgorithmsQueue
+{
+    public class QUEUE<T> : IEnumerable<T>
+    {
+        Node<T> head; // головной/первый элемент
+        Node<T> tail; // последний/хвостовой элемент
+        int count;
+        // добавление в очередь
+        public void Enqueue(T data)
+        {
+            Node<T> node = new Node<T>(data);
+            Node<T> tempNode = tail;
+            tail = node;
+            if (count == 0)
+                head = tail;
+            else
+                tempNode.Next = tail;
+            count++;
+
+        }
+        // удаление из очереди
+        public T Dequeue()
+        {
+            if (count == 0)
+                throw new InvalidOperationException();
+            T output = head.Data;
+            head = head.Next;
+            count--;
+            return output;
+        }
+        // получаем первый элемент
+        public T First
+        {
+            get
+            {
+                if (IsEmpty)
+                    throw new InvalidOperationException();
+                return head.Data;
+            }
+        }
+        // получаем последний элемент
+        public T Last
+        {
+            get
+            {
+                if (IsEmpty)
+                    throw new InvalidOperationException();
+                return tail.Data;
+            }
+        }
+        public int Count { get { return count; } }
+        public bool IsEmpty { get { return count == 0; } }
+        public void Clear()
+        {
+            head = null;
+            tail = null;
+            count = 0;
+        }
+        public bool Contains(T data)
+        {
+            Node<T> current = head;
+            while (current != null)
+            {
+                if (current.Data.Equals(data))
+                    return true;
+                current = current.Next;
+
+            }
+            return false;
+        }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return ((IEnumerable)this).GetEnumerator();
+        }
+        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        {
+            Node<T> current = head;
+            while (current != null)
+            {
+                yield return current.Data;
+                current = current.Next;
+            }
+        }
+    }
+}
+
 namespace mda
 {
-    //NodeStack<string> sstack = new NodeStack<string>();
-
-
-    //NodeStack<int> NumStack = new NodeStack<int>();
-    //NodeStack<char> FuncStack = new NodeStack<char>();
-
-    //string str = "1 - 1";
-
-
-//for (int i = 0; i<str.Length; i++)
-//{
-    //while(char.IsDigit(str[i]))
-    //{
-    //    string temp = "";
-    //    temp += str[i];
-    //    i++;
-    //}
-    //if (char.IsDigit(str[i]))
-    //{
-    //    string temp = "";
-    //    while (char.IsDigit(str[i]))
-    //    {
-    //        temp += str[i];
-    //        i++;
-    //        if (i == str.Length) break;
-    //    }
-    //int a = Convert.ToInt32(temp);
-   // NumStack.Push(a);
-    //}
-    //else if (str[i] == '+' || str[i] == '-') FuncStack.Push(str[i]);
-
-
-//Console.WriteLine(Calc(NumStack, FuncStack));
-
-//int Calc(NodeStack<int> NumStack, NodeStack<char> FuncStack)
-//{
-//    while (FuncStack.Count > 0)
-//    {
-//        int SecNumber = NumStack.Peek();
-//        NumStack.Pop();
-//        int FirstNumber = NumStack.Peek();
-//        NumStack.Pop();
-
-//        switch (FuncStack.Peek())
-//        {
-//            case '+':
-//                FuncStack.Pop();
-//                NumStack.Push(SecNumber + FirstNumber);
-//                break;
-//            case '-':
-//                FuncStack.Pop();
-//                NumStack.Push(FirstNumber - SecNumber);
-//                break;
-//        }
-//        //return NumStack.Peek();
-//    }
-//    return NumStack.Peek();
-//}
-
-
 public class Node<T>
 {
     public Node(T data)
