@@ -1,0 +1,15 @@
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\bin\Debug\net6.0\ssssssdddff.exe
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\bin\Debug\net6.0\ssssssdddff.deps.json
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\bin\Debug\net6.0\ssssssdddff.runtimeconfig.json
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\bin\Debug\net6.0\ssssssdddff.dll
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\bin\Debug\net6.0\ssssssdddff.pdb
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.csproj.AssemblyReference.cache
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.GeneratedMSBuildEditorConfig.editorconfig
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.AssemblyInfoInputs.cache
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.AssemblyInfo.cs
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.csproj.CoreCompileInputs.cache
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.dll
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\refint\ssssssdddff.dll
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.pdb
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ssssssdddff.genruntimeconfig.cache
+X:\vs\git\lab\kpo\nooooo\ssssssdddff\ssssssdddff\obj\Debug\net6.0\ref\ssssssdddff.dll

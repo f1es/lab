@@ -1,31 +1,28 @@
-﻿//using System;
-using System.Collections;
-//using System.Collections.Generic;
-// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿using System.Collections;
 
-//string a = " ";
-//a = Console.ReadLine();
 
-//Console.WriteLine(a);
-//double b;
-//b = da.Calc(a);
-//Console.WriteLine(b);
+string a = " ";
+a = Console.ReadLine();
 
-Queue<string> queue = new Queue<string>();
-queue.Enqueue("Kate");
-queue.Enqueue("Sam");
-queue.Enqueue("Alice");
-queue.Enqueue("Tom");
-foreach (string item in queue)
-    Console.WriteLine(item);
-Console.WriteLine();
-Console.WriteLine();
-string firstItem = queue.Dequeue();
-Console.WriteLine($"Извлеченный элемент: {firstItem}");
-Console.WriteLine();
-foreach (string item in queue)
-    Console.WriteLine(item);
+Console.WriteLine(a);
+double b;
+b = da.Calc(a);
+Console.WriteLine(b);
+
+//Queue<string> queue = new Queue<string>();
+//queue.Enqueue("Kate");
+//queue.Enqueue("Sam");
+//queue.Enqueue("Alice");
+//queue.Enqueue("Tom");
+//foreach (string item in queue)
+//    Console.WriteLine(item);
+//Console.WriteLine();
+//Console.WriteLine();
+//string firstItem = queue.Dequeue();
+//Console.WriteLine($"Извлеченный элемент: {firstItem}");
+//Console.WriteLine();
+//foreach (string item in queue)
+//    Console.WriteLine(item);
 
 class da
 {
