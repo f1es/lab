@@ -100,7 +100,7 @@ list<token> lexer(string str)
 
 		if ((str[i] >= '0' and str[i] <= '9')) {
 			string number = "";
-			while (str[i] >= '0' and str[i] <= '9')
+			while ((str[i] >= '0' and str[i] <= '9') or str[i] == '.')
 			{
 				number += str[i];
 				i++;
@@ -166,7 +166,7 @@ void printTree(node* t, int u, bool Direction) //Input
 int main()
 {
 	token tok;
-	string str = "A + 12 + XVI";
+	string str = "A + 12.1 + XVI";
 	list<token> lexeme_table = lexer(str);
 
 

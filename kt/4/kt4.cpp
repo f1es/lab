@@ -9,7 +9,7 @@
 using namespace std;
 
 ///////lex analiz
-static string Ident = "Ident", Number = "Number", Math = "Math", Assign = "Assign";
+static string Ident = "Ident", Number = "Number", Math = "Math", Assign = "Assign", RomeNumerals = "RomeNumerals";
 struct token
 {
 	string token_name;
@@ -41,7 +41,33 @@ list<token> lexer(string str)
 		if (str[i] == '*') { lexeme_table.push_back(add_token(Math, "*")); }
 		if (str[i] == '/') { lexeme_table.push_back(add_token(Math, "/")); }
 
-		if ((str[i] >= 'a' and str[i] <= 'z') or (str[i] >= 'A' and str[i] <= 'Z')) {
+		if ((str[i] == 'I' or str[i] == 'V' or str[i] == 'X')) {
+			string number = "";
+
+			while (str[i] == 'I' or str[i] == 'V' or str[i] == 'X')
+			{
+
+				if (str[i] == 'I') {
+					number += str[i];
+					i++;
+				}
+
+				if (str[i] == 'X') {
+					number += str[i];
+					i++;
+				}
+
+				if (str[i] == 'V') {
+					number += str[i];
+					i++;
+				}
+
+				if (i > str.size()) break;
+			}
+			lexeme_table.push_back(add_token(RomeNumerals, number));
+		}
+
+		if ((str[i] >= 'a' and str[i] <= 'z') or (str[i] >= 'A' and str[i] <= 'Z') and str[i] != 'I' and str[i] != 'V' and str[i] != 'X') {
 			string var = "";
 			while ((str[i] >= 'a' and str[i] <= 'z') or (str[i] >= 'A' and str[i] <= 'Z') or (str[i] >= '0' and str[i] <= '9'))
 			{
@@ -86,12 +112,12 @@ void pushTree(token token, node** t) //dobavlenie ddlya +/- i operandov
 		return;
 	}
 
-	if (token.token_name != Number and token.token_name != Ident) //ostalnoje pravo
+	if (token.token_name != Number and token.token_name != Ident and token.token_name != RomeNumerals) //ostalnoje pravo
 	{
 		pushTree(token, &(*t)->r);
 		return;
 	}
-	if ((token.token_name == Number or token.token_name == Ident) and (*t)->l == NULL) //esli identificator i levo pusto to levo
+	if ((token.token_name == Number or token.token_name == Ident or token.token_name == RomeNumerals) and (*t)->l == NULL) //esli identificator i levo pusto to levo
 	{
 		pushTree(token, &(*t)->l);
 		return;
@@ -202,7 +228,7 @@ int main()
 {
 	setlocale(LC_ALL, "");
 	token tok;
-	string str = "A := B * 12 * 13 + C"; //A + B + 12 * 13 + C + D //1 * 2 + A
+	string str = "A := B * 12 * IX + C"; //A + B + 12 * 13 + C + D //1 * 2 + A
 	list<token> lexeme_table = lexer(str);
 
 	list<token> temp = lexeme_table;
@@ -218,7 +244,7 @@ int main()
 	temp = lexeme_table;
 	while (temp.size() > 0) //razdelyaet identifikatori i operatori(cifri i znaki)
 	{
-		if (temp.front().token_name == Number or temp.front().token_name == Ident) {
+		if (temp.front().token_name == Number or temp.front().token_name == Ident or temp.front().token_name == RomeNumerals) {
 			identif.push_back(temp.front());
 			temp.pop_front();
 		}
