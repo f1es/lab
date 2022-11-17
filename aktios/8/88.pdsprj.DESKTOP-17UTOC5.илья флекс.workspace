@@ -1,21 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="0">
-  <PLACEMENT>2c00000000000000010000000083ffffd882ffffffffffffffffffff3203000001000000040800000d040000</PLACEMENT>
+  <PLACEMENT>2c0000000000000001000000ffffffffd7ffffffffffffffffffffff340300000b0000000508000017040000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
   <PWI>
-   <POPUP w="800" x="974" flags="00000002" y="177" h="200" pid="0" iid="-1">
+   <POPUP w="800" x="1039" flags="00000002" y="181" h="200" pid="0" iid="-1">
     <PROPERTIES>
      <ITEM name="Message Column Width">663</ITEM>
      <ITEM name="ShowGrid">No</ITEM>
      <ITEM name="Source Column Width">100</ITEM>
-     <ITEM name="Time Column Width">120</ITEM>
      <ITEM name="Version">100</ITEM>
     </PROPERTIES>
    </POPUP>
-   <POPUP w="350" x="994" flags="00000032" y="197" h="200" pid="1" iid="-1">
+   <POPUP w="350" x="1059" flags="00000032" y="201" h="200" pid="1" iid="-1">
     <PROPERTIES>
      <ITEM name="Address Column Width">83</ITEM>
      <ITEM name="AutoResize">No</ITEM>
