@@ -42,7 +42,7 @@ namespace mda
             NodeStack<int> NumStack = new NodeStack<int>();
             NodeStack<char> FuncStack = new NodeStack<char>();
 
-            for (int i = 0; i < str.Length; i++)
+            for (int i = (str.Length - 1); i > -1; i--)
             {
                 if (char.IsDigit(str[i]))
                 {
@@ -51,12 +51,11 @@ namespace mda
                     {
                         temp += str[i];
 
-                        i++;
-
-                        if (i == str.Length) break;
+                        i--;
+                        if (i == -1) break;
                         //if (i == str.Length) break;
                     }
-                    i--;
+                    i++;
 
                     int a = Convert.ToInt32(temp);
                     NumStack.Push(a);
@@ -79,7 +78,7 @@ namespace mda
                         break;
                     case '-':
                         FuncStack.Pop();
-                        NumStack.Push(FirstNumber - SecNumber);
+                        NumStack.Push(SecNumber - FirstNumber);
                         break;
                 }
                 //return NumStack.Peek();

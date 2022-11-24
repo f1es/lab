@@ -1,1 +1,1 @@
-Get-Service | Where-Object {$_.Status -EQ "Stopped"}
+Get-Service | Where-Object {$_.Status -EQ "Stopped"} Out-File -FilePath .\Result.txt

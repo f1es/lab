@@ -1,1 +1,1 @@
-Get-Service | where CanStop -eq "True" | Format-List -Property Name, Description, ServiceType, Status, StartType |  Out-File -FilePath .\result.txt
+Get-Service | where StartType -eq "Manual" | Format-List -Property Name, Description, ServiceType, Status, StartType |  Out-File -FilePath .\result.txt
