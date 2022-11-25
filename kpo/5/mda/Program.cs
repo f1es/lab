@@ -183,17 +183,6 @@ namespace SimpleAlgorithmsQueue
 
 namespace mda
 {
-//public class Node<T>
-//{
-//    public Node(T data)
-//    {
-//        Data = data;
-//    }
-//    public T Data { get; set; }
-//    public Node<T> Next { get; set; }
-//}
-
-
 internal static class Program
     {
         /// <summary>

@@ -56,13 +56,12 @@ namespace mda
                     while (char.IsDigit(str[i]))
                     {
                         temp += str[i];
-
                         i--;
                         if (i == -1) break;
                         //if (i == str.Length) break;
                     }
                     i++;
-
+                    temp = ReverseString(temp);
                     int a = Convert.ToInt32(temp);
                     NumStack.Push(a);
                 }
@@ -91,7 +90,12 @@ namespace mda
             }
             return NumStack.Peek();
         }
-
+        public static string ReverseString(string s)
+        {
+            char[] arr = s.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
+        }
         void куеуе()
         {
             QUEUE<int> queue = new QUEUE<int>();
