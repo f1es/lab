@@ -87,8 +87,10 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Задание 1",
-            "Задание 2"});
+            "Вычисление стеками",
+            "Добавить в очередь",
+            "Вывести очередь",
+            "Убрать из очереди"});
             this.comboBox1.Location = new System.Drawing.Point(38, 121);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(170, 23);

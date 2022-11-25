@@ -8,7 +8,7 @@ namespace mda
 {
     public partial class Form1 : Form
     {
-        
+        QUEUE<int> queue = new QUEUE<int>();
         public Form1()
         {
 
@@ -26,11 +26,17 @@ namespace mda
             
             switch (comboBox1.SelectedItem)
             {
-                case "Задание 1":
+                case "Вычисление стеками":
                     label2.Text = Convert.ToString(Calc());
                     break;
-                case "Задание 2":
-                    куеуе();
+                case "Добавить в очередь":
+                    куеуедобавить(queue);
+                    break;
+                case "Вывести очередь":
+                    куеуевывести(queue);
+                    break;
+                case "Убрать из очереди":
+                    куеуеубрать(queue);
                     break;
             }
         }
@@ -92,6 +98,23 @@ namespace mda
             queue.Enqueue(1);
             label2.Text = Convert.ToString(queue.First());
         }
+
+        void куеуедобавить(QUEUE<int> queue)
+        {
+            queue.Enqueue(Convert.ToInt32(Input.Text));
+        }
+        void куеуеубрать(QUEUE<int> queue)
+        {
+            queue.Dequeue();
+        }
+        void куеуевывести(QUEUE<int> queue)
+        {
+            //QUEUE<int> queue = new QUEUE<int>();
+            label2.Text = queue.Show();
+            //label2.Text = Convert.ToString(queue.First());
+        }
+
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
         }

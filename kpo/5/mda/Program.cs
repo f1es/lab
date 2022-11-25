@@ -85,6 +85,23 @@ namespace SimpleAlgorithmsQueue
         Node<T> head; // головной/первый элемент
         Node<T> tail; // последний/хвостовой элемент
         int count;
+
+        public string Show()
+        {
+            if (IsEmpty) return "";
+            //head = new Node<T>(data);
+           // Node<T> tempNode = head;
+
+            string output = "";
+            Node<T> current = head;
+           while(!IsEmpty)
+            {
+                if (current == null) break;
+                output += Convert.ToString(current.Data) + " ";
+                current = current.Next;
+            }
+           return output;
+        }
         // добавление в очередь
         public void Enqueue(T data)
         {
@@ -166,15 +183,15 @@ namespace SimpleAlgorithmsQueue
 
 namespace mda
 {
-public class Node<T>
-{
-    public Node(T data)
-    {
-        Data = data;
-    }
-    public T Data { get; set; }
-    public Node<T> Next { get; set; }
-}
+//public class Node<T>
+//{
+//    public Node(T data)
+//    {
+//        Data = data;
+//    }
+//    public T Data { get; set; }
+//    public Node<T> Next { get; set; }
+//}
 
 
 internal static class Program
@@ -183,9 +200,12 @@ internal static class Program
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-      
+
+        //internal const string n1 = "1";
         static void Main()
         {
+            const string n1 = "1";
+
             string path;
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
