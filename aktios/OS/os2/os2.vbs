@@ -38,13 +38,9 @@ Next
 '			DRIVE
 dim nameDrive, remotePath,userName, password, profile 
 nameDrive = InputBox("Enter name of network drive")
-remotePath = InputBox("Enter remote path")
-userName = InputBox("Enter username")
-password = InputBox("Enter password")
-profile = InputBox("Enter profile(true/false)")
 
 On Error Resume Next
-    network.MapNetworkDrive nameDrive, remotePath, profile, userName, password
+    network.MapNetworkDrive nameDrive
 
     If Err.Number <> 0 Then
         WScript.Echo Err.Description
