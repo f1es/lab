@@ -2,15 +2,12 @@
 
 string str = "";
 //str = Console.ReadLine();
-str = File.ReadAllText(path);
 
-double s;
-s = Convert.ToDouble(str);
-
+var s = Convert.ToDouble(Console.ReadLine());
 File.Delete(path);
 string res = Convert.ToString(func1(s));
-File.WriteAllText(path, res);
-
+File.AppendAllText(path, res);
+Console.WriteLine(res);
 double func1(double s)
 {
     return Math.Pow(s, 5);
