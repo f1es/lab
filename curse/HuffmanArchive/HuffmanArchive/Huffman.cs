@@ -22,7 +22,7 @@ namespace huffman
             File.WriteAllBytes(dataFilename, data);
         }
 
-        private byte[] DecompressBytes(byte[] archive)
+        public byte[] DecompressBytes(byte[] archive)
         {
             ParseHeader(archive, out int dataLength, out int startIndex, out int[] freqs);
             node root = CreateHuffmanTree(freqs);
