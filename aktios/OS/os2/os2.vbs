@@ -36,11 +36,12 @@ For Each objPrinter in colInstalledPrinters
 Next
 
 '			DRIVE
-dim nameDrive, remotePath,userName, password, profile 
+dim nameDrive, remotePath
 nameDrive = InputBox("Enter name of network drive")
+remotePath = InputBox("Enter name of network drive")
 
 On Error Resume Next
-    network.MapNetworkDrive nameDrive
+    network.MapNetworkDrive nameDrive, remotePath
 
     If Err.Number <> 0 Then
         WScript.Echo Err.Description

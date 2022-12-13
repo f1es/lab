@@ -1,10 +1,11 @@
 using huffman;
+using System.Windows.Forms.VisualStyles;
 
 namespace HuffmanArchive
 {
     public partial class HuffmanArchiver : Form
     {
-        string path;
+        string path = "c:\\";
         Huffman huffman = new Huffman();
         public string SelectFilePath()
         {
@@ -13,7 +14,7 @@ namespace HuffmanArchive
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.InitialDirectory = path;
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
@@ -27,23 +28,39 @@ namespace HuffmanArchive
             return filePath;
         }
 
-
+        public string SelectFolderPath()
+        {
+            using (FolderBrowserDialog folderBrowserDialog1 = new FolderBrowserDialog())
+            {
+                if(folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    path = folderBrowserDialog1.SelectedPath;
+                }
+            }
+                //if (FolderBrowserDialog1)
+            return path;
+        }
 
         public HuffmanArchiver()
         {
             InitializeComponent();
         }
 
+        public static string ReverseString(string s)
+        {
+            char[] chars = s.ToCharArray();
+            Array.Reverse(chars);
+            return new string(chars);
+        }
+
         private void CompressButton_Click(object sender, EventArgs e)
         {
-            try
+            if (path != "c:\\") try
             {
-                string formatPath = path;
-                formatPath += ".huf";
-                huffman.CompressFile(path, formatPath);
-                Output.Text = "Compress Complete";
+                try { FileCompress(); }
+                catch { FolderCompress(); }
             }
-            catch
+            catch 
             {
                 Output.Text = "Compress Failed";
             }
@@ -53,11 +70,8 @@ namespace HuffmanArchive
         {
             try
             {
-                string formatPath = path;
-                if (formatPath.IndexOf(".huf") == -1) throw new System.Exception("Incorrect path");
-                formatPath = formatPath.Remove(formatPath.Length - 4, 4);
-                huffman.DecompressFile(path, formatPath);
-                Output.Text = "Decompress Complete";
+                try { FileDecompress(); }
+                catch { FolderDecompress(); }
             }
             catch
             {
@@ -69,7 +83,7 @@ namespace HuffmanArchive
         {
             try
             {
-                path = SelectFilePath();
+                path = SelectFolderPath();
                 string TextPath = "";
                 for (int i = 0; i < path.Length; i++)
                 {
@@ -77,13 +91,69 @@ namespace HuffmanArchive
                     if (i % 29 == 0 && i != 0) TextPath += System.Environment.NewLine;
                 }
                 PathLabel.Text = TextPath;
-                FileInfo();
-                Output.Text = "Path Selected";
+                FolderInfo();
+                Output.Text = "Folder Selected";
             }
             catch
             {
-                Output.Text = "Path Secelt Failed";
+                Output.Text = "Folder select Failed";
             }
+        }
+
+        private void FolderInfo()
+        {
+            string OutputInfo = "";
+            InfoBox.Text = "";
+
+            //NAME
+            OutputInfo += "Name    : ";
+            string temp = "";
+            for (int i = path.Length - 1; path[i] != '\\'; i--)
+                temp += path[i];
+
+            string name = "";
+            for (int i = temp.Length - 1; i >= 0; i--)
+                name += temp[i];
+            OutputInfo += name;
+            OutputInfo += Environment.NewLine;
+
+            //TYPE
+            OutputInfo += "Type       : Folder";
+            OutputInfo += Environment.NewLine;
+
+            //CREATED
+            OutputInfo += "Created : ";
+            var created = Directory.GetCreationTime(path);
+            OutputInfo += created.ToString();
+            OutputInfo += Environment.NewLine;
+
+            //SIZE
+            OutputInfo += "Size        : ";
+            string[] files = Directory.GetFiles(path);
+            int dataSize = 0;
+            byte[] data;
+            for (int i = 0; i < files.Length; i++)
+            {
+                data = File.ReadAllBytes(files[i]);
+                dataSize += data.Length;
+            }
+
+            if (dataSize > 1048576)
+            {
+                dataSize /= 1048576;
+                OutputInfo += Convert.ToString(dataSize) + " MB";
+            }
+            else if (dataSize > 1024)
+            {
+                dataSize /= 1024;
+                OutputInfo += Convert.ToString(dataSize) + " KB";
+            }
+            else
+            {
+                OutputInfo += Convert.ToString(dataSize) + " Bytes";
+            }
+            InfoBox.Text = OutputInfo;
+
         }
 
         private void FileInfo()
@@ -103,7 +173,7 @@ namespace HuffmanArchive
                 name += temp[i];
             OutputInfo += name;
             OutputInfo += Environment.NewLine;
-
+            
             //TYPE
             OutputInfo += "Type    : ";
             if (path.IndexOf(".txt") != -1)
@@ -169,6 +239,92 @@ namespace HuffmanArchive
             OutputInfo += Convert.ToString(modified);
 
             InfoBox.Text = OutputInfo;
+        }
+
+        private void SFile_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                path = SelectFilePath();
+                string TextPath = "";
+                for (int i = 0; i < path.Length; i++)
+                {
+                    TextPath += path[i];
+                    if (i % 29 == 0 && i != 0) TextPath += System.Environment.NewLine;
+                }
+                PathLabel.Text = TextPath;
+                FileInfo();
+                Output.Text = "File Selected";
+            }
+            catch
+            {
+                Output.Text = "File select Failed";
+            }
+        }
+
+        private void FileCompress()
+        {
+            huffman.CompressFile(path, path + ".huf");
+            Output.Text = "Compress Complete";
+        }
+
+        private void FolderCompress()
+        {
+            string[] paths = Directory.GetFiles(path);
+            string archivePath = path + "_COMPRESSED";
+            System.IO.Directory.CreateDirectory(archivePath);
+
+            string[] names = new string[paths.Length];
+            for (int i = 0; i < paths.Length; i++)
+            {
+                string name = "";
+                for (int j = paths[i].Length - 1; paths[i][j] != '\\'; j--)
+                {
+                    name += paths[i][j];
+                }
+                name = ReverseString(name);
+                names[i] = name;
+            }
+
+            for (int i = 0; i < paths.Length; i++)
+            {
+                huffman.CompressFile(paths[i], archivePath + "\\" + names[i] + ".huf");
+            }
+
+            Output.Text = "Compress Complete";
+        }
+
+        private void FileDecompress()
+        {
+            string fileName = path;
+            fileName = fileName.Remove(fileName.Length - 4, 4);
+            huffman.DecompressFile(path, fileName);
+            Output.Text = "Decompress Complete";
+        }
+
+        private void FolderDecompress()
+        {
+            string[] paths = Directory.GetFiles(path);
+            string archivePath = path.Remove(path.Length - 11, 11) + "_DECOMPRESSED";
+            System.IO.Directory.CreateDirectory(archivePath);
+
+            string[] names = new string[paths.Length];
+            for (int i = 0; i < paths.Length; i++)
+            {
+                string name = "";
+                for (int j = paths[i].Length - 1; paths[i][j] != '\\'; j--)
+                {
+                    name += paths[i][j];
+                }
+                name = ReverseString(name);
+                name = name.Remove(name.Length - 4, 4);
+                names[i] = name;
+            }
+            for (int i = 0; i < paths.Length; i++)
+            {
+                huffman.DecompressFile(paths[i], archivePath + "\\" + names[i]);
+            }
+            Output.Text = "Decompress Complete";
         }
     }
 }

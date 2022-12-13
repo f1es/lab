@@ -34,3 +34,39 @@ X:\vs\git\lab\curse\HuffmanArchive\HuffmanArchive\obj\Debug\net6.0-windows\refin
 X:\vs\git\lab\curse\HuffmanArchive\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.pdb
 X:\vs\git\lab\curse\HuffmanArchive\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.genruntimeconfig.cache
 X:\vs\git\lab\curse\HuffmanArchive\HuffmanArchive\obj\Debug\net6.0-windows\ref\HuffmanArchive.dll
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.exe
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.deps.json
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.runtimeconfig.json
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.dll
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.pdb
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.HuffmanArchiver.resources
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.Properties.Resources.resources
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.GenerateResource.cache
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.AssemblyInfo.cs
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.dll
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\refint\HuffmanArchive.dll
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.pdb
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.genruntimeconfig.cache
+C:\Users\user\Desktop\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\ref\HuffmanArchive.dll
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.exe
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.deps.json
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.runtimeconfig.json
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.dll
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\bin\Debug\net6.0-windows\HuffmanArchive.pdb
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.AssemblyReference.cache
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.HuffmanArchiver.resources
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.Properties.Resources.resources
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.GenerateResource.cache
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.AssemblyInfoInputs.cache
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.AssemblyInfo.cs
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.csproj.CoreCompileInputs.cache
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.dll
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\refint\HuffmanArchive.dll
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.pdb
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\HuffmanArchive.genruntimeconfig.cache
+C:\Users\илья флекс\Desktop\1232131ДУУРКАААААААА\SOURCE\HuffmanArchive\obj\Debug\net6.0-windows\ref\HuffmanArchive.dll
