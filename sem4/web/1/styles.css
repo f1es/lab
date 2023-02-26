@@ -1,0 +1,54 @@
+ h1 {
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+ }
+
+ h2 {
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     color: white;
+     text-align: center;
+     font-size: 68px;
+ }
+
+ p {
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 26px;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+
+ a {
+     text-decoration: none;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 32px;
+     font-weight: bold;
+     margin-left: 12%;
+     line-height: 1.6;
+ }
+
+ .back {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     background: #1e1e22;
+     /* Цвет фона */
+     color: #fff;
+     /* Цвет текста */
+     width: 100%;
+     /* Ширина слоя */
+ }
+
+ .hello {
+     text-decoration: none;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     color: white;
+     font-size: 26px;
+     font-weight: bold;
+     margin-left: 12%;
+     line-height: 1.6;
+ }
+
+ .centr {
+     text-align: center;
+ }
