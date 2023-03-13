@@ -10,14 +10,24 @@ h1 {
     font-size: 68px;
 }
 
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16x;
+}
+
 a {
     text-decoration: none;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 48px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 1.6;
+}
+
+.px48 {
     margin-left: 3%;
+    font-size: 48px;
 }
 
 .anim {
