@@ -1,0 +1,68 @@
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <script language="JavaScript">
+    function CheckData() {
+
+      const emailInput = document.getElementById('email').value;
+      const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+      if (emailRegex.test(emailInput)) {
+        alert('Email введен верно!');
+      }
+      else {
+        alert('Пожалуйста, введите корректный email!');
+        return;
+      }
+
+      const phoneInput = document.getElementById('number').value;
+      const phoneRegex = /^\+375\(?[0-9]{2}\)?[0-9]{3}\-?[0-9]{2}\-?[0-9]{2}$/;
+
+      if (phoneRegex.test(phoneInput)) {
+        alert('Номер телефона введен верно!');
+      }
+      else {
+        alert('Пожалуйста, введите номер телефона в формате +375(XX)XXX-XX-XX');
+        return;
+      }
+
+
+      var ans;
+      ans = confirm("Вы уверены, что хотите отправитьвведенные данные"); if (ans) submit();
+
+    }
+  </script>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br>
+
+  <form action="" onSubmit="CheckData(); return false;">
+    <div class="centr">
+      <label for="name">Enter name: </label>
+      <input name="name" id="name" required style="margin-left: 7.2%;">
+    </div>
+
+    <div class="centr">
+      <label for="email">Enter email:</label>
+      <input name="email" id="email" required style="margin-left: 7.6%;">
+    </div>
+
+    <div class="centr">
+      <label for="number">Enter number: </label>
+      <input name="number" id="number" required style="margin-left: 4.85%;">
+    </div>
+
+    <div class="centr">
+      <label for="organization">Enter organization: </label>
+      <input name="organization" id="organization" style="margin-left: -0.5%;">
+    </div>
+    <br><br><br>
+    <div style="margin-left:41% ;">
+      <input type="submit" value="Confirm" class="knopka">
+    </div>
+
+  </form>
+
+</body>
