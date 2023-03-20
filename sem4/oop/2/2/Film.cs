@@ -89,17 +89,22 @@ namespace da
             Type = film.Type;
             Rate = film.Rate;
             Country = film.Country;
-            Console.WriteLine("Copy constructor is called");
+            Console.WriteLine("Copy constructor was called");
         }
 
-        public Film(string str) //2 laba
+        public Film(string name, int year, string type, int rate, string country) //2 laba
         {
-            Console.WriteLine("Constructor with parametrs is called");
+            Console.WriteLine("Constructor with parametrs was called");
+            Name = name;
+            Year = year;
+            Type = type;
+            Rate = rate;
+            Country = country;
         }
 
         ~Film() //2 laba
         {
-            Console.WriteLine("Destructor is called");
+            Console.WriteLine("Destructor was called");
         }
         public Film() //2 laba
         {

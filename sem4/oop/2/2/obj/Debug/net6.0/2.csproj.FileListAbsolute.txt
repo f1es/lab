@@ -103,3 +103,33 @@ X:\vs\git\lab\sem4\oop\2\2\bin\Debug\net6.0\2.dll
 X:\vs\git\lab\sem4\oop\2\2\bin\Debug\net6.0\2.pdb
 X:\vs\git\lab\sem4\oop\2\2\obj\Debug\net6.0\2.genruntimeconfig.cache
 X:\vs\git\lab\sem4\oop\2\2\obj\Debug\net6.0\ref\2.dll
+D:\sem4\oop\2\2\bin\Debug\net6.0\2.exe
+D:\sem4\oop\2\2\bin\Debug\net6.0\2.deps.json
+D:\sem4\oop\2\2\bin\Debug\net6.0\2.runtimeconfig.json
+D:\sem4\oop\2\2\bin\Debug\net6.0\2.dll
+D:\sem4\oop\2\2\bin\Debug\net6.0\2.pdb
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.csproj.AssemblyReference.cache
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.AssemblyInfoInputs.cache
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.AssemblyInfo.cs
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.csproj.CoreCompileInputs.cache
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.dll
+D:\sem4\oop\2\2\obj\Debug\net6.0\refint\2.dll
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.pdb
+D:\sem4\oop\2\2\obj\Debug\net6.0\2.genruntimeconfig.cache
+D:\sem4\oop\2\2\obj\Debug\net6.0\ref\2.dll
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.csproj.AssemblyReference.cache
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.AssemblyInfoInputs.cache
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.AssemblyInfo.cs
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.csproj.CoreCompileInputs.cache
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.dll
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\refint\2.dll
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.pdb
+C:\Users\илья флекс\Desktop\2\2\bin\Debug\net6.0\2.exe
+C:\Users\илья флекс\Desktop\2\2\bin\Debug\net6.0\2.deps.json
+C:\Users\илья флекс\Desktop\2\2\bin\Debug\net6.0\2.runtimeconfig.json
+C:\Users\илья флекс\Desktop\2\2\bin\Debug\net6.0\2.dll
+C:\Users\илья флекс\Desktop\2\2\bin\Debug\net6.0\2.pdb
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\2.genruntimeconfig.cache
+C:\Users\илья флекс\Desktop\2\2\obj\Debug\net6.0\ref\2.dll

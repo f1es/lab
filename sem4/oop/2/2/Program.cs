@@ -25,9 +25,11 @@ namespace da
         static void Main()
         {
             Catalog catalog = new Catalog();
-            
 
-            while (true)
+            Film da = new Film();
+
+            bool MenuCycle = true;
+            while (MenuCycle)
             {
                 Console.WriteLine("Select operation");
                 Console.WriteLine("[1] - add\n[2] - delete\n[3] - edit\n[4] - search films\n[5] - info all\n[6] - sort\n[7] - make copies");
@@ -38,8 +40,17 @@ namespace da
                 switch (choise)
                 {
                     case 1:
-                        Film kino = new Film();
-                        catalog.AddToCatalog(kino);
+                        Console.WriteLine("Which constructor use to add a film?\n[1] - with parametrs\n[2] - without parametrs");
+                        int.TryParse(Console.ReadLine(), out int choiseConstructor);
+                        switch (choiseConstructor)
+                        {
+                            case 1:
+                                catalog.AddToCatalogUsingConstructorWithParametrs();
+                                break;
+                            case 2:
+                                catalog.AddToCatalogUsingConstructorWithoutParametrs();
+                                break;
+                        }
                         break;
                     case 2:
                         catalog.RemoveFromCatalog();
@@ -48,9 +59,21 @@ namespace da
                         Console.Write("Enter film posotion:");
                         int.TryParse(Console.ReadLine(), out int position);
 
-                        List<Film> temp = catalog.GetFilmList();
-                        temp[position].Edit();
-                        catalog.SetFilmList(temp);
+                        if (catalog.GetFilmList().Count == 0)
+                        {
+                            Console.WriteLine("Catalog is empty");
+                            break;
+                        }
+
+                        if (position < 0 || position > catalog.GetFilmList().Count)
+                        {
+                            Console.WriteLine("Film with this number not found");
+                            break;
+                        }
+
+                        Film editableFilm = catalog.GetFilmFromCatalog(position);
+                        editableFilm.Edit();
+                        catalog.SetFilmInCatalog(position, editableFilm);
                         break;
                     case 4:
                         catalog.SearchFilm();
@@ -75,11 +98,15 @@ namespace da
                         int.TryParse(Console.ReadLine(), out int copiesCount);
                         catalog.CopyFilm(catalog.GetFilmList()[filmNumber], copiesCount);
                         break;
+                    case 8:
+                        MenuCycle = false;
+                        break;
                 }
                 
                 Console.WriteLine("========================");
-                //Console.Clear();
             }
+            
+            Console.ReadKey();
         }
     }
 }

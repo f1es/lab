@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\vs\\git\\lab\\sem4\\oop\\2\\2\\2.csproj": {}
+    "C:\\Users\\илья флекс\\Desktop\\2\\2\\2.csproj": {}
   },
   "projects": {
-    "X:\\vs\\git\\lab\\sem4\\oop\\2\\2\\2.csproj": {
+    "C:\\Users\\илья флекс\\Desktop\\2\\2\\2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\vs\\git\\lab\\sem4\\oop\\2\\2\\2.csproj",
+        "projectUniqueName": "C:\\Users\\илья флекс\\Desktop\\2\\2\\2.csproj",
         "projectName": "2",
-        "projectPath": "X:\\vs\\git\\lab\\sem4\\oop\\2\\2\\2.csproj",
+        "projectPath": "C:\\Users\\илья флекс\\Desktop\\2\\2\\2.csproj",
         "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-        "outputPath": "X:\\vs\\git\\lab\\sem4\\oop\\2\\2\\obj\\",
+        "outputPath": "C:\\Users\\илья флекс\\Desktop\\2\\2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",
