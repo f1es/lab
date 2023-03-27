@@ -1,27 +1,59 @@
-
-
-namespace da
+namespace FilmsCatalog
 {
     class Film
     {
-        Program h = new Program();
+        private string _name;
+        private int _year;
+        private int _rate;
+        private string _type;
+        private string _country;
 
-        private string Name;
-        private int Year;
-        private int Rate;
-        private string Type;
-        private string Country;
+        public Film() //конструктор без параметров
+        {
+            Console.WriteLine("Constructor without parametrs is called");
+            SetName();
+            SetYear();
+            SetType();
+            SetRate();
+            SetCountry();
+        }
 
-        public string GetName() => Name;
-        public int GetYear() => Year;
-        public int GetRate() => Rate;
-        public string GetType() => Type;
-        public string GetCountry() => Country;
+        public Film(string name, int year, string type, int rate, string country) //конструктор с параметрами
+        {
+            Console.WriteLine("Constructor with parametrs was called");
+            _name = name;
+            _year = year;
+            _type = type;
+            _rate = rate;
+            _country = country;
+        }
+
+        public Film(Film film) //конструктор копирования
+        {
+            _name = film._name;
+            _year = film._year;
+            _type = film._type;
+            _rate = film._rate;
+            _country = film._country;
+            Console.WriteLine("Copy constructor was called");
+        }
+
+        ~Film() //деструктор
+        {
+            Console.WriteLine("Destructor was called");
+        }
+
+
+        public string GetName() => _name;
+        public int GetYear() => _year;
+        public int GetRate() => _rate;
+        public string GetType() => _type;
+        public string GetCountry() => _country;
 
         public void SetName()
         {
             Console.Write("Enter film name: ");
-            Name = Console.ReadLine();
+            _name = Console.ReadLine();
         }
 
         public void SetYear()
@@ -30,9 +62,9 @@ namespace da
             {
                 Console.Write("Enter film year: ");
                 int.TryParse(Console.ReadLine(), out int year);
-                if (year <= 2023 && year >= 1927)
+                if (CorrectInputTests.InRange(1927, 2023, year))
                 {
-                    Year = year;
+                    _year = year;
                     break;
                 }
                 Console.WriteLine("Incorrect input, try again");
@@ -45,9 +77,9 @@ namespace da
             {
                 Console.Write("Enter film type: ");
                 string type = Console.ReadLine();
-                if (h.IsOnlyLetters(type) == true)
+                if (CorrectInputTests.IsOnlyLetters(type) && type != "")
                 {
-                    Type = type;
+                    _type = type;
                     break;
                 }
                 Console.WriteLine("Incorrect input, try again");
@@ -58,10 +90,10 @@ namespace da
             while (true)
             {
                 Console.Write("Enter film rating(0-100): ");
-                bool check = int.TryParse(Console.ReadLine(), out int rate);
-                if (rate <= 100 && rate >= 0 && check == true)
+                int.TryParse(Console.ReadLine(), out int rate);
+                if (CorrectInputTests.InRange(0,100,rate))
                 {
-                    Rate = rate;
+                    _rate = rate;
                     break;
                 }
                 Console.WriteLine("Incorrect input, try again");
@@ -73,47 +105,13 @@ namespace da
             {
                 Console.Write("Enter film country: ");
                 string country = Console.ReadLine();
-                if (h.IsOnlyLetters(country) == true)
+                if (CorrectInputTests.IsOnlyLetters(country) && country != "")
                 {
-                    Country = country;
+                    _country = country;
                     break;
                 }
                 Console.WriteLine("Incorrect input, try again");
             }
-        }
-
-        public Film(Film film) //2 laba
-        {
-            Name = film.Name;
-            Year = film.Year;
-            Type = film.Type;
-            Rate = film.Rate;
-            Country = film.Country;
-            Console.WriteLine("Copy constructor was called");
-        }
-
-        public Film(string name, int year, string type, int rate, string country) //2 laba
-        {
-            Console.WriteLine("Constructor with parametrs was called");
-            Name = name;
-            Year = year;
-            Type = type;
-            Rate = rate;
-            Country = country;
-        }
-
-        ~Film() //2 laba
-        {
-            Console.WriteLine("Destructor was called");
-        }
-        public Film() //2 laba
-        {
-            Console.WriteLine("Constructor without parametrs is called");
-            SetName();
-            SetYear();
-            SetType();
-            SetRate();
-            SetCountry();
         }
 
         public void Edit()
@@ -143,11 +141,11 @@ namespace da
 
         public void SeeInfo()
         {
-            Console.WriteLine("\tFilm: " + Name);
-            Console.WriteLine("\tYear: " + Year);
-            Console.WriteLine("\tType: " + Type);
-            Console.WriteLine("\tRating: " + Rate);
-            Console.WriteLine("\tCountry: " + Country);
+            Console.WriteLine("\tFilm: " + _name);
+            Console.WriteLine("\tYear: " + _year);
+            Console.WriteLine("\tType: " + _type);
+            Console.WriteLine("\tRating: " + _rate);
+            Console.WriteLine("\tCountry: " + _country);
         }
     }
 }

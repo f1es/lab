@@ -1,11 +1,12 @@
-namespace da
+using System.ComponentModel.Design;
+
+namespace FilmsCatalog
 {
     class Catalog
     {
-        Program h = new Program();
         List<Film> filmList = new List<Film>();
 
-        public void CopyFilm(Film film, int CountOfCopies) //2 laba
+        public void CopyFilm(Film film, int CountOfCopies) //копирование фильмов
         {
             for(int i = 0; i < CountOfCopies; i++)
             {
@@ -14,27 +15,17 @@ namespace da
             }
         }
 
-        public List<Film> GetFilmList() //
-        {
-            return filmList;
-        }
-
-        public void SetFilmList(List<Film> List) //
-        {
-            filmList = List;
-        }
-
+        public List<Film> GetFilmList() { return filmList; }
+        public void SetFilmList(List<Film> List) { filmList = List; }
         public Film GetFilmFromCatalog(int filmPosition) => filmList[filmPosition];
-
         public void SetFilmInCatalog(int filmPosition, Film film) { filmList[filmPosition] = film; }
 
-        public void AddToCatalogUsingConstructorWithoutParametrs() //
+        public void AddToCatalogUsingConstructorWithoutParametrs() 
         {
             Film film = new Film();
             filmList.Add(film);
         }
-
-        public void AddToCatalogUsingConstructorWithParametrs() //
+        public void AddToCatalogUsingConstructorWithParametrs() 
         {
             Console.Write("Enter film name: ");
             string name;
@@ -62,7 +53,7 @@ namespace da
             {
                 Console.Write("Enter film type: ");
                 type = Console.ReadLine();
-                if (h.IsOnlyLetters(type) == true)
+                if (CorrectInputTests.IsOnlyLetters(type) && type != "")
                 {
                     break;
                 }
@@ -86,7 +77,7 @@ namespace da
             {
                 Console.Write("Enter film country: ");
                 country = Console.ReadLine();
-                if (h.IsOnlyLetters(country) == true)
+                if (CorrectInputTests.IsOnlyLetters(country) && country != "")
                 {
                     break;
                 }
@@ -97,26 +88,34 @@ namespace da
             filmList.Add(kino);
         }
 
-        public void RemoveFromCatalog() //
+        public void RemoveFromCatalog() 
         {
-            Console.Write("Enter film number: ");
-            int.TryParse(Console.ReadLine(), out int position);
-
             if (filmList.Count == 0)
             {
                 Console.WriteLine("Catalog is empty");
                 return;
             }
-            if (position < 0 && position > filmList.Count)
+
+            Console.Write("Enter film number: ");
+            if (!(int.TryParse(Console.ReadLine(), out int position)))
             {
-                Console.WriteLine("Film with this number not found");
+                Console.WriteLine("Incorrect film number");
                 return;
             }
-
-            filmList.RemoveAt(position);
+             
+            if (CorrectInputTests.InRange(0,filmList.Count - 1, position))
+            {
+                filmList.RemoveAt(position);
+                GC.Collect();
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Incorrect film number");
+            }
         }
 
-        public int SearchFilmPosition(string name) //
+        public int SearchFilmPosition(string name) 
         {
 
             int counter = 0;
@@ -127,7 +126,7 @@ namespace da
             return -1;
         }
 
-        public int SearchFilmPosition(int year) //
+        public int SearchFilmPosition(int year) 
         {
             int counter = 0;
             foreach (Film film in filmList)
@@ -137,12 +136,12 @@ namespace da
             return -1;
         }
 
-        public void GetInfoFromPosition(int filmPosition) //
+        public void GetInfoFromPosition(int filmPosition) 
         {
             filmList[filmPosition].SeeInfo();
         }
 
-        public void SearchFilm() //
+        public void SearchFilm() 
         {
             Console.WriteLine("How you want to search?");
             Console.WriteLine("[1] - Name\n[2] - Year\n[3] - Type\n[4] - Rating\n[5] - Country.");
@@ -169,7 +168,7 @@ namespace da
             }
         }
 
-        public void SearchCounrty() //
+        public void SearchCounrty() 
         {
             Console.WriteLine("Enter country");
             string Country = Console.ReadLine();
@@ -184,7 +183,7 @@ namespace da
             }
         }
 
-        public void SearchType() //
+        public void SearchType() 
         {
             Console.WriteLine("Enter type");
             string Type = Console.ReadLine();
@@ -199,7 +198,7 @@ namespace da
             }
         }
 
-        public void SearchName() //
+        public void SearchName() 
         {
             Console.WriteLine("Enter name");
             string Name = Console.ReadLine();
@@ -214,7 +213,7 @@ namespace da
             }
         }
 
-        public void SearchYear() //
+        public void SearchYear() 
         {
             Console.WriteLine("Enter year");
             int.TryParse(Console.ReadLine(), out int year);
@@ -238,14 +237,14 @@ namespace da
             }
         }
 
-        public void SeatchRate() //
+        public void SeatchRate() 
         {
             Console.WriteLine("Enter search rating(0-100)");
             int rate;
             while(true)
             {
                 int.TryParse(Console.ReadLine(), out rate);
-                if (rate < 100 && rate > 0) break;
+                if (CorrectInputTests.InRange(0, 100, rate)) break;
                 Console.WriteLine("Incorrect input, try again");
             }
 
@@ -259,7 +258,7 @@ namespace da
             }
         }
 
-        public void SeeAll() //
+        public void SeeAll() 
         {
             Console.WriteLine("========================");
             int counter = 0;
@@ -271,7 +270,7 @@ namespace da
             }
         }
 
-        public void SortFilms() //
+        public void SortFilms() 
         {
             int choise = 0;
             Console.WriteLine("How you want to sort?");

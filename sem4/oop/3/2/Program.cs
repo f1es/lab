@@ -3,32 +3,11 @@ using System.Globalization;
 using System.Reflection;
 using System.Xml.Linq;
 
-namespace da
+namespace films
 {
     class Program
     {
-        public bool IsOnlyLetters(string str)
-        {
-            foreach (char c in str)
-            {
-                if (Char.IsNumber(c)) return false;
-                if (c == '-') return false;
-                if (c == '.') return false;
-                if (c == ',') return false;
-                if (c == ';') return false;
-                if (c == '/') return false;
-                if (c == ':') return false;
-                if (c == '@') return false;
-                if (c == '#') return false;
-                if (c == '$') return false;
-                if (c == '%') return false;
-                if (c == '^') return false;
-                if (c == '&') return false;
-                if (c == '*') return false;
-            }
-            return true;
-        }
-
+       
         static void Main()
         {
             //Film film = new Film();

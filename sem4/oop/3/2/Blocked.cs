@@ -4,30 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace da
+namespace films
 {
     internal class Blocked : Film
     {
-        Program h = new Program();
-        string BlockReason;
-        public void SetDescription()
-        {
-            while (true)
-            {
-                Console.Write("Enter block reason: ");
-                string blockReason = Console.ReadLine();
-                if (h.IsOnlyLetters(blockReason) == true && blockReason != "")
-                {
-                    BlockReason = blockReason;
-                    break;
-                }
-                Console.WriteLine("Incorrect input, try again");
-            }
-        }
-
-        public string GetDescription() => BlockReason;
-
-
+        string _blockReason;
         public Blocked()
         {
             Console.WriteLine("class blocked constructor was called");
@@ -39,6 +20,23 @@ namespace da
             Console.WriteLine("class blocked destructor was called");
         }
 
+        public void SetDescription()
+        {
+            while (true)
+            {
+                Console.Write("Enter block reason: ");
+                string blockReason = Console.ReadLine();
+                if (CorrectInput.IsOnlyLetters(blockReason) == true && blockReason != "")
+                {
+                    _blockReason = blockReason;
+                    break;
+                }
+                Console.WriteLine("Incorrect input, try again");
+            }
+        }
+
+        public string GetDescription() => _blockReason;
+
         public new void SeeInfo()
         {
             Console.WriteLine("\tFilm: " + GetName());
@@ -46,7 +44,7 @@ namespace da
             Console.WriteLine("\tType: " + GetType());
             Console.WriteLine("\tRating: " + GetRate());
             Console.WriteLine("\tCountry: " + GetCountry());
-            Console.WriteLine("\tBlock reason: " + BlockReason);
+            Console.WriteLine("\tBlock reason: " + _blockReason);
         }
     }
 }
