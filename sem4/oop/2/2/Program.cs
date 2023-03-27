@@ -26,8 +26,6 @@ namespace da
         {
             Catalog catalog = new Catalog();
 
-            Film da = new Film();
-
             bool MenuCycle = true;
             while (MenuCycle)
             {
@@ -89,8 +87,8 @@ namespace da
                         while(true)
                         {
                             Console.Write("Enter copy film number:");
-                            if (int.TryParse(Console.ReadLine(), out filmNumber) == true) 
-                                if(filmNumber <= catalog.GetFilmList().Count) break;
+                            if (int.TryParse(Console.ReadLine(), out filmNumber) == true);
+                                if(filmNumber <= catalog.GetFilmList().Count - 1 && filmNumber >= 0) break;
                             Console.WriteLine("Incorrect input, try again");
                         }
 

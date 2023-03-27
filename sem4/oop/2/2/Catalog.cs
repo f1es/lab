@@ -5,12 +5,6 @@ namespace da
         Program h = new Program();
         List<Film> filmList = new List<Film>();
 
-        //public void method(Film film1) //2 laba
-        //{
-        //    Film film = new Film(film1);
-        //    filmList.Add(film);
-        //}
-
         public void CopyFilm(Film film, int CountOfCopies) //2 laba
         {
             for(int i = 0; i < CountOfCopies; i++)

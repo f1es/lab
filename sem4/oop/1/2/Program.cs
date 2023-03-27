@@ -25,7 +25,6 @@ namespace da
         static void Main()
         {
             Catalog catalog = new Catalog();
-            //Film kino = new Film();
 
             while (true)
             {
@@ -63,7 +62,6 @@ namespace da
                 }
                 
                 Console.WriteLine("========================");
-                //Console.Clear();
             }
         }
     }
