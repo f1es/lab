@@ -3,25 +3,10 @@ using System.Globalization;
 using System.Reflection;
 using System.Xml.Linq;
 
-namespace da
+namespace FilmsCatalog
 {
     class Program
     {
-        public bool IsOnlyLetters(string str)
-        {
-            foreach (char c in str)
-            {
-                if (Char.IsNumber(c)) return false;
-                if (c == '-') return false;
-                if (c == '.') return false;
-                if (c == ',') return false;
-                if (c == ';') return false;
-                if (c == '/') return false;
-                if (c == ':') return false;
-            }
-            return true;
-        }
-
         static void Main()
         {
             Catalog catalog = new Catalog();
@@ -32,7 +17,6 @@ namespace da
                 Console.WriteLine("Select operation");
                 Console.WriteLine("[1] - add\n[2] - delete\n[3] - edit\n[4] - search films\n[5] - info all\n[6] - sort\n[7] - make copies");
 
-               // int choise = Convert.ToInt32(Console.ReadLine());
                 int.TryParse(Console.ReadLine(), out int choise);
 
                 switch (choise)
@@ -87,7 +71,7 @@ namespace da
                         while(true)
                         {
                             Console.Write("Enter copy film number:");
-                            if (int.TryParse(Console.ReadLine(), out filmNumber) == true);
+                            if (int.TryParse(Console.ReadLine(), out filmNumber));
                                 if(filmNumber <= catalog.GetFilmList().Count - 1 && filmNumber >= 0) break;
                             Console.WriteLine("Incorrect input, try again");
                         }

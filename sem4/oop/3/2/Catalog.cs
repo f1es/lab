@@ -1,8 +1,7 @@
-namespace da
+namespace films
 {
     class Catalog
     {
-        Program h = new Program();
         List<Film> filmList = new List<Film>();
 
         public void CopyFilm(Film film, int CountOfCopies) //2 laba
@@ -62,7 +61,7 @@ namespace da
             {
                 Console.Write("Enter film type: ");
                 type = Console.ReadLine();
-                if (h.IsOnlyLetters(type) == true)
+                if (CorrectInput.IsOnlyLetters(type) == true)
                 {
                     break;
                 }
@@ -86,7 +85,7 @@ namespace da
             {
                 Console.Write("Enter film country: ");
                 country = Console.ReadLine();
-                if (h.IsOnlyLetters(country) == true)
+                if (CorrectInput.IsOnlyLetters(country) == true)
                 {
                     break;
                 }

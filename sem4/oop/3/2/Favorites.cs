@@ -4,29 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace da
+namespace films
 {
     class Favorites : Film
     {
-        Program h = new Program();
-        string Description;
-        
-        public void SetDescription()
-        {
-            while (true)
-            {
-                Console.Write("Enter favorite film description: ");
-                string description = Console.ReadLine();
-                if (h.IsOnlyLetters(description) == true && description != "")
-                {
-                    Description = description;
-                    break;
-                }
-                Console.WriteLine("Incorrect input, try again");
-            }
-        }
-
-        public string GetDescription() => Description;
+        string _description;
 
         public Favorites()
         {
@@ -39,6 +21,23 @@ namespace da
             Console.WriteLine("class favorites destructor was called");
         }
 
+        public void SetDescription()
+        {
+            while (true)
+            {
+                Console.Write("Enter favorite film description: ");
+                string description = Console.ReadLine();
+                if (CorrectInput.IsOnlyLetters(description) && description != "")
+                {
+                    _description = description;
+                    break;
+                }
+                Console.WriteLine("Incorrect input, try again");
+            }
+        }
+
+        public string GetDescription() => _description;
+
         public new void SeeInfo()
         {
             Console.WriteLine("\tFilm: " + GetName());
@@ -46,7 +45,7 @@ namespace da
             Console.WriteLine("\tType: " + GetType());
             Console.WriteLine("\tRating: " + GetRate());
             Console.WriteLine("\tCountry: " + GetCountry());
-            Console.WriteLine("\tDescription: " + Description);
+            Console.WriteLine("\tDescription: " + _description);
         }
     }
 }
