@@ -8,7 +8,9 @@
     function CheckData() {
 
       const emailInput = document.getElementById('email').value;
-      const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+      //const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+      //const emailRegex = /^[a-z]{2}+\.+[A-Z]{1}+[a-z]{1,}+\s+[0-9]{1,}+\s+[a-z]{1}+[0-9]{1,}$/
+      emailRegex = /^[a-z]+\.$/
       if (emailRegex.test(emailInput)) {
         alert('Email введен верно!');
       }
@@ -36,7 +38,7 @@
   </script>
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br><br>
+  <br><br><br>
 
   <form action="" onSubmit="CheckData(); return false;">
     <div class="centr">

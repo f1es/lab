@@ -1,0 +1,60 @@
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 43%;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 40%;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow:
+        -0 -2px 1px #0B280C,
+        0 -2px 1px #0B280C,
+        -0 2px 1px #0B280C,
+        0 2px 1px #0B280C,
+        -2px -0 1px #0B280C,
+        2px -0 1px #0B280C,
+        -2px 0 1px #0B280C,
+        2px 0 1px #0B280C,
+        -1px -2px 1px #0B280C,
+        1px -2px 1px #0B280C,
+        -1px 2px 1px #0B280C,
+        1px 2px 1px #0B280C,
+        -2px -1px 1px #0B280C,
+        2px -1px 1px #0B280C,
+        -2px 1px 1px #0B280C,
+        2px 1px 1px #0B280C,
+        -2px -2px 1px #0B280C,
+        2px -2px 1px #0B280C,
+        -2px 2px 1px #0B280C,
+        2px 2px 1px #0B280C,
+        -2px -2px 1px #0B280C,
+        2px -2px 1px #0B280C,
+        -2px 2px 1px #0B280C,
+        2px 2px 1px #0B280C;
+}
+
+.inputbutton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.inputtext {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(fon.jpg);
+}
