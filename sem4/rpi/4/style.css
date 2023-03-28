@@ -1,9 +1,3 @@
-a {
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -12,7 +6,8 @@ h1 {
     color: #FFFFFF;
 }
 
-p {
+.labels {
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin-left: 40%;
@@ -45,14 +40,42 @@ p {
         2px 2px 1px #0B280C;
 }
 
-.inputbutton {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.inputButton {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px;
+    margin-left: 9%;
+    width: 500px;
+    height: 40px;
+    color: rgb(92, 158, 95);
 }
 
-.inputtext {
+.inputText {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 9%;
     font-size: 16px;
+    width: 500px;
+    height: 35px;
+    background-color: #eeeeee;
+    border-color: #afafaf;
+    border-width: 1px;
+}
+
+.rectangle {
+    width: 600px;
+    height: 300px;
+    background-color: #c7e7c6;
+    border: 0px solid;
+    margin: auto;
+    border-radius: 10px;
+    border-color: #ffffff00;
+}
+
+.smalltext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(92, 158, 95);
+    font-weight: bold;
 }
 
 body {
