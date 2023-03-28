@@ -47,7 +47,9 @@ h1 {
     margin-left: 9%;
     width: 500px;
     height: 40px;
-    color: rgb(92, 158, 95);
+    color: rgb(221, 221, 221);
+    background-color: #447245;
+    border-width: 0px;
 }
 
 .inputText {
@@ -74,7 +76,14 @@ h1 {
 .smalltext {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(92, 158, 95);
+    color: rgb(42, 126, 46);
+    font-weight: bold;
+}
+
+.smalltext2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(221, 221, 221);
     font-weight: bold;
 }
 
