@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -86,9 +87,9 @@ namespace ti3
                     if (remainder == "0") remainder = "";
 
 
-                    int DivideWithReminder = 0;
-                    int.TryParse(dividend, out DivideWithReminder);
-                    if(DivideWithReminder < int.Parse(secondNumber) && i > firstNumber.Length - 1)
+                    int divideWithReminder = 0;
+                    int.TryParse(dividend, out divideWithReminder);
+                    if(divideWithReminder < int.Parse(secondNumber) && i > firstNumber.Length - 1)
                     {
                         for (int a = 0; a < dividend.Length; a++)
                         {
@@ -117,6 +118,25 @@ namespace ti3
             }
 
             return result;
+        }
+
+        public BigInteger KaratsubaMultiple(BigInteger x, BigInteger y)
+        {
+            int n = (int)Math.Max(BigInteger.Log(x, 2), BigInteger.Log(y, 2));
+            if (n <= 10000) return x * y;
+
+            n = ((n + 1) / 2);
+
+            BigInteger b = x >> n;
+            BigInteger a = x - (b << n);
+            BigInteger d = y >> n;
+            BigInteger c = y - (d << n);
+
+            BigInteger ac = KaratsubaMultiple(a, c);
+            BigInteger bd = KaratsubaMultiple(b, d);
+            BigInteger abcd = KaratsubaMultiple(a + b, c + d);
+
+            return ac + ((abcd - ac - bd) << n) + (bd << (2 * n));
         }
     }
 }
