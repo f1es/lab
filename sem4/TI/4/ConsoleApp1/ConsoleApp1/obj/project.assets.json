@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
-      "projectName": "ti3",
-      "projectPath": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
+      "projectUniqueName": "X:\\vs\\git\\lab\\sem4\\TI\\4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "X:\\vs\\git\\lab\\sem4\\TI\\4\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-      "outputPath": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\obj\\",
+      "outputPath": "X:\\vs\\git\\lab\\sem4\\TI\\4\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",
