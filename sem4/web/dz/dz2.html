@@ -1,0 +1,53 @@
+<html>
+<script lang="JavaScript">
+    // 1. Что делает следующий цикл for? Каково финальное
+    // значение переменной sum?
+    // var sum = 0;
+    // for(var i = -100; i <= 100; i++){
+    // sum += i;
+    // }
+    // Цикл суммирует значение i в от -100 до 100 в переменную sum результатом является 0
+
+    function cycle1() {
+        var sum = 0;
+        for (var i = 50; i <= 100; i++) {
+            sum += i;
+        }
+    }
+
+    function cycle2() {
+        var sum = 50;
+        while (sum <= 100) {
+            sum += 1;
+        }
+    }
+
+    function cycle3() {
+        var sum = 10;
+        while (sum >= 0) {
+            document.write(sum + " ");
+            sum -= 1;
+        }
+
+    }
+
+    function cycle4() {
+        for (var i = 10; i >= 0; i--) {
+            document.write(i + " ");
+        }
+    }
+
+    function timeInAntiguaAndBarbuda() {
+        document.write("07:48 среда 5 апреля 2023");
+    }
+</script>
+
+<head>
+
+</head>
+
+<body onload="cycle3(), cycle4(),timeInAntiguaAndBarbuda()">
+
+</body>
+
+</html>
