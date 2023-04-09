@@ -13,13 +13,17 @@
         for (var i = 50; i <= 100; i++) {
             sum += i;
         }
+        document.write(sum + " ");
     }
 
     function cycle2() {
-        var sum = 50;
-        while (sum <= 100) {
-            sum += 1;
+        var sum = 0;
+        var i = 50;
+        while (i <= 100) {
+            sum += i;
+            i++;
         }
+        document.write(sum + " ");
     }
 
     function cycle3() {
@@ -28,7 +32,6 @@
             document.write(sum + " ");
             sum -= 1;
         }
-
     }
 
     function cycle4() {
@@ -46,7 +49,7 @@
 
 </head>
 
-<body onload="cycle3(), cycle4(),timeInAntiguaAndBarbuda()">
+<body onload="cycle1(), cycle2(), cycle3(), cycle4(),timeInAntiguaAndBarbuda()">
 
 </body>
 

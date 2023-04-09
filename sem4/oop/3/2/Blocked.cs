@@ -6,37 +6,48 @@ using System.Threading.Tasks;
 
 namespace films
 {
-    internal class Blocked : Film
+    internal class BlockedFilm : Film
     {
         string _blockReason;
-        public Blocked()
+        public BlockedFilm()
         {
-            Console.WriteLine("class blocked constructor was called");
-            SetDescription();
+            Console.WriteLine("class BlockedFilm constructor was called");
+            SetDescription(EnterDescription());
         }
 
-        ~Blocked()
+        public BlockedFilm(string blockReason)
         {
-            Console.WriteLine("class blocked destructor was called");
+            SetDescription(blockReason);
+            Console.WriteLine("class BlockedFilm constructor with parametrs was called");
         }
 
-        public void SetDescription()
+        public BlockedFilm(BlockedFilm blockedFilm)
+        {
+            _blockReason = blockedFilm._blockReason;
+            Console.WriteLine("class BlockedFilm copy constructor was called");
+        }
+
+        ~BlockedFilm()
+        {
+            Console.WriteLine("class BlockedFilm destructor was called");
+        }
+
+        public static string EnterDescription()
         {
             while (true)
             {
                 Console.Write("Enter block reason: ");
                 string blockReason = Console.ReadLine();
-                if (CorrectInput.IsOnlyLetters(blockReason) == true && blockReason != "")
+                if (CorrectInput.IsOnlyLetters(blockReason))
                 {
-                    _blockReason = blockReason;
-                    break;
+                    return blockReason;
                 }
                 Console.WriteLine("Incorrect input, try again");
             }
         }
 
+        public void SetDescription(string blockReason) { _blockReason = blockReason; }
         public string GetDescription() => _blockReason;
-
         public new void SeeInfo()
         {
             Console.WriteLine("\tFilm: " + GetName());

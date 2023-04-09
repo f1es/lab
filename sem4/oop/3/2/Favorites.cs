@@ -6,36 +6,48 @@ using System.Threading.Tasks;
 
 namespace films
 {
-    class Favorites : Film
+    class FavoriteFilm : Film
     {
         string _description;
 
-        public Favorites()
+        public FavoriteFilm()
         {
-            Console.WriteLine("class favorites constructor was called");
-            SetDescription();
+            Console.WriteLine("class FavoriteFilm constructor was called");
+            SetDescription(EnterDescription());
+        }
+        public FavoriteFilm(FavoriteFilm favoriteFilm)
+        {
+            _description = favoriteFilm.GetDescription();
+
+            Console.WriteLine("class FavoriteFilm copy constructor was called");
+            SetDescription(EnterDescription());
+        }
+        public FavoriteFilm(string description)
+        {
+            _description = description;
+            Console.WriteLine("class FavoriteFilm constructor with paramerts was called");
         }
 
-        ~Favorites()
+        ~FavoriteFilm()
         {
-            Console.WriteLine("class favorites destructor was called");
+            Console.WriteLine("class FavoriteFilm destructor was called");
         }
 
-        public void SetDescription()
+        public static string EnterDescription()
         {
             while (true)
             {
                 Console.Write("Enter favorite film description: ");
                 string description = Console.ReadLine();
-                if (CorrectInput.IsOnlyLetters(description) && description != "")
+                if (CorrectInput.IsOnlyLetters(description))
                 {
-                    _description = description;
-                    break;
+                    return description;
                 }
                 Console.WriteLine("Incorrect input, try again");
             }
         }
 
+        public void SetDescription(string description) { _description = description; }
         public string GetDescription() => _description;
 
         public new void SeeInfo()

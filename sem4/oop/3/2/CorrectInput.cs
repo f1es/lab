@@ -10,6 +10,9 @@ namespace films
     {
         public static bool IsOnlyLetters(string str)
         {
+            if (str == "") return false;
+            if (str == " ") return false;
+
             foreach (char c in str)
             {
                 if (Char.IsNumber(c)) return false;
