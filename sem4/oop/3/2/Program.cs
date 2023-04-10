@@ -10,14 +10,18 @@ namespace films
        
         static void Main()
         {   
-            List<Film> films = new List<Film>();
             Catalog catalog = new Catalog();
 
             bool MenuCycle = true;
             while (MenuCycle)
             {
                 Console.WriteLine("\tSelect operation\n" +
-                "[1] - add\n[2] - info all\n[3] - delete\n[4] - edit\n[5] - search film\n[6] - sort");
+                "[1] - add\n" +
+                "[2] - info all\n" +
+                "[3] - delete\n" +
+                "[4] - edit\n" +
+                "[5] - search film\n" +
+                "[6] - sort");
 
                 int.TryParse(Console.ReadLine(), out int choise);
                 switch (choise)

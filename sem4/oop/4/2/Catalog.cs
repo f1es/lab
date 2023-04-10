@@ -1,149 +1,135 @@
-namespace da
+namespace films
 {
     class Catalog
     {
-        Program h = new Program();
         List<Film> filmList = new List<Film>();
 
-        public void CopyFilm(Film film, int CountOfCopies) //2 laba
-        {
-            for(int i = 0; i < CountOfCopies; i++)
-            {
-                Film film1 = new Film(film);
-                filmList.Add(film1);
-            }
-        }
-
-        public List<Film> GetFilmList() //
-        {
-            return filmList;
-        }
-
-        public void SetFilmList(List<Film> List) //
-        {
-            filmList = List;
-        }
-
         public Film GetFilmFromCatalog(int filmPosition) => filmList[filmPosition];
-
         public void SetFilmInCatalog(int filmPosition, Film film) { filmList[filmPosition] = film; }
 
-        public void AddToCatalogUsingConstructorWithoutParametrs() //
+        public void AddBlockedFilm()
         {
-            Film film = new Film();
-            filmList.Add(film);
+
+            Console.WriteLine("\tWhich constructor use?\n" +
+                "[1 - deafult\n[2] - with parametrs\n[3] - copy");
+            if (int.TryParse(Console.ReadLine(), out int filmChoise))
+                switch (filmChoise)
+                {
+                    case 1:
+                        filmList.Add(new BlockedFilm());
+                        break;
+                    case 2:
+                        filmList.Add(new BlockedFilm(Film.EnterName(), Film.EnterYear(), Film.EnterType(), Film.EnterRate(), Film.EnterCountry(), BlockedFilm.EnterDescription()));
+                        break;
+                    case 3:
+                        if (filmList.Count == 0)
+                        {
+                            Console.WriteLine("catalog empty");
+                            break;
+                        }
+                        Console.WriteLine("Enter film number");
+                        int.TryParse(Console.ReadLine(), out int filmPosition);
+                        if (CorrectInput.InRange(0, filmList.Count - 1, filmPosition))
+                        {
+                            if (filmList[filmPosition] is BlockedFilm)
+                            {
+                                filmList.Add(new BlockedFilm((BlockedFilm)filmList[filmPosition]));
+                            }
+                            else filmList.Add(new FavoriteFilm((FavoriteFilm)filmList[filmPosition]));
+                        }
+                        else
+                        {
+                            Console.WriteLine("Incorrect film number");
+                            break;
+                        }
+                        break;
+                }
         }
 
-        public void AddToCatalogUsingConstructorWithParametrs() //
+        public void AddFavoriteFilm()
         {
-            Console.Write("Enter film name: ");
-            string name;
-            while(true)
-            {
-                name = Console.ReadLine();
-                if (name != "") break;
-                Console.WriteLine("Incorrect input, try again");
-            }
-
-            int year;
-            while (true)
-            {
-                Console.Write("Enter film year: ");
-                int.TryParse(Console.ReadLine(), out year);
-                if (year <= 2023 && year >= 1927)
+            Console.WriteLine("\tWhich constructor use?\n" +
+                            "[1 - deafult\n[2] - with parametrs\n[3] - copy");
+            if (int.TryParse(Console.ReadLine(), out int filmChoise))
+                switch (filmChoise)
                 {
-                    break;
+                    case 1:
+                        filmList.Add(new FavoriteFilm());
+                        break;
+                    case 2:
+                        filmList.Add(new FavoriteFilm(Film.EnterName(), Film.EnterYear(), Film.EnterType(), Film.EnterRate(), Film.EnterCountry(), FavoriteFilm.EnterDescription()));
+                        break;
+                    case 3:
+                        if (filmList.Count == 0)
+                        {
+                            Console.WriteLine("catalog empty");
+                            break;
+                        }
+                        Console.WriteLine("Enter film number");
+                        int.TryParse(Console.ReadLine(), out int filmPosition);
+                        if (CorrectInput.InRange(0, filmList.Count - 1, filmPosition))
+                        {
+                            if (filmList[filmPosition] is FavoriteFilm)
+                            {
+                                filmList.Add(new FavoriteFilm((FavoriteFilm)filmList[filmPosition]));
+                            }
+                            else filmList.Add(new BlockedFilm((BlockedFilm)filmList[filmPosition]));
+                        }
+                        else
+                        {
+                            Console.WriteLine("Incorrect film number");
+                            break;
+                        }
+                        break;
                 }
-                Console.WriteLine("Incorrect input, try again");
-            }
-
-            string type;
-            while (true)
+        }
+        
+        public void EditFilm()
+        {
+            if (filmList.Count == 0)
             {
-                Console.Write("Enter film type: ");
-                type = Console.ReadLine();
-                if (h.IsOnlyLetters(type) == true)
-                {
-                    break;
-                }
-                Console.WriteLine("Incorrect input, try again");
+                Console.WriteLine("catalog empty");
+                return;
             }
-
-            int rate;
-            while (true)
-            {
-                Console.Write("Enter film rating(0-100): ");
-                bool check = int.TryParse(Console.ReadLine(), out rate);
-                if (rate <= 100 && rate >= 0 && check == true)
-                {
-                    break;
-                }
-                Console.WriteLine("Incorrect input, try again");
-            }
-
-            string country;
-            while (true)
-            {
-                Console.Write("Enter film country: ");
-                country = Console.ReadLine();
-                if (h.IsOnlyLetters(country) == true)
-                {
-                    break;
-                }
-                Console.WriteLine("Incorrect input, try again");
-            }
-
-            Film kino = new Film(name, year, type, rate, country);
-            filmList.Add(kino);
+            Console.WriteLine("Enter film number");
+            int.TryParse(Console.ReadLine(), out int filmPosition);
+            if (CorrectInput.InRange(0, filmList.Count - 1, filmPosition)) filmList[filmPosition].Edit();
+            else Console.WriteLine("Incorrect input");
         }
 
-        public void RemoveFromCatalog() //
+        public void RemoveFromCatalog() 
         {
+            if (isEmpty())
+            {
+                Console.WriteLine("Catalog empty");
+                return;
+            }
+
             Console.Write("Enter film number: ");
             int.TryParse(Console.ReadLine(), out int position);
 
-            if (filmList.Count == 0)
+            if (CorrectInput.InRange(0, filmList.Count - 1, position))
             {
-                Console.WriteLine("Catalog is empty");
-                return;
+                filmList.RemoveAt(position);
+                GC.Collect();
             }
-            if (position < 0 && position > filmList.Count)
+            else
             {
                 Console.WriteLine("Film with this number not found");
                 return;
             }
-
-            filmList.RemoveAt(position);
         }
 
-        public int SearchFilmPosition(string name) //
-        {
+        public void GetInfoFromPosition(int filmPosition) { filmList[filmPosition].SeeInfo(); }
 
-            int counter = 0;
-            foreach (Film film in filmList)
+        public void SearchFilm() 
+        {
+            if (isEmpty())
             {
-                if (film.GetName() == name) return counter;
+                Console.Write("Catalog empty");
+                return;
             }
-            return -1;
-        }
 
-        public int SearchFilmPosition(int year) //
-        {
-            int counter = 0;
-            foreach (Film film in filmList)
-            {
-                if (film.GetYear() == year) return counter;
-            }
-            return -1;
-        }
-
-        public void GetInfoFromPosition(int filmPosition) //
-        {
-            filmList[filmPosition].SeeInfo();
-        }
-
-        public void SearchFilm() //
-        {
             Console.WriteLine("How you want to search?");
             Console.WriteLine("[1] - Name\n[2] - Year\n[3] - Type\n[4] - Rating\n[5] - Country.");
 
@@ -169,7 +155,7 @@ namespace da
             }
         }
 
-        public void SearchCounrty() //
+        public void SearchCounrty() 
         {
             Console.WriteLine("Enter country");
             string Country = Console.ReadLine();
@@ -184,7 +170,7 @@ namespace da
             }
         }
 
-        public void SearchType() //
+        public void SearchType() 
         {
             Console.WriteLine("Enter type");
             string Type = Console.ReadLine();
@@ -199,7 +185,7 @@ namespace da
             }
         }
 
-        public void SearchName() //
+        public void SearchName() 
         {
             Console.WriteLine("Enter name");
             string Name = Console.ReadLine();
@@ -214,7 +200,7 @@ namespace da
             }
         }
 
-        public void SearchYear() //
+        public void SearchYear() 
         {
             Console.WriteLine("Enter year");
             int.TryParse(Console.ReadLine(), out int year);
@@ -238,7 +224,7 @@ namespace da
             }
         }
 
-        public void SeatchRate() //
+        public void SeatchRate() 
         {
             Console.WriteLine("Enter search rating(0-100)");
             int rate;
@@ -259,7 +245,7 @@ namespace da
             }
         }
 
-        public void SeeAll() //
+        public void SeeAll() 
         {
             Console.WriteLine("========================");
             for (int i = 0; i < filmList.Count; i++)
@@ -270,7 +256,13 @@ namespace da
             }
         }
 
-        public void SortFilms() //
+        public bool isEmpty()
+        {
+            if (filmList.Count == 0) return true;
+            else return false;
+        }
+
+        public void SortFilms() 
         {
             int choise = 0;
             Console.WriteLine("How you want to sort?");

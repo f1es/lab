@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace films
 {
-    internal class BlockedFilm : Film
+    class BlockedFilm : Film
     {
-        string _blockReason;
+        private string _blockReason;
         public BlockedFilm()
         {
             Console.WriteLine("class BlockedFilm constructor was called");
             SetDescription(EnterDescription());
         }
 
-        public BlockedFilm(string blockReason)
+        public BlockedFilm(string name, int year, string type, int rate, string country, string blockReason) : base(name, year, type, rate, country)
         {
             SetDescription(blockReason);
             Console.WriteLine("class BlockedFilm constructor with parametrs was called");
         }
 
-        public BlockedFilm(BlockedFilm blockedFilm)
+        public BlockedFilm(BlockedFilm blockedFilm) : base(blockedFilm)
         {
             _blockReason = blockedFilm._blockReason;
             Console.WriteLine("class BlockedFilm copy constructor was called");

@@ -8,24 +8,22 @@ namespace films
 {
     class FavoriteFilm : Film
     {
-        string _description;
+        private string _description;
 
         public FavoriteFilm()
         {
             Console.WriteLine("class FavoriteFilm constructor was called");
             SetDescription(EnterDescription());
         }
-        public FavoriteFilm(FavoriteFilm favoriteFilm)
-        {
-            _description = favoriteFilm.GetDescription();
-
-            Console.WriteLine("class FavoriteFilm copy constructor was called");
-            SetDescription(EnterDescription());
-        }
-        public FavoriteFilm(string description)
+        public FavoriteFilm(string name, int year, string type, int rate, string country, string description) : base(name, year , type, rate, country)
         {
             _description = description;
             Console.WriteLine("class FavoriteFilm constructor with paramerts was called");
+        }
+        public FavoriteFilm(FavoriteFilm favoriteFilm) : base(favoriteFilm)
+        {
+            _description = favoriteFilm.GetDescription();
+            Console.WriteLine("class FavoriteFilm copy constructor was called");
         }
 
         ~FavoriteFilm()
@@ -47,8 +45,12 @@ namespace films
             }
         }
 
-        public void SetDescription(string description) { _description = description; }
-        public string GetDescription() => _description;
+        public void SetDescription(string description) 
+        {
+            _description = description; 
+        }
+        public string GetDescription() 
+            => _description;
 
         public new void SeeInfo()
         {

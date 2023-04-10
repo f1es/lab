@@ -2,15 +2,15 @@ namespace films
 {
     class Film
     {
-        private string _name;
-        private int _year;
-        private int _rate;
-        private string _type;
-        private string _country;
+        protected string _name;
+        protected int _year;
+        protected int _rate;
+        protected string _type;
+        protected string _country;
 
         public Film()
         {
-            Console.WriteLine("Constructor without parametrs is called");
+            Console.WriteLine("Constructor without parametrs was called");
             SetName(EnterName());
             SetYear(EnterYear());
             SetType(EnterType());
@@ -56,10 +56,10 @@ namespace films
         public static string EnterName()
         {
             Console.Write("Enter film name: ");
-            string name = Console.ReadLine();
             while(true)
             {
-                if(name != "")
+                string name = Console.ReadLine();
+                if (name != "")
                 {
                     return name;
                 }
