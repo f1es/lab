@@ -122,7 +122,11 @@ namespace films
         public void Edit()
         {
             Console.WriteLine("What do you want to change?");
-            Console.WriteLine("[1] - Name\n[2] - Year\n[3] - Type\n[4] - Rating\n[5] - Country.");
+            Console.WriteLine("[1] - Name\n" +
+                "[2] - Year\n" +
+                "[3] - Type\n" +
+                "[4] - Rating\n" +
+                "[5] - Country.");
             int edit = Convert.ToInt32(Console.ReadLine());
             switch (edit)
             {

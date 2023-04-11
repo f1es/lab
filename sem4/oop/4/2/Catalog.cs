@@ -3,15 +3,13 @@ namespace films
     class Catalog
     {
         List<Film> filmList = new List<Film>();
-
-        public Film GetFilmFromCatalog(int filmPosition) => filmList[filmPosition];
-        public void SetFilmInCatalog(int filmPosition, Film film) { filmList[filmPosition] = film; }
-
         public void AddBlockedFilm()
         {
 
             Console.WriteLine("\tWhich constructor use?\n" +
-                "[1 - deafult\n[2] - with parametrs\n[3] - copy");
+                "[1 - deafult\n" +
+                "[2] - with parametrs\n" +
+                "[3] - copy");
             if (int.TryParse(Console.ReadLine(), out int filmChoise))
                 switch (filmChoise)
                 {
@@ -22,7 +20,7 @@ namespace films
                         filmList.Add(new BlockedFilm(Film.EnterName(), Film.EnterYear(), Film.EnterType(), Film.EnterRate(), Film.EnterCountry(), BlockedFilm.EnterDescription()));
                         break;
                     case 3:
-                        if (filmList.Count == 0)
+                        if (isEmpty())
                         {
                             Console.WriteLine("catalog empty");
                             break;
