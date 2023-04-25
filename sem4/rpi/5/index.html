@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Тест</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        function validate() {
+
+            //Получаем ссылки на поля для имени и группы
+           var x = document.getElementById("nameId");
+           var y = document.getElementById("groupId");
+
+            //Если поле name пустое выведем сообщение и предотвратим отправку формы
+            // 
+            if (x.value.length == 0) {
+                alert("Введите имя");
+                return false;
+            }
+            //Если поле email пустое выведем сообщение и предотвратим отправку формы
+            if (y.value.length == 0) {
+                alert("Введите группу");
+                return false;
+            }
+            
+            for (i = 1; i <= 2; i++) {
+                var x1 = document.getElementById("q" + i + "a1");
+                var x2 = document.getElementById("q" + i + "a2");
+                var x3 = document.getElementById("q" + i + "a3");
+
+                if (!x1.checked && !x2.checked && !x3.checked) {
+                    alert("Вы не ответили на вопрос" + i++);
+                     return false;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Введите данные</h1>
+    <form name="form" method="post" onsubmit="return validate()">
+        <label>Имя</label><br>
+        <input type="text" name="userName" id="nameId" /><br><br>
+        <label>Группа</label><br>
+        <input type="text" name="userGroup" id="groupId" /><br><br>
+        <br>
+        
+
+        <p>№1 Предоставляющий свои ресурсы пользователям сети компьютер – это:</p>
+        <div>
+            <input type="radio" name="question1" value="0" id="q1a1" /><label for="q1a1">Потльзовательский</label>
+            <br>
+            <input type="radio" name="question1" value="0" id="q1a2" /><label for="q1a2">Клиент</label>
+            <br />
+            <input type="radio" name="question1" value="1" id="q1a3" /><label for="q1a3">Сервер</label>
+        </div>
+
+        <p>№2 Первые компьютерные сети:</p>
+        <div>
+            <input type="checkbox" name="question21" value="1" id="q2a1" /><label for="q2a1">ARPANET</label>
+            <br />
+            <input type="checkbox" name="question22" value="1" id="q2a2" /><label for="q2a2">ETHERNET</label>
+            <br />
+            <input type="checkbox" name="question23" value="0" id="q2a3" /><label for="q2a3">TCP</label>
+        </div>
+
+        <p>№3 Центральная машина сети называется:</p>
+        <div>
+            <input type="radio" name="question3" value="0" id="q3a1" /><label for="q3a1">Центральным процессором</label>
+            <br>
+            <input type="radio" name="question3" value="1" id="q3a2" /><label for="q3a2">Сервером</label>
+            <br />
+            <input type="radio" name="questio3" value="0" id="q3a3" /><label for="q3a3">Маршрутизатором</label>
+        </div>
+
+        <p>№4 Обобщенная геометрическая характеристика компьютерной сети – это:</p>
+        <div>
+            <input type="radio" name="question4" value="1" id="q4a1" /><label for="q4a1">Топология сети</label>
+            <br>
+            <input type="radio" name="question4" value="0" id="q4a2" /><label for="q4a2">Сервер сети</label>
+            <br />
+            <input type="radio" name="question4" value="0" id="q4a3" /><label for="q4a3">Удалённость компьютеров сети</label>
+        </div>
+
+        <p>№5 Основными видами компьютерных сетей являются сети:</p>
+        <div>
+            <input type="radio" name="question5" value="1" id="q5a1" /><label for="q5a1">локальные, глобальные, региональные</label>
+            <br>
+            <input type="radio" name="question5" value="0" id="q5a2" /><label for="q5a2">клиентские, корпоративные, международные            </label>
+            <br />
+            <input type="radio" name="question5" value="0" id="q5a3" /><label for="q5a3">социальные, развлекательные, бизнес-ориентированные</label>
+        </div>
+
+        <p>№6 Протокол компьютерной сети - совокупность:</p>
+        <div>
+            <input type="radio" name="question6" value="0" id="q5a1" /><label for="q5a1">Электронный журнал для протоколирования действий пользователей сети</label>
+            <br>
+            <input type="radio" name="question6" value="0" id="q5a2" /><label for="q5a2">Технических характеристик трафика сети</label>
+            <br />
+            <input type="radio" name="question6" value="1" id="q5a3" /><label for="q5a3">Правил, регламентирующих прием-передачу, активацию данных в сети</label>
+        </div>
+
+        <p>№7 Что из перечисленного является элементами формы? </p>
+        <div>
+            <input type="checkbox" name="question71" value="1" id="q7a1" /><label for="q7a1">checkbox</label>
+            <br />
+            <input type="checkbox" name="question72" value="1" id="q7a2" /><label for="q7a2">radio</label>
+            <br />
+            <input type="checkbox" name="question73" value="0" id="q7a3" /><label for="q7a3">div</label>
+        </div>
+
+        <p>№8 Узловым в компьютерной сети служит сервер:</p>
+        <div>
+            <input type="radio" name="question8" value="0" id="q8a1" /><label for="q8a1">Располагаемый в здании главного офиса сетевой компании</label>
+            <br>
+            <input type="radio" name="question8" value="1" id="q8a2" /><label for="q8a2">Связывающие остальные компьютеры сети</label>
+            <br />
+            <input type="radio" name="question8" value="0" id="q8a3" /><label for="q8a3">На котором располагается база сетевых данных</label>
+        </div>
+
+        <p>№9 Какой тег исользуют для создания HTML формы? </p>
+        <div>
+            <input type="radio" name="question9" value="0" id="q9a1" /><label for="q9a1">html</label>
+            <br>
+            <input type="radio" name="question9" value="1" id="q9a2" /><label for="q9a2">form</label>
+            <br />
+            <input type="radio" name="question9" value="0" id="q9a3" /><label for="q9a3">frame</label>
+        </div>
+
+        <p>№10 Какой тег исользуют для создания HTML формы? </p>
+        <div>
+            <input type="radio" name="question10" value="0" id="q10a1" /><label for="q10a1">html</label>
+            <br>
+            <input type="radio" name="question10" value="1" id="q10a2" /><label for="q10a2">form</label>
+            <br />
+            <input type="radio" name="question10" value="0" id="q10a3" /><label for="q10a3">frame</label>
+        </div>
+        <br>
+        <input type="submit" value="Отправить" style="margin-left: 8%;" />
+        <input type="reset" value="очистить форму" />
+    </form>
+</body>
+
+</html>

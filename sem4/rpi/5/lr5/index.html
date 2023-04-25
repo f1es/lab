@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тест</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        function validate() {
+
+            //Получаем ссылки на поля для имени и группы
+           var x = document.getElementById("nameId");
+           var y = document.getElementById("groupId");
+
+            //Если поле name пустое выведем сообщение и предотвратим отправку формы
+            // 
+            if (x.value.length == 0) {
+                alert("Введите имя");
+                return false;
+            }
+            //Если поле email пустое выведем сообщение и предотвратим отправку формы
+            if (y.value.length == 0) {
+                alert("Введите группу");
+                return false;
+            }
+            
+            for (i = 1; i <= 2; i++) {
+                var x1 = document.getElementById("q" + i + "a1");
+                var x2 = document.getElementById("q" + i + "a2");
+                var x3 = document.getElementById("q" + i + "a3");
+
+                if (!x1.checked && !x2.checked && !x3.checked) {
+                    alert("Вы не ответили на вопрос" + i++);
+                     return false;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Введите данные</h1>
+    <form name="form" method="post" onsubmit="return validate()">
+        <label>Имя</label><br>
+        <input type="text" name="userName" id="nameId" /><br><br>
+        <label>Группа</label><br>
+        <input type="text" name="userGroup" id="groupId" /><br><br>
+        <br>
+        <hr>
+
+        <p>№1 Какой тег исользуют для создания HTML формы? </p>
+        <div>
+
+            <input type="radio" name="question1" value="0" id="q1a1" /><label for="q1a1">html</label>
+            <br>
+            <input type="radio" name="question1" value="1" id="q1a2" /><label for="q1a2">form</label>
+            <br />
+            <input type="radio" name="question1" value="0" id="q1a3" /><label for="q1a3">frame</label>
+        </div>
+
+        <p>№2 Что из перечисленного является элементами формы? </p>
+        <div>
+
+            <input type="checkbox" name="question21" value="1" id="q2a1" /><label for="q1a1">checkbox</label>
+            <br />
+            <input type="checkbox" name="question22" value="1" id="q2a2" /><label for="q1a2">radio</label>
+            <br />
+            <input type="checkbox" name="question23" value="0" id="q2a3" /><label for="q1a3">div</label>
+        </div>
+        </div>
+        <br>
+        <input type="submit" value="Отправить" />
+        <input type="reset" value="очистить форму" />
+    </form>
+</body>
+
+</html>

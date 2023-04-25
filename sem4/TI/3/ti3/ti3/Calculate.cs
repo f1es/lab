@@ -123,7 +123,7 @@ namespace ti3
         public BigInteger KaratsubaMultiple(BigInteger x, BigInteger y)
         {
             int n = (int)Math.Max(BigInteger.Log(x, 2), BigInteger.Log(y, 2));
-            if (n <= 10000) return x * y;
+            if (n <= 100) return x * y;
 
             n = ((n + 1) / 2);
 
@@ -135,7 +135,6 @@ namespace ti3
             BigInteger ac = KaratsubaMultiple(a, c);
             BigInteger bd = KaratsubaMultiple(b, d);
             BigInteger abcd = KaratsubaMultiple(a + b, c + d);
-
             return ac + ((abcd - ac - bd) << n) + (bd << (2 * n));
         }
     }

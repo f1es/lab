@@ -1,0 +1,28 @@
+<html>
+    <head>
+<script lang="JavaScript">
+table.onclick = function(event) {
+  let td = event.target.closest('td'); // (1)
+  if (!td) return; // (2)
+
+  if (!table.contains(td)) return; // (3)
+  highlight(td); // (4)
+};
+</script>
+    </head>
+<body onclick="hightlight(td)">
+    <table>
+  <tr>
+    <th colspan="3">Квадрат <em>Bagua</em>: Направление, Элемент, Цвет, Значение</th>
+  </tr>
+  <tr>
+    <td>...<strong>Северо-Запад</strong>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>...ещё 2 строки такого же вида...</tr>
+  <tr>...ещё 2 строки такого же вида...</tr>
+</table>
+
+</body>
+</html>

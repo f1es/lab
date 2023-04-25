@@ -5,14 +5,7 @@ namespace Idea {
     {
         internal static int rounds = 8;
         internal int[] subKey;
-        /**
- * Creates an instance of the IDEA processor, initialized with a 16-byte binary key.
- *
- * @param key
- *    A 16-byte binary key.
- * @param encrypt
- *    true to encrypt, false to decrypt.
- */
+        
         public Idea(String charKey, bool encrypt)
         {
             byte[] key = generateUserKeyFromCharKey(charKey);
@@ -27,10 +20,6 @@ namespace Idea {
             }
         }
 
-        //public byte[] crypt(byte[] data)
-        //{
-        //    crypt(data, 0);
-        //}
         public byte[] crypt(byte[] data, int dataPos = 0)
         {
             int x0 = ((data[dataPos + 0] & 0xFF) << 8) | (data[dataPos + 1] & 0xFF);
