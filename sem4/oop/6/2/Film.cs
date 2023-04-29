@@ -48,10 +48,8 @@ namespace films
                 film1.GetType() == film2.GetType() &&
                 film1.GetYear() == film2.GetYear() &&
                 film1.GetCountry() == film2.GetCountry() &&
-                film1.GetRate() == film2.GetRate()) 
-                return true;
-            else 
-                return false;
+                film1.GetRate() == film2.GetRate()) return true;
+            else return false;
         }
 
         public static bool operator !=(Film film1, Film film2)
@@ -60,40 +58,20 @@ namespace films
                 film1.GetType() == film2.GetType() &&
                 film1.GetYear() == film2.GetYear() &&
                 film1.GetCountry() == film2.GetCountry() &&
-                film1.GetRate() == film2.GetRate()) 
-                return false;
-            else 
-                return true;
+                film1.GetRate() == film2.GetRate()) return false;
+            else return true;
         }
 
         public static bool operator >(Film film1, Film film2)
         {
-            if (film1.GetRate() > film2.GetRate()) 
-                return true;
-            else 
-                return false;
+            if (film1.GetRate() > film2.GetRate()) return true;
+            else return false;
         }
 
         public static bool operator <(Film film1, Film film2)
         {
             if (film1.GetRate() < film2.GetRate()) return true;
             else return false;
-        }
-
-        public static bool operator >=(Film film1, Film film2)
-        {
-            if (film1.GetRate() >= film2.GetRate()) 
-                return true;
-            else 
-                return false;
-        }
-
-        public static bool operator <=(Film film1, Film film2)
-        {
-            if (film1.GetRate() <= film2.GetRate()) 
-                return true;
-            else 
-                return false;
         }
 
         public string GetName() => _name;
