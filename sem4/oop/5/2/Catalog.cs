@@ -1,3 +1,6 @@
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices;
+
 namespace films
 {
     class Catalog
@@ -11,14 +14,112 @@ namespace films
             return catalog;
         }
 
-        public static Catalog operator+ (Catalog catalog, Film film)
+        public static Catalog operator +(Catalog catalog, Film film)
         {
             catalog.filmList.Add(film);
             return catalog;
         }
+
+        public void UseOperators(Catalog catalog)
+        {
+            Console.WriteLine("\tSelect operation\n" +
+            "[1] - + (add to film list)\n" +
+            "[2] - ++ (add to film list film with id 0)\n" +
+            "[3] - == (compare by film's parametrs)\n" +
+            "[4] - < (compare by film's rating)\n" +
+            "[5] - > (compare by film's rating)\n" +
+            "[6] - != (compare by film's parametrs)");
+            int.TryParse(Console.ReadLine(), out int select);
+            switch (select)
+            {
+                case 1:
+                    Console.WriteLine("\tWhat add\n" +
+                    "[1] - new favorite film\n" +
+                    "[2] - new blocked film\n" +
+                    "[3] - film from film list");
+                    int.TryParse(Console.ReadLine(), out int select2);
+                    switch (select2)
+                    {
+                        case 1:
+                            catalog += new FavoriteFilm();
+                            break;
+                        case 2:
+                            catalog += new BlockedFilm();
+                            break;
+                        case 3:
+                            if (filmList.Count == 0)
+                            {
+                                Console.WriteLine("Add film from film list cannot be use, film list is emty");
+                                break;
+                            }
+                            Console.WriteLine("Enter film id");
+                            int.TryParse(Console.ReadLine(), out int filmId);
+                            if (CorrectInput.InRange(0, filmList.Count - 1, filmId)) catalog += filmList[filmId];
+                            else Console.WriteLine("Incorrect film number");
+                        break;
+                    }
+                    break;
+                case 2:
+                    catalog++;
+                    break;
+                case 3:
+                    Console.WriteLine("Enter film fisrt id");
+                    int.TryParse(Console.ReadLine(), out int firstId);
+                    Console.WriteLine("Enter film second id");
+                    int.TryParse(Console.ReadLine(), out int secondId);
+
+                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
+                    {
+                        if (filmList[firstId] == filmList[secondId]) Console.WriteLine("Films are equal");
+                        else Console.WriteLine("Films are different");
+                    }
+                    else Console.WriteLine("Incorrect film number");
+                    break;
+                case 4:
+                    Console.WriteLine("Enter film fisrt id");
+                    int.TryParse(Console.ReadLine(), out firstId);
+                    Console.WriteLine("Enter film second id");
+                    int.TryParse(Console.ReadLine(), out secondId);
+
+                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
+                    {
+                        if (filmList[firstId] < filmList[secondId]) Console.WriteLine("First film raiting less than second");
+                        else Console.WriteLine("First film raiting more than second");
+                    }
+                    else Console.WriteLine("Incorrect film number");
+                    break;
+                case 5:
+                    Console.WriteLine("Enter film fisrt id");
+                    int.TryParse(Console.ReadLine(), out firstId);
+                    Console.WriteLine("Enter film second id");
+                    int.TryParse(Console.ReadLine(), out secondId);
+
+                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
+                    {
+                        if (filmList[firstId] > filmList[secondId]) Console.WriteLine("First film raiting more than second");
+                        else Console.WriteLine("First film raiting less than second");
+                    }
+                    else Console.WriteLine("Incorrect film numebr");
+                    break;
+                case 6:
+
+                    Console.WriteLine("Enter film fisrt id");
+                    int.TryParse(Console.ReadLine(), out firstId);
+                    Console.WriteLine("Enter film second id");
+                    int.TryParse(Console.ReadLine(), out secondId);
+
+                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
+                    {
+                        if (filmList[firstId] != filmList[secondId]) Console.WriteLine("Films are different");
+                        else Console.WriteLine("Films are equal");
+                    }
+                    else Console.WriteLine("Incorrect film number");
+                    break;
+            }
+        }
+
         public void AddBlockedFilm()
         {
-
             Console.WriteLine("\tWhich constructor use?\n" +
                 "[1 - deafult\n" +
                 "[2] - with parametrs\n" +

@@ -42,6 +42,38 @@ namespace films
             Console.WriteLine("Destructor was called");
         }
 
+        public static bool operator ==(Film film1, Film film2)
+        {
+            if (film1.GetName() == film2.GetName() &&
+                film1.GetType() == film2.GetType() &&
+                film1.GetYear() == film2.GetYear() &&
+                film1.GetCountry() == film2.GetCountry() &&
+                film1.GetRate() == film2.GetRate()) return true;
+            else return false;
+        }
+
+        public static bool operator !=(Film film1, Film film2)
+        {
+            if (film1.GetName() == film2.GetName() &&
+                film1.GetType() == film2.GetType() &&
+                film1.GetYear() == film2.GetYear() &&
+                film1.GetCountry() == film2.GetCountry() &&
+                film1.GetRate() == film2.GetRate()) return false;
+            else return true;
+        }
+
+        public static bool operator >(Film film1, Film film2)
+        {
+            if (film1.GetRate() > film2.GetRate()) return true;
+            else return false;
+        }
+
+        public static bool operator <(Film film1, Film film2)
+        {
+            if (film1.GetRate() < film2.GetRate()) return true;
+            else return false;
+        }
+
         public string GetName() => _name;
         public int GetYear() => _year;
         public int GetRate() => _rate;

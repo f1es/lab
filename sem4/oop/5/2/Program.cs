@@ -10,9 +10,7 @@ namespace films
     {
         static void Main()
         {   
-
             Catalog catalog = new Catalog();
-            
             bool MenuCycle = true;
             while (MenuCycle)
             {
@@ -22,7 +20,8 @@ namespace films
                 "[3] - delete\n" +
                 "[4] - edit\n" +
                 "[5] - search film\n" +
-                "[6] - sort");
+                "[6] - sort\n" +
+                "[7] - operators");
 
                 int.TryParse(Console.ReadLine(), out int choise);
                 switch (choise)
@@ -62,6 +61,10 @@ namespace films
                     case 6:
                         catalog.SortFilms();
                         break;
+                    case 7:
+                        catalog.UseOperators(catalog);
+                        break;
+
                     case -1:
                         MenuCycle = false;
                         break;
