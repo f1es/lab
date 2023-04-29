@@ -6,7 +6,6 @@ namespace films
     class Catalog
     {
         List<Film> filmList = new List<Film>();
-
         public static Catalog operator++ (Catalog catalog)
         {
             if (catalog.filmList.Count != 0) catalog.filmList.Add(catalog.filmList[0]);
@@ -49,7 +48,7 @@ namespace films
                         case 3:
                             if (filmList.Count == 0)
                             {
-                                Console.WriteLine("Add film from film list cannot be use, film list is emty");
+                                Console.WriteLine("Add film from film list cannot be use, film list is empty");
                                 break;
                             }
                             Console.WriteLine("Enter film id");
