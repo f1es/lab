@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style4.css">
     <style>
         td select,
         td input {
@@ -22,19 +23,19 @@
 </head>
 
 <body>
-
-    Депозитный калькулятор.
+    <br><br><br><br><br><br><br><br><br><br>
+    <p style="font-size: 24px;">ДЕПОЗИТНЫЙ КАЛЬКУЛЯТОР</p>
 
     <form name="calculator">
         <table>
             <tr>
-                <td>Первоначальный депозит</td>
+                <td>Начальный депозит</td>
                 <td>
                     <input name="money" type="number" value="10000" required>
                 </td>
             </tr>
             <tr>
-                <td>Срок вклада?</td>
+                <td>Срок вклада(месяцы)</td>
                 <td>
                     <select name="months">
                         <option value="3">3 (минимум)</option>
@@ -49,7 +50,7 @@
                 </td>
             </tr>
             <tr>
-                <td>Годовая процентная ставка?</td>
+                <td>Процентная ставка</td>
                 <td>
                     <input name="interest" type="number" value="5" required>
                 </td>
@@ -60,7 +61,7 @@
     </form>
 
 
-    <table id="diagram">
+    <table id="diagram" style="margin-left: 10%;">
         <tr>
             <th>Было:</th>
             <th>Станет:</th>
@@ -70,10 +71,10 @@
             <th id="money-after"></th>
         </tr>
         <td>
-            <div style="background: red;width:40px;height:100px"></div>
+            <div id="height-before"></div>
         </td>
         <td>
-            <div style="background: green;width:40px;height:0" id="height-after"></div>
+            <div id="height-after"></div>
         </td>
     </table>
 

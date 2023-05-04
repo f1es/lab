@@ -2,19 +2,20 @@ body {
     margin: 0;
     padding: 0;
     font: 75%/120% sans-serif;
+    margin-left: 23%;
 }
 
 .smallImg
 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: left;
 }
 
 #largeImg {
     border: solid 1px #ccc;
-    width: 550px;
-    height: 400px;
+    width: 950px;
+    height: 600px;
     padding: 5px;
 }
 

@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html>
-
+<head>
+    <link rel="stylesheet" href="style3.css">
+</head>
 <body>
 
-    <p>Нажмите "Q" и "W" вместе (язык значения не играет).</p>
+    <p>нажми q и w</p>
 
     <script>
         function runOnKeys(func, ...codes) {
@@ -12,17 +14,11 @@
             document.addEventListener('keydown', function (event) {
                 pressed.add(event.code);
 
-                for (let code of codes) { // все ли клавиши из набора нажаты?
+                for (let code of codes) { 
                     if (!pressed.has(code)) {
                         return;
                     }
                 }
-
-                // да, все
-
-                // во время показа alert, если посетитель отпустит клавиши - не возникнет keyup
-                // при этом JavaScript "пропустит" факт отпускания клавиш, а pressed[keyCode] останется true
-                // чтобы избежать "залипания" клавиши -- обнуляем статус всех клавиш, пусть нажимает всё заново
                 pressed.clear();
 
                 func();
@@ -35,7 +31,7 @@
         }
 
         runOnKeys(
-            () => alert("Привет!"),
+            () => alert("молодец"),
             "KeyQ",
             "KeyW"
         );
