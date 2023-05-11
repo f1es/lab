@@ -1,1 +1,0 @@
-Get-Service | Select-Object DisplayName -first 5 | Out-File -FilePath .\Result31.txt
