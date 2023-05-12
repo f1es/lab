@@ -9,7 +9,12 @@ namespace films
     class Program
     {
         static void Main()
-        {   
+        {
+            Template<FavoriteFilm> t = new Template<FavoriteFilm>(5);
+            t.SetFromIndex(0, new FavoriteFilm());
+            Console.WriteLine(t.GetFromIndex(0));
+            Console.ReadKey();
+
             Catalog catalog = new Catalog();
             bool MenuCycle = true;
             while (MenuCycle)
