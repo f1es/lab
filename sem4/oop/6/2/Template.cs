@@ -8,11 +8,12 @@ namespace films
 {
     class Template <T> //where T : IComparable, IComparable<T>, IEquatable<T>
     {
-        private T[] TArray;
-        private int ArrayCount;
+        private T[] TArray; 
+        private int ArrayLength;
         public Template(int n)
         {
             TArray = new T[n];
+            ArrayLength = n;
         }
 
         public T[] GetArray()
@@ -24,7 +25,7 @@ namespace films
             return TArray[index];
         }
 
-        public void SetFromIndex(int index, T element)
+        public void SetToIndex(int index, T element)
         {
             if (TArray.Length == 0)
             {
@@ -34,17 +35,39 @@ namespace films
             if (CorrectInput.InRange(0, TArray.Length, index))
                 TArray[index] = element;
             else
-                Console.WriteLine("Wrong array index");
+                Console.WriteLine("Index was outside of array");
         }
 
         public int findItem(Template<T> template ,T obj)
         {
             return template == obj;
         }
+        
+        public void Sort()
+        {
+            List<T> list = new List<T>(TArray);
+            list.Sort();
+            TArray = list.ToArray();
+            //list.Reverse();
+        }
+
+        public T max()
+        {
+            List<T> list = new List<T>(TArray);
+            list.Sort();
+            return list[0];
+        }
+
+        public T min()
+        {
+            List<T> list = new List<T>(TArray);
+            list.Sort();
+            return list[list.Count];
+        }
 
         static public int operator == (Template<T> template, T secondElement)
         {
-            for (int i = 0; i < template.TArray.Length; i++)
+            for (int i = 0; i < template.ArrayLength; i++)
             {
                 if (Object.Equals(template.TArray[i], secondElement)) 
                     return i;

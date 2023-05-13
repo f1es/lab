@@ -2,13 +2,31 @@ using System.Data.Common;
 
 namespace films
 {
-    abstract class Film
+    abstract class Film: IComparable<Film>
     {
         protected string _name;
         protected int _year;
         protected int _rate;
         protected string _type;
         protected string _country;
+
+        public int CompareTo(Film other)
+        {
+            return GetYear().CompareTo(other.GetYear());
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !this.GetType().Equals(obj.GetType()))
+                return false;
+
+            Film other = (Film)obj;
+            return _year == other._year;
+        }
+
+        public override int GetHashCode()
+        {
+            return _year.GetHashCode();
+        }
 
         public Film()
         {
