@@ -1,0 +1,177 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slide.css"> -->
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid-container {
+            width: 100%;
+            overflow: auto;
+        }
+
+        .grid-item-up {
+            margin: 20 0 30 30;
+            /* float: inline-start; */
+            width: 97%;
+            height: 60%;
+        }
+
+        .grid-item-down {
+            margin: 20 0 0 30;
+            float: inline-end;
+            width: 97%;
+            height: 31%;
+        }
+
+        .grid-item-long {
+            width: auto;
+            padding: 5%;
+            margin: 5%;
+        }
+
+        .grid-item-in-right-up {
+            margin: 40 40 40 40;
+            width: 70%;
+            height: 50%;
+            float: right;
+        }
+
+        .grid-item-in-right-down {
+            margin: 10 40 40 40;
+            width: 70%;
+            height: 27%;
+            float: right;
+        }
+
+        .grid-item-in-down-right {
+            margin: 140 40 40 20;
+            float: right;
+            width: 40%;
+            height: 40%;
+        }
+
+        .grid-item-in-down-left {
+            margin: 140 40 40 40;
+            float: left;
+            width: 40%;
+            height: 40%;
+        }
+
+        .grid-item-in-left {
+            float: left;
+            margin: 40 40 40 40;
+            width: 20%;
+            height: 86%;
+        }
+
+        .grid-item-in-in-left-up {
+            margin: 40 40 40 40;
+            width: 77%;
+            height: 20%;
+        }
+
+        .grid-item-in-in-right-right-down {
+            margin: 120 20 40 40;
+            float: right;
+            width: 150;
+            height: 150;
+        }
+
+        .grid-item-in-in-long {
+            width: 10%;
+            height: 100%;
+        }
+
+        .color1 {
+            background-color: #675BA7;
+        }
+
+        .color-yellow {
+            background-color: yellow;
+        }
+
+        .color-pink {
+            background-color: #ca195d;
+        }
+
+        .color-blue {
+            background-color: #2800bb;
+        }
+
+        .color-lightblue {
+            background-color: rgb(35, 137, 255);
+        }
+
+        .color5 {
+            background-color: #4e342e;
+        }
+    </style>
+</head>
+
+<body class="color-lightblue">
+    <div class="grid-container">
+        <div class="grid-item-up color-pink">
+            <!-- <p> 1</p> -->
+            <div class="grid-item-in-left color-blue">
+                <div class="grid-item-in-in-left-up color-yellow"></div>
+            </div>
+
+            <div class="grid-item-in-right-up color-blue">
+                <div class="grid-item-in-in-right-right-down color-yellow"></div>
+            </div>
+
+            <div class="grid-item-in-right-down color-blue">
+
+            </div>
+        </div>
+
+        <div class="grid-item-down color-pink">
+            <div class="grid-item-in-down-right color-blue"></div>
+            <div class="grid-item-in-down-left color-blue"></div>
+            <!-- <p> 2</p>
+            <div class="grid-item-long color3">
+                <p> 4</p>
+            </div>
+            <div class="grid-item-in-down color5">
+                <div class="grid-item-in-in-long color3">
+                    <p> 4</p>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+<!-- <script>
+    function iterateArray(arr) {
+        arr.forEach((item, index) => {
+            if (item === 11) {
+                console.error(`Item: ${item}`);
+            } else {
+                console.log(`Item: ${item}`);
+            }
+        });
+    }
+
+
+    iterateArray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14])
+</script> -->
+
+</body>
+
+</html>
