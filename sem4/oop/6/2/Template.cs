@@ -6,14 +6,24 @@ using System.Threading.Tasks;
 
 namespace films
 {
-    class Template <T> //where T : IComparable, IComparable<T>, IEquatable<T>
+    class Template <T>
     {
         private T[] TArray; 
         private int ArrayLength;
         public Template(int n)
         {
             TArray = new T[n];
-            ArrayLength = n;
+            ArrayLength = n - 1;
+        }
+
+        public int GetArrayLength()
+        {
+            return ArrayLength;
+        }
+
+        public T GetElement(int n)
+        {
+            return TArray[n];
         }
 
         public T[] GetArray()
@@ -48,7 +58,6 @@ namespace films
             List<T> list = new List<T>(TArray);
             list.Sort();
             TArray = list.ToArray();
-            //list.Reverse();
         }
 
         public T max()

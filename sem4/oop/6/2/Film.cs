@@ -28,6 +28,7 @@ namespace films
             return _year.GetHashCode();
         }
 
+
         public Film()
         {
             Console.WriteLine("Constructor without parametrs was called");
