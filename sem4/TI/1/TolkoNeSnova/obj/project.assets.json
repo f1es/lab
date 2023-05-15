@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\vs\\TolkoNeSnova\\TolkoNeSnova\\TolkoNeSnova.csproj",
+      "projectUniqueName": "X:\\vs\\git\\lab\\sem4\\TI\\1\\TolkoNeSnova\\TolkoNeSnova.csproj",
       "projectName": "TolkoNeSnova",
-      "projectPath": "X:\\vs\\TolkoNeSnova\\TolkoNeSnova\\TolkoNeSnova.csproj",
+      "projectPath": "X:\\vs\\git\\lab\\sem4\\TI\\1\\TolkoNeSnova\\TolkoNeSnova.csproj",
       "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-      "outputPath": "X:\\vs\\TolkoNeSnova\\TolkoNeSnova\\obj\\",
+      "outputPath": "X:\\vs\\git\\lab\\sem4\\TI\\1\\TolkoNeSnova\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",

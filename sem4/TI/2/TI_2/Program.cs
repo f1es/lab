@@ -36,7 +36,7 @@ namespace TI_2
             Console.WriteLine(results = ByteArrayToString(result));
 
 
-            Console.WriteLine("task 2");
+            //Console.WriteLine("task 2");
             Console.ReadKey();
 
             PSA psa = new PSA();
