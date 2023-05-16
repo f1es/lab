@@ -1,0 +1,241 @@
+/* .frame {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #202020;
+} */
+
+body {
+    background: #202020;
+}
+
+.портфолио {
+    position: absolute;
+    width: 131px;
+    height: 29px;
+    left: 274px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.цены {
+    position: absolute;
+    width: 64px;
+    height: 29px;
+    left: 463px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.отзывы {
+    position: absolute;
+    width: 93px;
+    height: 29px;
+    left: 585px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.контакты {
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 736px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.имя {
+    position: absolute;
+    width: 747px;
+    height: 145px;
+    left: 123px;
+    top: 281px;
+
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 145px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    /* border: 2px solid #FFFFFF; */
+}
+
+.фотограф {
+    position: absolute;
+    width: 112px;
+    height: 29px;
+    left: 150px;
+    top: 466px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.смотрю {
+    position: absolute;
+    width: 506px;
+    height: 39px;
+    left: 123px;
+    top: 518px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.записаться {
+    position: absolute;
+    width: 136px;
+    height: 29px;
+    left: 269px;
+    top: 815px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.rickastley {
+    position: absolute;
+    width: 681px;
+    height: 948px;
+    left: 1039px;
+    top: 20px;
+
+    /* background: url(rickastley.png); */
+}
+
+.камера {
+    position: absolute;
+    width: 100px;
+    height: 95px;
+    left: 86px;
+    top: 21px;
+
+    /* background: url(камреа.png); */
+}
+
+.инстаграм {
+    position: absolute;
+    width: 43px;
+    height: 41px;
+    left: 1849px;
+    top: 386px;
+
+    /* background: url(иснтсаграмм.png); */
+}
+
+.вибер {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1838px;
+    top: 444px;
+
+    /* background: url(вибер.png); */
+}
+
+.самолёт {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1846px;
+    top: 526px;
+
+    background: url(самолёт.png);
+}
+
+.rectangle {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 427px;
+    height: 81px;
+    left: 123px;
+    top: 808px;
+
+    border-width: 4px 6px 4px 1px;
+    border-style: solid;
+    border-color: #136B04;
+}
+
+.line1 {
+    position: absolute;
+    width: 280px;
+    height: 0px;
+    left: 1725px;
+    top: 200px;
+
+    border: 3px solid #136B04;
+    transform: rotate(90deg);
+}
+
+.line2 {
+    position: absolute;
+    width: 280px;
+    height: 0px;
+    left: 1725px;
+    top: 750px;
+
+    border: 3px solid #136B04;
+    transform: rotate(90deg);
+}
