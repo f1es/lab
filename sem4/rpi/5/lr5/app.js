@@ -20,16 +20,13 @@ app.post("/", urlencodedParser, function (request, response) {
     // для флажков
     if (request.body.question21 == "1" && request.body.question22 == "1") result++;
     result += Number(request.body.question3);
-    // if (Number(request.body.question4) == 1) result++;
-    // if (Number(request.body.question5) == 1) result++;
-    // if (Number(request.body.question6) == 1) result++;
     result += Number(request.body.question4);
     result += Number(request.body.question5);
     result += Number(request.body.question6);
     if (request.body.question71 == "1" && request.body.question72 == "1") result++;
-    // result += Number(request.body.question8)
-    // result += Number(request.body.question9)
-    // result += Number(request.body.question10)
+    result += Number(request.body.question8);
+    result += Number(request.body.question9);
+    result += Number(request.body.question10);
 
     response.send(`Привет ${request.body.userName} из ${request.body.userGroup} --- твой результат  ${result} из 10`);
 });
