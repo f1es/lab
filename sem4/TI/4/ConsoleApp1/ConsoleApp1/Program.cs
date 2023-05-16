@@ -6,7 +6,7 @@ namespace ti4
         public static void Main()
         {
             Vijener vijener = new Vijener();
-            string words = "cryptography and data security",
+            string words = "data and data and data and data and data and data",
                 key = "Mouse";
             var cryptedText = Vijener.VijenerEncrypt(words, key);
             Console.WriteLine(cryptedText);

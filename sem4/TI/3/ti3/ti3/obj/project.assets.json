@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fles\\.nuget\\packages\\": {}
+    "C:\\Users\\илья флекс\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
+      "projectUniqueName": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
       "projectName": "ti3",
-      "projectPath": "D:\\Git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
-      "packagesPath": "C:\\Users\\fles\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\lab\\sem4\\TI\\3\\ti3\\ti3\\obj\\",
+      "projectPath": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\ti3.csproj",
+      "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
+      "outputPath": "X:\\vs\\git\\lab\\sem4\\TI\\3\\ti3\\ti3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
