@@ -1,21 +1,14 @@
-﻿
-namespace Idea 
-{
-    class Program
-    {
-        static void Main()
-        {
-            Idea idea = new Idea("wfeeeeeeee", true);
-            string str = " hello! ";
-            byte[] bytes = System.Text.Encoding.ASCII.GetBytes(str);
-            var bb = idea.crypt(bytes);
+﻿using System.Text;
+using lab5;
 
-            Console.WriteLine(System.Text.Encoding.ASCII.GetString(bb));
+var inputText = File.ReadAllText(@"..\source.txt");
 
-            Idea idea1 = new Idea("wfeeeeeeee", false);
-            var aa = idea1.crypt(bytes);
+var key = Idea.CreateRandomKey(16);
+var ideaCrypt = new Idea(key, true);
+var encoded = ideaCrypt.Crypt(inputText.Select(x => (byte)x).ToArray());
+Console.WriteLine(Encoding.ASCII.GetString(encoded.ToArray()));
 
-            Console.WriteLine(System.Text.Encoding.ASCII.GetString(aa));
-        }
-    }
-}
+
+var ideaDecrypt = new Idea(key, false);
+var decoded = ideaDecrypt.Crypt(encoded);
+Console.WriteLine(Encoding.ASCII.GetString(decoded.ToArray()));

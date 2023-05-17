@@ -1,112 +1,129 @@
-﻿using System;
+﻿using System.Security.Cryptography;
+using System.Text;
 
-namespace Idea { 
+namespace lab5
+{
     public class Idea
     {
-        internal static int rounds = 8;
-        internal int[] subKey;
-        
-        public Idea(String charKey, bool encrypt)
+        public static int Rounds = 8;
+        public int[] SubKey;
+
+        public static byte[] GetHash(string inputString)
         {
-            byte[] key = generateUserKeyFromCharKey(charKey);
-            int[] tempSubKey = expandUserKey(key);
-            if (encrypt)
-            {
-                subKey = tempSubKey;
-            }
-            else
-            {
-                subKey = invertSubKey(tempSubKey);
-            }
+            using var algorithm = SHA256.Create();
+            return algorithm.ComputeHash(Encoding.UTF8.GetBytes(inputString));
         }
 
-        public byte[] crypt(byte[] data, int dataPos = 0)
+        public static string GetHashString(string inputString)
         {
-            int x0 = ((data[dataPos + 0] & 0xFF) << 8) | (data[dataPos + 1] & 0xFF);
-            int x1 = ((data[dataPos + 2] & 0xFF) << 8) | (data[dataPos + 3] & 0xFF);
-            int x2 = ((data[dataPos + 4] & 0xFF) << 8) | (data[dataPos + 5] & 0xFF);
-            int x3 = ((data[dataPos + 6] & 0xFF) << 8) | (data[dataPos + 7] & 0xFF);
-            int p = 0;
-            for (int round = 0; round < rounds; round++)
+            var sb = new StringBuilder();
+            foreach (var b in GetHash(inputString))
+                sb.Append(b.ToString("X2"));
+
+            return sb.ToString();
+        }
+
+        public static string CreateRandomKey(int maxLength = 100)
+        {
+            var r = new Random();
+            return GetHashString(Enumerable.Range(0, maxLength).Aggregate(string.Empty, (current, _) => current + (char)r.Next(68, 90)))[..maxLength];
+        }
+        public Idea(string charKeyLength, bool encrypt)
+        {
+            var key = GenerateUserKeyFromCharKey(charKeyLength);
+            var tempSubKey = ExpandUserKey(key);
+            SubKey = encrypt ? tempSubKey : InvertSubKey(tempSubKey);
+        }
+
+        public byte[] Crypt(byte[] data, int dataPos = 0)
+        {
+            for (var i = 0; i < data.Length - 8; i += 8)
             {
-                int y0 = mul(x0, subKey[p++]);
-                int y1 = add(x1, subKey[p++]);
-                int y2 = add(x2, subKey[p++]);
-                int y3 = mul(x3, subKey[p++]);
+                var x0 = ((data[dataPos + 0] & 0xFF) << 8) | (data[dataPos + 1] & 0xFF);
+                var x1 = ((data[dataPos + 2] & 0xFF) << 8) | (data[dataPos + 3] & 0xFF);
+                var x2 = ((data[dataPos + 4] & 0xFF) << 8) | (data[dataPos + 5] & 0xFF);
+                var x3 = ((data[dataPos + 6] & 0xFF) << 8) | (data[dataPos + 7] & 0xFF);
+                var p = 0;
+                for (var round = 0; round < Rounds; round++)
+                {
+                    var y0 = Mul(x0, SubKey[p++]);
+                    var y1 = Add(x1, SubKey[p++]);
+                    var y2 = Add(x2, SubKey[p++]);
+                    var y3 = Mul(x3, SubKey[p++]);
+                    var t0 = Mul(y0 ^ y2, SubKey[p++]);
+                    var t1 = Add(y1 ^ y3, t0);
+                    var t2 = Mul(t1, SubKey[p++]);
+                    var t3 = Add(t0, t2);
+                    x0 = y0 ^ t2;
+                    x1 = y2 ^ t2;
+                    x2 = y1 ^ t3;
+                    x3 = y3 ^ t3;
+                }
 
-                int t0 = mul(y0 ^ y2, subKey[p++]);
-                int t1 = add(y1 ^ y3, t0);
-                int t2 = mul(t1, subKey[p++]);
-                int t3 = add(t0, t2);
+                var r0 = Mul(x0, SubKey[p++]);
+                var r1 = Add(x2, SubKey[p++]);
+                var r2 = Add(x1, SubKey[p++]);
+                var r3 = Mul(x3, SubKey[p++]);
 
-                x0 = y0 ^ t2;
-                x1 = y2 ^ t2;
-                x2 = y1 ^ t3;
-                x3 = y3 ^ t3;
+                data[dataPos + 0] = (byte)(r0 >> 8);
+                data[dataPos + 1] = (byte)r0;
+                data[dataPos + 2] = (byte)(r1 >> 8);
+                data[dataPos + 3] = (byte)r1;
+                data[dataPos + 4] = (byte)(r2 >> 8);
+                data[dataPos + 5] = (byte)r2;
+                data[dataPos + 6] = (byte)(r3 >> 8);
+                data[dataPos + 7] = (byte)r3;
+
+                dataPos += 8;
+                dataPos = Math.Clamp(dataPos, 0, data.Length - 8);
             }
-            int r0 = mul(x0, subKey[p++]);
-            int r1 = add(x2, subKey[p++]);
-            int r2 = add(x1, subKey[p++]);
-            int r3 = mul(x3, subKey[p++]);
-
-            data[dataPos + 0] = (byte)(r0 >> 8);
-            data[dataPos + 1] = (byte)r0;
-            data[dataPos + 2] = (byte)(r1 >> 8);
-            data[dataPos + 3] = (byte)r1;
-            data[dataPos + 4] = (byte)(r2 >> 8);
-            data[dataPos + 5] = (byte)r2;
-            data[dataPos + 6] = (byte)(r3 >> 8);
-            data[dataPos + 7] = (byte)r3;
 
             return data;
         }
 
-        private static int[] expandUserKey(byte[] userKey)
+        private static int[] ExpandUserKey(byte[] userKey)
         {
-            if (userKey.Length != 16)
-            {
-                throw new ArgumentException("Key length must be 128 bit", "key");
-            }
-            int[] key = new int[rounds * 6 + 4];
-            for (int i = 0; i < userKey.Length / 2; i++)
-            {
+            var key = new int[Rounds * 6 + 4];
+            for (var i = 0; i < userKey.Length / 2; i++)
                 key[i] = ((userKey[2 * i] & 0xFF) << 8) | (userKey[2 * i + 1] & 0xFF);
-            }
-            for (int i = userKey.Length / 2; i < key.Length; i++)
-            {
+
+            for (var i = userKey.Length / 2; i < key.Length; i++)
                 key[i] = ((key[(i + 1) % 8 != 0 ? i - 7 : i - 15] << 9) | (key[(i + 2) % 8 < 2 ? i - 14 : i - 6] >> 7)) & 0xFFFF;
-            }
+
             return key;
         }
-        private static int[] invertSubKey(int[] key)
+
+        private static int[] InvertSubKey(int[] key)
         {
-            int[] invKey = new int[key.Length];
-            int p = 0;
-            int i = rounds * 6;
-            invKey[i + 0] = mulInv(key[p++]);
-            invKey[i + 1] = addInv(key[p++]);
-            invKey[i + 2] = addInv(key[p++]);
-            invKey[i + 3] = mulInv(key[p++]);
-            for (int r = rounds - 1; r >= 0; r--)
+            var invKey = new int[key.Length];
+            var p = 0;
+            var i = Rounds * 6;
+            invKey[i + 0] = MulInv(key[p++]);
+            invKey[i + 1] = AddInv(key[p++]);
+            invKey[i + 2] = AddInv(key[p++]);
+            invKey[i + 3] = MulInv(key[p++]);
+            for (var r = Rounds - 1; r >= 0; r--)
             {
                 i = r * 6;
-                int m = r > 0 ? 2 : 1;
-                int n = r > 0 ? 1 : 2;
+                var m = r > 0 ? 2 : 1;
+                var n = r > 0 ? 1 : 2;
                 invKey[i + 4] = key[p++];
                 invKey[i + 5] = key[p++];
-                invKey[i + 0] = mulInv(key[p++]);
-                invKey[i + m] = addInv(key[p++]);
-                invKey[i + n] = addInv(key[p++]);
-                invKey[i + 3] = mulInv(key[p++]);
+                invKey[i + 0] = MulInv(key[p++]);
+                invKey[i + m] = AddInv(key[p++]);
+                invKey[i + n] = AddInv(key[p++]);
+                invKey[i + 3] = MulInv(key[p++]);
             }
+
             return invKey;
         }
 
-        private static int add(int a, int b)
+        private static int Add(int a, int b)
         {
             return (a + b) & 0xFFFF;
         }
-        private static int mul(int a, int b)
+
+        private static int Mul(int a, int b)
         {
             long r = (long)a * b;
             if (r != 0)
@@ -119,56 +136,57 @@ namespace Idea {
             }
         }
 
-        private static int addInv(int x)
+        private static int AddInv(int x)
         {
             return (0x10000 - x) & 0xFFFF;
         }
-        private static int mulInv(int x)
+
+        private static int MulInv(int x)
         {
             if (x <= 1)
-            {
                 return x;
-            }
-            int y = 0x10001;
-            int t0 = 1;
-            int t1 = 0;
+
+            var y = 0x10001;
+            var t0 = 1;
+            var t1 = 0;
+
             while (true)
             {
                 t1 += y / x * t0;
                 y %= x;
                 if (y == 1)
-                {
                     return 0x10001 - t1;
-                }
+
                 t0 += x / y * t1;
                 x %= y;
                 if (x == 1)
-                {
                     return t0;
-                }
             }
         }
-        private static byte[] generateUserKeyFromCharKey(String charKey)
-        {
-            int nofChar = 0x7E - 0x21 + 1;   
-            int[] a = new int[8];
-            for (int p = 0; p < charKey.Length; p++)
-            {
-                int c = charKey[p];
 
-                for (int i = a.Length - 1; i >= 0; i--)
+        private static byte[] GenerateUserKeyFromCharKey(string charKey)
+        {
+            var nofChar = 0x7E - 0x21 + 1;
+            var a = new int[8];
+            foreach (var t in charKey)
+            {
+                var c = (int)t;
+
+                for (var i = a.Length - 1; i >= 0; i--)
                 {
                     c += a[i] * nofChar;
                     a[i] = c & 0xFFFF;
                     c >>= 16;
                 }
             }
-            byte[] key = new byte[16];
-            for (int i = 0; i < 8; i++)
+
+            var key = new byte[16];
+            for (var i = 0; i < 8; i++)
             {
                 key[i * 2] = (byte)(a[i] >> 8);
                 key[i * 2 + 1] = (byte)a[i];
             }
+
             return key;
         }
     }
