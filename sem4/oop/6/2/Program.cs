@@ -13,10 +13,43 @@ namespace films
             //Console.WriteLine("Enter length of templates arrays: ");
             //int.TryParse(Console.ReadLine(), out int arrayLength);
 
-            Template<int> intArray = new Template<int>(5); 
-            Template<char> charArray = new Template<char>(5); 
-            Template<FavoriteFilm> favoriteFilmArray = new Template<FavoriteFilm>(5); 
-            Template<BlockedFilm> blockedFilmArray = new Template<BlockedFilm>(5); 
+            Template<int> intArray = new Template<int>(5);
+
+            Console.WriteLine("Input int array");
+            for (int i = 0; i < intArray.GetArrayLength(); i++)
+            {
+                int number = 0;
+                int.TryParse(Console.ReadLine(), out number);
+                intArray.SetByIndex(i, number);
+            }
+
+            Template<char> charArray = new Template<char>(5);
+
+            Console.WriteLine("Input char array");
+            for (int i = 0; i < intArray.GetArrayLength(); i++)
+            {
+                char bykva = 'a';
+                char.TryParse(Console.ReadLine(), out bykva);
+                charArray.SetByIndex(i, bykva);
+            }
+
+            Template<FavoriteFilm> favoriteFilmArray = new Template<FavoriteFilm>(5);
+
+            for (int i = 0; i < intArray.GetArrayLength(); i++)
+            {
+                FavoriteFilm favoriteFilm = new FavoriteFilm("FILM 1", 2003, "NORMALNYY", 99, "AFRICA", "BEST FILM EVER");
+                favoriteFilmArray.SetByIndex(i, favoriteFilm);
+            }
+
+            Template<BlockedFilm> blockedFilmArray = new Template<BlockedFilm>(5);
+
+            for (int i = 0; i < intArray.GetArrayLength(); i++)
+            {
+                BlockedFilm blockedFilm = new BlockedFilm("FILM 2", 2003, "NE NORMALNIY", 2, "AFRICA", "WORST FILM EVER");
+                blockedFilmArray.SetByIndex(i, blockedFilm);
+            }
+
+            Template<int>.templateMenu(intArray, charArray, favoriteFilmArray, blockedFilmArray);
 
             //Template<int> t = new Template<int>(3);
             //t.SetToIndex(0, 2);
@@ -30,6 +63,9 @@ namespace films
             bool MenuCycle = true;
             while (MenuCycle)
             {
+                if (Template<int>.templateMenu(intArray, charArray, favoriteFilmArray, blockedFilmArray)) continue;
+
+
                 Console.WriteLine("\tSelect operation\n" +
                 "[1] - add\n" +
                 "[2] - info all\n" +
@@ -82,151 +118,7 @@ namespace films
                         catalog.UseOperators(catalog);
                         break;
                     case 8:
-
-                        Console.WriteLine("\tSelect template operation\n" +
-                            "[1] - set array element\n" +
-                            "[2] - max array element\n" +
-                            "[3] - min array element\n" +
-                            "[4] - get array element\n" +
-                            "[5] - sort array\n"); 
-                            //"[6] - see arrays");
-
-                        if (int.TryParse(Console.ReadLine(), out int templateChoise))
-                        {
-                            switch (templateChoise)
-                            {
-                                case 1:
-                                    Console.WriteLine("\tSelect array\n" + 
-                                        "[1] - Integer array\n" + 
-                                        "[2] - Char array\n" + 
-                                        "[3] - Favorite film array\n" + 
-                                        "[4] - Blocked film array\n");
-                                    if (int.TryParse(Console.ReadLine(), out int setArrayTypeChoise))
-                                    {
-                                        Console.WriteLine("Enter element index");
-                                        int.TryParse(Console.ReadLine(), out int index);
-                                        switch (setArrayTypeChoise)
-                                        {
-                                            case 1:
-                                                Console.WriteLine("Enter number");
-                                                int.TryParse(Console.ReadLine(), out int intElement);
-                                                intArray.SetToIndex(index, intElement);
-                                                break;
-                                            case 2:
-                                                Console.WriteLine("Enter symbol");
-                                                char.TryParse(Console.ReadLine(), out char charElement);
-                                                charArray.SetToIndex(index, charElement);
-                                                break;
-                                            case 3:
-                                                FavoriteFilm film = new FavoriteFilm();
-                                                favoriteFilmArray.SetToIndex(index, film);
-                                                break;
-                                            case 4:
-                                                BlockedFilm blockedFilm = new BlockedFilm();
-                                                blockedFilmArray.SetToIndex(index, blockedFilm);
-                                                break;
-                                        }
-                                    }
-                                    break;
-
-                                  case 2:
-                                    Console.WriteLine("\tSelect array\n" +
-                                        "[1] - Integer array\n"
-                                        + "[2] - Char array\n"
-                                        + "[3] - Favorite film array\n"
-                                        + "[4] - Blocked film array\n");
-                                    if (int.TryParse(Console.ReadLine(), out int maxChoise))
-                                        switch (maxChoise)
-                                        {
-                                            case 1:
-                                                Console.WriteLine(intArray.max());
-                                                break;
-                                            case 2:
-                                                Console.WriteLine(charArray.max());
-                                                break;
-                                            case 3:
-                                                favoriteFilmArray.max().SeeInfo();
-                                                break;
-                                            case 4:
-                                                blockedFilmArray.max().SeeInfo();
-                                                break;
-                                        }
-                                    break;
-
-                                  case 3:
-                                    if (int.TryParse(Console.ReadLine(), out int minChoise))
-                                        switch (minChoise)
-                                        {
-                                            case 1:
-                                                Console.WriteLine(intArray.min());
-                                                break;
-                                            case 2:
-                                                Console.WriteLine(charArray.min());
-                                                break;
-                                            case 3:
-                                                favoriteFilmArray.min().SeeInfo();
-                                                break;
-                                            case 4:
-                                                blockedFilmArray.min().SeeInfo();
-                                                break;
-                                        }
-                                        break;
-
-                                  case 4:
-                                    Console.WriteLine("\tSelect array\n" +
-                                    "[1] - Integer array\n" +
-                                    "[2] - Char array\n" +
-                                    "[3] - Favorite film array\n" +
-                                    "[4] - Blocked film array\n");
-                                    if (int.TryParse(Console.ReadLine(), out int getArrayTypeChoise))
-                                    {
-                                        Console.WriteLine("Enter element index");
-                                        int.TryParse(Console.ReadLine(), out int index);
-                                        switch (getArrayTypeChoise)
-                                        {
-                                            case 1:
-                                                Console.WriteLine(intArray.GetFromIndex(index));
-                                                break;
-                                            case 2:
-                                                Console.WriteLine(charArray.GetFromIndex(index));
-                                                break;
-                                            case 3:
-                                                //Console.WriteLine(favoriteFilmArray.GetFromIndex(index));
-                                                favoriteFilmArray.GetElement(index).SeeInfo();
-                                                break;
-                                            case 4:
-                                                //Console.WriteLine(blockedFilmArray.GetFromIndex(index));
-                                                blockedFilmArray.GetElement(index).SeeInfo();
-                                                break;
-                                        }
-                                    }
-                                    break;
-
-                                case 5:
-                                    Console.WriteLine("\tSelect array\n" +
-                                    "[1] - Integer array\n" +
-                                    "[2] - Char array\n" +
-                                    "[3] - Favorite film array\n" +
-                                    "[4] - Blocked film array\n");
-                                    if (int.TryParse(Console.ReadLine(), out int sortChoise))
-                                        switch (sortChoise)
-                                        {
-                                            case 1:
-                                                intArray.Sort();
-                                                break;
-                                            case 2:
-                                                charArray.Sort();
-                                                break;
-                                            case 3:
-                                                favoriteFilmArray.Sort();
-                                                break;
-                                            case 4:
-                                                blockedFilmArray.Sort();
-                                                break;
-                                        }
-                                    break;
-                            }
-                        }
+                        Template<int>.templateMenu(intArray, charArray, favoriteFilmArray, blockedFilmArray);
                         break;
                     case -1:
                         MenuCycle = false;
