@@ -17,7 +17,7 @@ body {
     left: 274px;
     top: 40px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -34,7 +34,7 @@ body {
     left: 463px;
     top: 40px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -52,7 +52,7 @@ body {
     left: 585px;
     top: 40px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -70,7 +70,7 @@ body {
     left: 736px;
     top: 40px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -87,7 +87,7 @@ body {
     left: 123px;
     top: 281px;
 
-    font-family: 'Anton';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
@@ -107,7 +107,7 @@ body {
     left: 150px;
     top: 466px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -125,7 +125,7 @@ body {
     left: 123px;
     top: 518px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -143,7 +143,7 @@ body {
     left: 269px;
     top: 810px;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -171,7 +171,6 @@ body {
     left: 86px;
     top: 21px;
 
-    /* background: url(камреа.png); */
 }
 
 .инстаграм {
@@ -180,8 +179,6 @@ body {
     height: 41px;
     left: 1849px;
     top: 386px;
-
-    /* background: url(иснтсаграмм.png); */
 }
 
 .вибер {
@@ -190,8 +187,6 @@ body {
     height: 65px;
     left: 1838px;
     top: 444px;
-
-    /* background: url(вибер.png); */
 }
 
 .самолёт {
@@ -238,4 +233,474 @@ body {
 
     border: 3px solid #136B04;
     transform: rotate(90deg);
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 1903px;
+    height: 1080px;
+    left: 0px;
+    top: 1080px;
+
+    background: #EFEFEF;
+}
+
+.услуги {
+    position: absolute;
+    width: 181px;
+    height: 39px;
+    left: 869px;
+    top: 1134px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.портрет {
+    position: absolute;
+    width: 133px;
+    height: 39px;
+    left: 220px;
+    top: 1727px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.портрет_текст {
+    position: absolute;
+    width: 344px;
+    height: 24px;
+    left: 128px;
+    top: 1789px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.портрет_картинка {
+    position: absolute;
+    width: 318px;
+    height: 212px;
+    left: 128px;
+    top: 1463px;
+
+    background: url(портрет.png);
+}
+
+.семфото {
+    position: absolute;
+    width: 244px;
+    height: 39px;
+    left: 835px;
+    top: 1727px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.семфото_текст {
+    position: absolute;
+    width: 253px;
+    height: 48px;
+    left: 833px;
+    top: 1789px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.семфото_картинка {
+    position: absolute;
+    width: 317.5px;
+    height: 212px;
+    left: 801px;
+    top: 1463px;
+
+    background: url(фэмилу.png);
+}
+
+.видеосъемка {
+    position: absolute;
+    width: 214px;
+    height: 39px;
+    left: 1526px;
+    top: 1727px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.видеосъемка_текст {
+    position: absolute;
+    width: 385px;
+    height: 48px;
+    left: 1462px;
+    top: 1789px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.видеосъемка_картинка {
+    position: absolute;
+    width: 318.44px;
+    height: 212px;
+    left: 1474px;
+    top: 1463px;
+
+    background: url(видево.png);
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 1903px;
+    height: 1080px;
+    left: 0px;
+    top: 2160px;
+
+    background: #D9D9D9;
+}
+
+.Обо_мне {
+    position: absolute;
+    width: 133px;
+    height: 39px;
+    left: 893px;
+    top: 2212px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.обо_мне_текст1 {
+    position: absolute;
+    width: 596px;
+    height: 48px;
+    left: 112px;
+    top: 2381px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.обо_мне_текст2 {
+    position: absolute;
+    width: 547px;
+    height: 48px;
+    left: 112px;
+    top: 2480px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.обо_мне_текст3 {
+    position: absolute;
+    width: 592px;
+    height: 48px;
+    left: 112px;
+    top: 2579px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.обо_мне_текст4 {
+    position: absolute;
+    width: 582px;
+    height: 24px;
+    left: 108px;
+    top: 2678px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.обо_мне_текст5 {
+    position: absolute;
+    width: 277px;
+    height: 24px;
+    left: 108px;
+    top: 2753px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.обо_мне_фото {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 1155px;
+    top: 2353px;
+
+    background: url(фото.png);
+}
+
+.записаться_кнопка {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 427px;
+    height: 81px;
+    left: 172px;
+    top: 2912px;
+
+    border-width: 4px 6px 4px 1px;
+    border-style: solid;
+    border-color: #323232;
+}
+
+.записаться_текст {
+    position: absolute;
+    width: 136px;
+    height: 29px;
+    left: 318px;
+    top: 2938px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 1903px;
+    height: 1080px;
+    left: 0px;
+    top: 3240px;
+
+    background: #FFFFFF;
+}
+
+.отзывы2 {
+    position: absolute;
+    width: 124px;
+    height: 39px;
+    left: 898px;
+    top: 3292px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Антон {
+    position: absolute;
+    width: 265px;
+    height: 39px;
+    left: 242px;
+    top: 3889px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Антон_текст {
+    position: absolute;
+    width: 429px;
+    height: 48px;
+    left: 160px;
+    top: 3954px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.Антон_картинка {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 225px;
+    top: 3519px;
+
+    background: url(жмайсымба);
+}
+
+.Дмитрий {
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 828px;
+    top: 3889px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Дмитрий_текст {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 810px;
+    top: 3954px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.Дмитрий_картинка {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 810px;
+    top: 3519px;
+
+    background: url(керил);
+}
+
+.Игорь {
+    position: absolute;
+    width: 195px;
+    height: 39px;
+    left: 1412px;
+    top: 3889px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Игорь_текст {
+    position: absolute;
+    width: 351px;
+    height: 24px;
+    left: 1334px;
+    top: 3954px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.Игорь_картинка {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1360px;
+    top: 3519px;
+
+    background: url(терминатор);
 }
