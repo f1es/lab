@@ -131,7 +131,8 @@ namespace films
                             "[4] - get array element\n" +
                             "[5] - sort array\n" +
                             "[6] - other operations\n" +
-                            "[7] - see all arrays");
+                            "[7] - see all arrays\n" +
+                            "[8] - find element");
             //"[6] - see arrays");
 
             if (int.TryParse(Console.ReadLine(), out int templateChoise))
@@ -287,6 +288,34 @@ namespace films
 
                     case 7:
                         Template<int>.SeeArrays(intArray, charArray, favoriteFilmArray, blockedFilmArray);
+                        return true;
+
+                    case 8:
+                        Console.WriteLine("\tSelect array\n" +
+                       "[1] - Integer array\n" +
+                       "[2] - Char array\n" +
+                       "[3] - Favorite film array\n" +
+                       "[4] - Blocked film array\n");
+                        if (int.TryParse(Console.ReadLine(), out int findChoise))
+                            switch (findChoise)
+                            {
+                                case 1:
+                                    Console.WriteLine("Enter number");
+                                    int.TryParse(Console.ReadLine(), out int number);
+                                    Console.WriteLine(intArray.findItem(intArray, number));
+                                    return true;
+                                case 2:
+                                    Console.WriteLine("Enter symbol");
+                                    char.TryParse(Console.ReadLine(), out char symbol);
+                                    Console.WriteLine(charArray.findItem(charArray, symbol));
+                                    return true;
+                                case 3:
+                                    Console.WriteLine( favoriteFilmArray.findItem(favoriteFilmArray, new FavoriteFilm()) );
+                                    return true;
+                                case 4:
+                                    Console.WriteLine( blockedFilmArray.findItem(blockedFilmArray, new BlockedFilm()) );
+                                    return true;
+                            }
                         return true;
                 }
             }
