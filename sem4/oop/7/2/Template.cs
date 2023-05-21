@@ -39,7 +39,7 @@ namespace films
         {
             if (TArray.Length == 0)
             {
-                EmptyListException error = new EmptyListException("Array is empty");
+                Exceptions error = new Exceptions("Array is empty");
                 Console.WriteLine($"The exception was thrown: {error.Message}");
                 return;
             }

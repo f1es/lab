@@ -1,12 +1,12 @@
 ﻿namespace films;
-public class EmptyListException : Exception
+public class Exceptions : Exception
 {
-    public EmptyListException(string message)
+    public Exceptions(string message)
         : base(message)
     {
     }
 
-    public EmptyListException(string message, Exception inner)
+    public Exceptions(string message, Exception inner)
         : base(message, inner)
     {
     }
