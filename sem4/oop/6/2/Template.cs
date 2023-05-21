@@ -174,46 +174,25 @@ namespace films
                         return true;
 
                     case 2:
-                        Console.WriteLine("\tSelect array\n"
-                            + "[1] - Integer array\n"
-                            + "[2] - Char array\n"
-                            + "[3] - Favorite film array\n"
-                            + "[4] - Blocked film array\n");
-                        if (int.TryParse(Console.ReadLine(), out int maxChoise))
-                            switch (maxChoise)
-                            {
-                                case 1:
-                                    Console.WriteLine(intArray.max());
-                                    return true;
-                                case 2:
-                                    Console.WriteLine(charArray.max());
-                                    return true;
-                                case 3:
-                                    favoriteFilmArray.max().SeeInfo();
-                                    return true;
-                                case 4:
-                                    blockedFilmArray.max().SeeInfo();
-                                    return true;
-                            }
+                        Console.WriteLine($"Maximum element in integer array: {intArray.max()}");
+                        Console.WriteLine($"Maximum elemnt in char array: {charArray.max()}");
+
+                        Console.WriteLine($"Maximum element in favoriteFilmArray array:");
+                        favoriteFilmArray.max().SeeInfo();
+
+                        Console.WriteLine($"Maximum element in blockedFilmArray array:");
+                        blockedFilmArray.max().SeeInfo();
                         return true;
 
                     case 3:
-                        if (int.TryParse(Console.ReadLine(), out int minChoise))
-                            switch (minChoise)
-                            {
-                                case 1:
-                                    Console.WriteLine(intArray.min());
-                                    return true;
-                                case 2:
-                                    Console.WriteLine(charArray.min());
-                                    return true;
-                                case 3:
-                                    favoriteFilmArray.min().SeeInfo();
-                                    return true;
-                                case 4:
-                                    blockedFilmArray.min().SeeInfo();
-                                    return true;
-                            }
+                        Console.WriteLine($"Minimum element in integer array: {intArray.min()}");
+                        Console.WriteLine($"Minimum element in char array: {charArray.min()}");
+
+                        Console.WriteLine("Minimum element in favoriteFilmArray array:");
+                        favoriteFilmArray.min().SeeInfo();
+
+                        Console.WriteLine("Minimum element in blockedFilmArray array:");
+                        blockedFilmArray.min().SeeInfo();
                         return true;
 
                     case 4:
@@ -260,36 +239,18 @@ namespace films
                         return true;
 
                     case 5:
-                        Console.WriteLine("\tSelect array\n" +
-                        "[1] - Integer array\n" +
-                        "[2] - Char array\n" +
-                        "[3] - Favorite film array\n" +
-                        "[4] - Blocked film array\n");
-                        if (int.TryParse(Console.ReadLine(), out int sortChoise))
-                            switch (sortChoise)
-                            {
-                                case 1:
-                                    intArray.Sort();
-                                    return true;
-                                case 2:
-                                    charArray.Sort();
-                                    return true;
-                                case 3:
-                                    favoriteFilmArray.Sort();
-                                    return true;
-                                case 4:
-                                    blockedFilmArray.Sort();
-                                    return true;
-                            }
+                        intArray.Sort();
+                        charArray.Sort();
+                        favoriteFilmArray.Sort();
+                        blockedFilmArray.Sort();
+                        Console.WriteLine("Sorted arrays: ");
+                        Template<int>.SeeArrays(intArray, charArray, favoriteFilmArray, blockedFilmArray);
                         return true;
-
                     case 6:
                         return false;
-
                     case 7:
                         Template<int>.SeeArrays(intArray, charArray, favoriteFilmArray, blockedFilmArray);
                         return true;
-
                     case 8:
                         Console.WriteLine("\tSelect array\n" +
                        "[1] - Integer array\n" +
