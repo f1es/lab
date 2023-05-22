@@ -43,7 +43,7 @@ namespace films
                 Console.WriteLine($"The exception was thrown: {error.Message}");
                 return;
             }
-            //if (CorrectInput.InRange(0, TArray.Length - 1, index))
+            if (CorrectInput.InRange(0, TArray.Length - 1, index))
                 TArray[index] = element;
             //else
             //    Console.WriteLine("Index was outside of array");

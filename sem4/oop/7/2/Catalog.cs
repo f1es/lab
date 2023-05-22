@@ -67,12 +67,10 @@ namespace films
                     Console.WriteLine("Enter film second id");
                     int.TryParse(Console.ReadLine(), out int secondId);
 
-                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
-                    {
-                        if (filmList[firstId] == filmList[secondId]) Console.WriteLine("Films are equal");
-                        else Console.WriteLine("Films are different");
-                    }
-                    else Console.WriteLine("Incorrect film number");
+
+                    if (filmList[firstId] == filmList[secondId]) Console.WriteLine("Films are equal");
+                    else Console.WriteLine("Films are different");
+                    
                     break;
                 case 4:
                     Console.WriteLine("Enter film fisrt id");
@@ -80,12 +78,10 @@ namespace films
                     Console.WriteLine("Enter film second id");
                     int.TryParse(Console.ReadLine(), out secondId);
 
-                    if (CorrectInput.InRange(0, filmList.Count - 1, firstId) && CorrectInput.InRange(0, filmList.Count - 1, secondId))
-                    {
-                        if (filmList[firstId] < filmList[secondId]) Console.WriteLine("First film raiting less than second");
-                        else Console.WriteLine("First film raiting more than second");
-                    }
-                    else Console.WriteLine("Incorrect film number");
+
+                    if (filmList[firstId] < filmList[secondId]) Console.WriteLine("First film raiting less than second");
+                    else Console.WriteLine("First film raiting more than second");
+                    
                     break;
                 case 5:
                     Console.WriteLine("Enter film fisrt id");

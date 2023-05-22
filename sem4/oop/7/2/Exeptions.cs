@@ -4,6 +4,7 @@ public class Exceptions : Exception
     public Exceptions(string message)
         : base(message)
     {
+        Console.WriteLine(message);
     }
 
     public Exceptions(string message, Exception inner)
