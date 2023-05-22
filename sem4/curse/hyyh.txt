@@ -1,0 +1,68 @@
+=====network 2=====
+ip dhcp pool vlan1
+network 10.11.0.1 255.255.255.248
+default-router 10.11.0.1
+
+ip dhcp pool vlan2
+network 10.11.0.9 255.255.255.248
+default-router 10.11.0.9
+
+ip dhcp pool vlan3
+network 10.11.0.17 255.255.255.240
+default-router 10.11.0.17
+
+ip dhcp pool vlan4
+network 10.11.0.33 255.255.255.224
+default-router 10.11.0.33
+
+ip dhcp pool vlan5
+network 10.11.0.65 255.255.255.192
+default-router 10.11.0.65
+
+ip dhcp pool vlan6
+network 10.11.0.129 255.255.255.128
+default-router 10.11.0.129
+
+ip dhcp pool vlan7
+network 10.11.1.1 255.255.255.248
+default-router 10.11.1.1
+
+ip dhcp pool vlan8
+network 10.11.1.9 255.255.255.248
+default-router 10.11.1.9
+
+=====network 3=====
+ip dhcp pool vlan1
+network 10.12.0.1 255.255.255.248
+default-router 10.12.0.1
+
+ip dhcp pool vlan2
+network 10.12.0.9 255.255.255.248
+default-router 10.12.0.9
+
+ip dhcp pool vlan3
+network 10.12.0.17 255.255.255.240
+default-router 10.12.0.17
+
+ip dhcp pool vlan4
+network 10.12.0.33 255.255.255.224
+default-router 10.12.0.33
+
+ip dhcp pool vlan5
+network 10.12.0.65 255.255.255.192
+default-router 10.12.0.65
+
+ip dhcp pool vlan6
+network 10.12.0.129 255.255.255.128
+default-router 10.12.0.129
+
+ip dhcp pool vlan7
+network 10.12.1.1 255.255.255.248
+default-router 10.12.1.1
+
+ip dhcp pool vlan8
+network 10.12.1.9 255.255.255.248
+default-router 10.12.1.9
+
+enable
+conf t
