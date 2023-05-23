@@ -64,5 +64,14 @@ ip dhcp pool vlan8
 network 10.12.1.9 255.255.255.248
 default-router 10.12.1.9
 
+=====network 1=====
+ip dhcp pool vlan1
+network 10.10.0.1 255.255.255.248
+default-router 10.10.0.1
+
 enable
 conf t
+
+ip dhcp pool vlan1
+network 10.12.1.1 255.255.255.248
+default-router 10.12.1.1
