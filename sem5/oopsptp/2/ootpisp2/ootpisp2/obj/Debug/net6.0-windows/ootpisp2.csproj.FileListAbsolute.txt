@@ -1,0 +1,17 @@
+D:\VS\ootpisp2\ootpisp2\bin\Debug\net6.0-windows\ootpisp2.exe
+D:\VS\ootpisp2\ootpisp2\bin\Debug\net6.0-windows\ootpisp2.deps.json
+D:\VS\ootpisp2\ootpisp2\bin\Debug\net6.0-windows\ootpisp2.runtimeconfig.json
+D:\VS\ootpisp2\ootpisp2\bin\Debug\net6.0-windows\ootpisp2.dll
+D:\VS\ootpisp2\ootpisp2\bin\Debug\net6.0-windows\ootpisp2.pdb
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.csproj.AssemblyReference.cache
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.Form1.resources
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.csproj.GenerateResource.cache
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.AssemblyInfoInputs.cache
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.AssemblyInfo.cs
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.csproj.CoreCompileInputs.cache
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.dll
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\refint\ootpisp2.dll
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.pdb
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ootpisp2.genruntimeconfig.cache
+D:\VS\ootpisp2\ootpisp2\obj\Debug\net6.0-windows\ref\ootpisp2.dll

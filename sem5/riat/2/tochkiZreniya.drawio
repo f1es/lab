@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-10-27T12:21:07.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FEzZ3ZUR1ob3Foi604ua" version="22.0.8" type="device">
+  <diagram name="Страница — 1" id="Ro6F6ShhS-2aY7B_YuPp">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-1" value="Диспетчер" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-3" value="Водитель" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-5" value="Автомобиль" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-6" value="Рейс" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-7" value="Заявка" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="286.67" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-8" value="Распределяет заявки" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="170" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-9" value="Делает отметку о выполнении рейса" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="170" y="130" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-10" value="Выполняет рейс" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="326.66999999999996" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-11" value="Получает заявку на рейс" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="200" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-12" value="Принимает заявку" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="320" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-14" value="Отклоняет заявку" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="380" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-16" value="Регистрирует заявки" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="40" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-17" value="Выбор автомобиля для рейса" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-18" value="Отмечет состояние автомобиля" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="426.67" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZJ56O3d63KRpJ65gv4k-19" value="Определяет состояние" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#C4C4C4;" parent="1" vertex="1">
+          <mxGeometry x="439.99999999999994" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -8,7 +8,7 @@ const urlencodedParser = express.urlencoded({ extended: false });
 let result;
 
 app.get("/", function (request, response) {
-    response.sendFile(__dirname + "/todo.html");
+    response.sendFile(__dirname + "/index.html");
 });
 app.post("/", urlencodedParser, function (request, response) {
     if (!request.body) return response.sendStatus(400);

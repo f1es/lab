@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XBiuifZ2Y53RMaMp9Oi8W9c2CoxK2RF6ly1hZ2qE2pACT6XP1R8B2aKR0m6tQXmiTvkG53G0krSBQZ0DnmredA==",
+  "dgSpecHash": "QFxA1htyCy4ntTAheFVF7O7HuLXWUMTds4fUs7zZimTyP/a/UHZJdV6Rvn2BGDMKaLh3aP4aO1miZt5MJT+KVw==",
   "success": true,
-  "projectFilePath": "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
+  "projectFilePath": "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\илья флекс\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\илья флекс\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512"
+    "C:\\Users\\fles\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\fles\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj": {}
+    "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj": {}
   },
   "projects": {
-    "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj": {
+    "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
+        "projectUniqueName": "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
         "projectName": "gtkApp",
-        "projectPath": "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
-        "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-        "outputPath": "X:\\vs\\git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\obj\\",
+        "projectPath": "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\gtkApp.csproj",
+        "packagesPath": "C:\\Users\\fles\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\lab\\sem5\\sp\\3\\gtkApp\\gtkApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fles\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

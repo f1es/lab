@@ -1,0 +1,15 @@
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\bin\Debug\net6.0\sp4444.exe
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\bin\Debug\net6.0\sp4444.deps.json
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\bin\Debug\net6.0\sp4444.runtimeconfig.json
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\bin\Debug\net6.0\sp4444.dll
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\bin\Debug\net6.0\sp4444.pdb
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.csproj.AssemblyReference.cache
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.AssemblyInfoInputs.cache
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.AssemblyInfo.cs
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.dll
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\refint\sp4444.dll
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.pdb
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\sp4444.genruntimeconfig.cache
+D:\Git\lab\sem5\sp\4\sp4444\sp4444\obj\Debug\net6.0\ref\sp4444.dll

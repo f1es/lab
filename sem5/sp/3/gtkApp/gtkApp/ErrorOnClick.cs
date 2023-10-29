@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 using Cairo;
 using Gdk;
 using Gtk;
-using Color = Cairo.Color;
-using Key = Gdk.Key;
-using static Gdk.EventMask;
 
 public class ErrorOnClick : Gtk.Window
 {
-    public ErrorOnClick() : base("draw")
+    public ErrorOnClick() : base("error")
     {
         Resize(400, 400);
     }
@@ -20,7 +17,7 @@ public class ErrorOnClick : Gtk.Window
     {
         MessageDialog md = new MessageDialog(null, DialogFlags.DestroyWithParent, MessageType.Error, ButtonsType.Ok, "Произошла ошибка! Программа будет закрыта!");
         md.Run();
-        Close();
+        Application.Quit();
         return true;
     }
 }
