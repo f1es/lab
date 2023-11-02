@@ -61,15 +61,43 @@ class Student extends User
     }
 }
 
-$ivan = new Worker();
-$ivan->setName("Иван");
-$ivan->setAge(25);
-$ivan->setSalary(1000);
+class Driver extends Worker
+{
+    private $staj;
+    private $category ;
 
-$vasya = new Worker();
-$vasya->setName("Вася");
-$vasya->setAge(26);
-$vasya->setSalary(2000);
+    public function setStaj($_staj)
+    {
+        $this->staj = $_staj;
+    }
+    public function getStaj()
+    {
+        return $this->staj;
+    }
 
-echo "Зарплата Васи и Ивана :" . $ivan->getSalary() + $vasya->getSalary() . "\n";
-echo "Возраст Васи и Ивана :" . $ivan->getAge() + $vasya->getAge() . "\n";
+    public function setCategory($_category)
+    {
+        if ($this->checkCategory($_category))
+        {
+            $this->category = $_category;   
+        }
+
+    }
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    private function checkCategory($category)
+    {
+        return 
+        $category == "A" ||
+        $category == "B" ||
+        $category == "C" ? 
+        true : false;
+    }
+}
+
+$a = new Driver();
+$a->setCategory("Adsd");
+echo $a->getCategory();
