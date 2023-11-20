@@ -1,0 +1,23 @@
+yes
+ctrl z
+fg 1
+ctrl c
+
+fg 
+ctrl c
+
+yes 
+ctrl z
+yes
+ctrl z
+yes
+ctrl z
+killall yes
+
+nice -n 5 yes >yes &
+nice -n 10 yes >yes &
+ps alx
+
+at now +2 minute
+ps >student
+echo "Lab rab 3. Zadanie 20" >>student

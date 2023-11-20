@@ -1,0 +1,15 @@
+D:\Git\lab\sem5\sp\9\9999\9999\bin\Debug\net6.0\9999.exe
+D:\Git\lab\sem5\sp\9\9999\9999\bin\Debug\net6.0\9999.deps.json
+D:\Git\lab\sem5\sp\9\9999\9999\bin\Debug\net6.0\9999.runtimeconfig.json
+D:\Git\lab\sem5\sp\9\9999\9999\bin\Debug\net6.0\9999.dll
+D:\Git\lab\sem5\sp\9\9999\9999\bin\Debug\net6.0\9999.pdb
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.csproj.AssemblyReference.cache
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.AssemblyInfoInputs.cache
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.AssemblyInfo.cs
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.dll
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\refint\9999.dll
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.pdb
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\9999.genruntimeconfig.cache
+D:\Git\lab\sem5\sp\9\9999\9999\obj\Debug\net6.0\ref\9999.dll
