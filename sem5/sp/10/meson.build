@@ -1,0 +1,5 @@
+project('lab10', 'cpp')
+executable('server', 'server.cpp')
+executable('client', 'client.cpp')
+executable('writer', 'writer.cpp')
+executable('reader', 'reader.cpp')
