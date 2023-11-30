@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\ootpisp2\\ootpisp2\\ootpisp2.csproj",
+      "projectUniqueName": "D:\\Git\\lab\\sem5\\oopsptp\\2\\ootpisp2\\ootpisp2\\ootpisp2.csproj",
       "projectName": "ootpisp2",
-      "projectPath": "D:\\VS\\ootpisp2\\ootpisp2\\ootpisp2.csproj",
+      "projectPath": "D:\\Git\\lab\\sem5\\oopsptp\\2\\ootpisp2\\ootpisp2\\ootpisp2.csproj",
       "packagesPath": "C:\\Users\\fles\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\ootpisp2\\ootpisp2\\obj\\",
+      "outputPath": "D:\\Git\\lab\\sem5\\oopsptp\\2\\ootpisp2\\ootpisp2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fles\\AppData\\Roaming\\NuGet\\NuGet.Config",

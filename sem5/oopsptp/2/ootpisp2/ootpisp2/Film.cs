@@ -26,7 +26,7 @@ namespace ootpisp2
 
         public Film() 
         {
-            classNumber = Static.classCounter++;
+            classNumber = CorrectInput.classCounter++;
             className = "Film";
         }
         public bool AddName(string _name)

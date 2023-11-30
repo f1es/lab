@@ -45,7 +45,7 @@ namespace ootpisp2
             int.TryParse(InputName.Text, out int id);
             Form1.currentId = id;
             HideInput();
-            if (Static.InRange(0, catalog.Films.Count - 1, Form1.currentId))
+            if (CorrectInput.InRange(0, catalog.Films.Count - 1, Form1.currentId))
             {
                 CurrentIdLabel.Text = Form1.currentId.ToString();
             }
