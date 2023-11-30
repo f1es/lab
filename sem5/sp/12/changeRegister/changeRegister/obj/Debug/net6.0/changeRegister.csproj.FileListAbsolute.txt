@@ -1,0 +1,12 @@
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\bin\Debug\net6.0\changeRegister.deps.json
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\bin\Debug\net6.0\changeRegister.dll
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\bin\Debug\net6.0\changeRegister.pdb
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.csproj.AssemblyReference.cache
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.GeneratedMSBuildEditorConfig.editorconfig
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.AssemblyInfoInputs.cache
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.AssemblyInfo.cs
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.csproj.CoreCompileInputs.cache
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.dll
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\refint\changeRegister.dll
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\changeRegister.pdb
+X:\vs\git\lab\sem5\sp\12\changeRegister\changeRegister\obj\Debug\net6.0\ref\changeRegister.dll

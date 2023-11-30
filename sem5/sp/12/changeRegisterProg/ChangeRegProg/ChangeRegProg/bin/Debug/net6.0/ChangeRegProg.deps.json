@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ChangeRegProg/1.0.0": {
+        "dependencies": {
+          "changeRegister": "1.0.0"
+        },
+        "runtime": {
+          "ChangeRegProg.dll": {}
+        }
+      },
+      "changeRegister/1.0.0": {
+        "runtime": {
+          "changeRegister.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChangeRegProg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "changeRegister/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "changeRegister", "changeRegister\changeRegister.csproj", "{1EC28034-BD2D-4849-8186-45E5D540AC59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC28034-BD2D-4849-8186-45E5D540AC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC28034-BD2D-4849-8186-45E5D540AC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC28034-BD2D-4849-8186-45E5D540AC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC28034-BD2D-4849-8186-45E5D540AC59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50D10056-6A1E-4615-A201-549F184D5C71}
+	EndGlobalSection
+EndGlobal
