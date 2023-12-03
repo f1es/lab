@@ -12,11 +12,15 @@ namespace RegisterApp
 
         private void LowerRegisterButtonClick(object sender, EventArgs e)
         {
+            if (Clipboard.GetText().Length == 0)
+                return;
             string lowerString = Register.ToLowerReg(Clipboard.GetText()); 
             Clipboard.SetText(lowerString);
         }
         private void UpperRegisterButtonClick(object sender, EventArgs e)
         {
+            if (Clipboard.GetText().Length == 0)
+                return;
             string upperString = Register.ToUpperReg(Clipboard.GetText()); 
             Clipboard.SetText(upperString);
         }

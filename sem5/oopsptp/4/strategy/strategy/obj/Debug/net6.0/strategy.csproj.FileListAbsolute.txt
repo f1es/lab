@@ -1,0 +1,15 @@
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\bin\Debug\net6.0\strategy.exe
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\bin\Debug\net6.0\strategy.deps.json
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\bin\Debug\net6.0\strategy.runtimeconfig.json
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\bin\Debug\net6.0\strategy.dll
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\bin\Debug\net6.0\strategy.pdb
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.csproj.AssemblyReference.cache
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.AssemblyInfoInputs.cache
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.AssemblyInfo.cs
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.dll
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\refint\strategy.dll
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.pdb
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\strategy.genruntimeconfig.cache
+D:\Git\lab\sem5\oopsptp\4\strategy\strategy\obj\Debug\net6.0\ref\strategy.dll

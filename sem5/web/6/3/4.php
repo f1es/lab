@@ -6,12 +6,12 @@ function getFolderSize($file)
     foreach ($files as $file) {
         $totalSize += is_file($file) ? filesize($file) : getFolderSize($file);
     }
-    return $totalSize;
+    return $totalSize / 1024 / 1024;
 }
 
 $files = glob('test/*');
 foreach ($files as $file) {
     if(!is_file($file)){
-        echo "Размер папки " . $file . " - " . getFolderSize($file) . "<br>";
+        echo "Размер папки " . $file . " - " . getFolderSize($file) . "MB \n";
     }
 }

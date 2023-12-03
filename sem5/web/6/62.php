@@ -14,6 +14,7 @@ while(!feof($read_file))
         fgets($read_file);
         continue;
     }
+
     $current_line = htmlentities(fgets($read_file));
     //echo $current_line;
     $write_str = $write_str . $current_line;
