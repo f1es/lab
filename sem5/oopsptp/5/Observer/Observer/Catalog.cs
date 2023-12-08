@@ -1,5 +1,4 @@
-﻿
-public class Catalog : IObservable
+﻿public class Catalog : IObservable
 {
     private List<Cinema> _cinemas = new();
     private List<IObserver> _observers = new();
@@ -19,7 +18,6 @@ public class Catalog : IObservable
             observer.Update(_cinemas.Last());
         }
     }
-
     public void AddCinemaToCatalog(Cinema cinema)
     {
         _cinemas.Add(cinema);

@@ -1,5 +1,4 @@
-﻿
-public class User : IObserver
+﻿public class User : IObserver
 {
     private string _name;
     private IObservable _catalog;
@@ -14,7 +13,6 @@ public class User : IObserver
         _catalog.RemoveObserver(this);
         Console.WriteLine($"{_name} больше не следит за каталогом фильмов");
     }
-
     public void Update(object film)
     {
         Cinema cinema = (Cinema)film;
