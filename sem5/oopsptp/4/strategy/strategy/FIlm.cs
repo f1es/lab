@@ -1,6 +1,6 @@
 ﻿public class Film : IStrategy
 {
-    string genre;
+    private string genre;
     public string Genre
     {
         get => genre;

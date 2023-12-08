@@ -1,9 +1,9 @@
 ﻿
 public class Cinema
 {
-    string name;
-    int year;
-    int rating;
+    private string name;
+    private int year;
+    private int rating;
     public string Name
     {
         get => name;

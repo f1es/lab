@@ -1,6 +1,6 @@
 ﻿public class Series : IStrategy
 {
-    int seriesCount = 1;
+    private int seriesCount = 1;
     public int SeriesCount
     {
         get => seriesCount;
