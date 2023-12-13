@@ -12,11 +12,7 @@ public class Cinema
     public int Year
     {
         get => year;
-        private set
-        {
-            if (value < 2025 && value > 1899)
-                year = value;
-        }
+        private set => year = value;
     }
     public int Rating
     {
@@ -24,9 +20,9 @@ public class Cinema
         private set => rating = value;
     }
 
-    public Cinema(IStrategy _cinema)
+    public Cinema(IStrategy cinema)
     {
-        Strategy = _cinema;
+        Strategy = cinema;
     }
     public IStrategy Strategy { get; set; }
 
@@ -45,21 +41,11 @@ public class Cinema
         int.TryParse(Console.ReadLine(), out _rating);
         Rating = _rating;
 
-        Strategy.Set();
     }
 
     public void Output()
     {
-        Console.Write($"cinema: {Name}\t{Year}\t{Rating}*\t");
-        Strategy.Output();
-        Console.WriteLine();
-    }
-
-    public void OutputXML()
-    {
-        Console.WriteLine($"<element>\n\t<Name>{Name}</Name>\n\t<Year>{Year}</Year>\n\t<Rating>{Rating}</Rating>");
-        Strategy.OutputXML();
-        Console.WriteLine("</element>");
+        Console.WriteLine(Strategy.GetOutput(this));
     }
 }
 

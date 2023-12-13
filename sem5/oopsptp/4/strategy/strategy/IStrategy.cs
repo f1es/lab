@@ -1,8 +1,8 @@
-﻿public interface IStrategy
+﻿using System.Runtime.InteropServices;
+
+public interface IStrategy
 {
-    void Set();
-    void Output();
-    void OutputXML();
+    public string GetOutput(Cinema cinema);
 
 }
 
