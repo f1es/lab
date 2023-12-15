@@ -32,15 +32,22 @@ public class Cinema
         Name = Console.ReadLine();
 
         Console.Write("Input cinema year :");
-        int _year = 0;
-        int.TryParse(Console.ReadLine(), out _year);
-        Year = _year;
+        int year = 0;
+        int.TryParse(Console.ReadLine(), out year);
+        Year = year;
 
         Console.Write("Input cinema rating :");
-        int _rating = 0;
-        int.TryParse(Console.ReadLine(), out _rating);
-        Rating = _rating;
+        int rating = 0;
+        int.TryParse(Console.ReadLine(), out rating);
+        Rating = rating;
 
+    }
+
+    public void Set(string name, int year, int rating)
+    {
+        Name = name;
+        Year = year;
+        Rating = rating;
     }
 
     public void Output()
