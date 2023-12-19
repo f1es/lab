@@ -12,4 +12,3 @@
         catalog[1].Output();
     }
 }
-
