@@ -66,7 +66,7 @@ class Array2
         Matrix = transpMatrix;
 
         Console.WriteLine("Transpose");
-        mutex.WaitOne();
+        //mutex.WaitOne();
         return transpMatrix;
     }
 

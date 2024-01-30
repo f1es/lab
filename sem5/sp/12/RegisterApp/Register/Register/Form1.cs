@@ -29,7 +29,7 @@ namespace RegisterApp
             if (Clipboard.GetText().Length > 0)
                 MessageBox.Show(Clipboard.GetText());
             else
-                MessageBox.Show("Буфер обмена не содержит текста");
+                MessageBox.Show("Р‘СѓС„РµСЂ РѕР±РјРµРЅР° РЅРµ СЃРѕРґРµСЂР¶РёС‚ С‚РµРєСЃС‚Р°");
         }
     }
 }

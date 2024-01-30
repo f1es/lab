@@ -15,7 +15,7 @@
     static void ZeroToNine()
     {
 
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 10; i++)
         {
             Console.WriteLine(i);
         }
@@ -25,7 +25,7 @@
     static void TenToTweny()
     {
         manualResetEvent.WaitOne();
-        for (int i = 1000; i <= 2000; i++)
+        for (int i = 10; i <= 20; i++)
         {
             Console.WriteLine(i);
         }
