@@ -47,3 +47,19 @@ SELECT Age, Birthday, Worker_name
 FROM Workers
 GROUP BY Age, Birthday, Worker_name
 HAVING Age > 22
+
+SELECT Age, Birthday, Worker_name
+FROM Workers
+GROUP BY Age, Birthday, Worker_name WITH ROLLUP
+
+SELECT Age, Birthday, Worker_name
+FROM Workers
+GROUP BY Age, Birthday, Worker_name WITH CUBE
+
+SELECT Age, Worker_name
+FROM Workers
+GROUP BY GROUPING SETS(Age, Worker_name)
+
+SELECT Age, Worker_name,
+SUM(Age) OVER (PARTITION BY Worker_name) AS s
+FROM Workers
