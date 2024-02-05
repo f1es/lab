@@ -33,7 +33,12 @@ INSERT INTO Workers VALUES
 ('Oleksei','1999-11-11', 22, 2),
 ('Oleksii','1998-12-30', 21, 2),
 ('Mihail','1999-12-12', 24, 1),
-('Sergio','1999-12-12', 25, 3)
+('Sergio','1999-12-12', 25, 3),
+('Dmitriy','1991-5-7' , 33, 5),
+('Ivan','2000-1-14', 24, 4),
+('Petr','2002-9-21', 22, 3),
+('Egor','1995-6-17', 29, 3),
+('Andrey','1997-2-15', 27, 1)
 
 SELECT AVG(Age) AS Average_Workers_Age FROM Workers
 SELECT SUM(Salary) AS Sum_Salary FROM Speciality
