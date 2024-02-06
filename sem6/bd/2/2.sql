@@ -7,6 +7,9 @@ SELECT *
 FROM Speciality
 WHERE ID NOT IN (SELECT Speciality_ID FROM Workers)
 
+SELECT * FROM Speciality
+WHERE Salary < ANY(SELECT Salary FROM Speciality WHERE Salary > 200)
+
 SELECT * 
 FROM Workers
 WHERE Age < ALL(SELECT MAX(Age) FROM Workers WHERE Speciality_ID='1')
@@ -14,7 +17,6 @@ WHERE Age < ALL(SELECT MAX(Age) FROM Workers WHERE Speciality_ID='1')
 SELECT *
 FROM Workers
 WHERE EXISTS (SELECT Telephone_type FROM Workers_telephones WHERE Workers.ID = Workers_telephones.Worker_ID)
-
 
 DELETE FROM Workers
 WHERE Speciality_ID=(SELECT ID FROM Speciality WHERE Speciality_name='clown')
@@ -30,12 +32,6 @@ INSERT INTO Workers VALUES
 UPDATE Workers
 SET Speciality_ID = (SELECT ID FROM Speciality WHERE Speciality_name='clown')
 WHERE Speciality_ID = (SELECT ID FROM Speciality WHERE Speciality_name='youtuber')
-
-SELECT Worker_name,
-(SELECT Speciality_name, 
-(SELECT Salary FROM Speciality WHERE Workers.Speciality_ID = Speciality.ID)
-FROM Speciality WHERE Workers.Speciality_ID = Speciality.ID AS Speciality)
-FROM Workers
 
 INSERT INTO Workers VALUES
 (
