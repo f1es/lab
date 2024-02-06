@@ -31,6 +31,20 @@ UPDATE Workers
 SET Speciality_ID = (SELECT ID FROM Speciality WHERE Speciality_name='clown')
 WHERE Speciality_ID = (SELECT ID FROM Speciality WHERE Speciality_name='youtuber')
 
+SELECT Worker_name,
+(SELECT Speciality_name, 
+(SELECT Salary FROM Speciality WHERE Workers.Speciality_ID = Speciality.ID)
+FROM Speciality WHERE Workers.Speciality_ID = Speciality.ID AS Speciality)
+FROM Workers
+
+INSERT INTO Workers VALUES
+(
+    (SELECT Employee_name FROM Employees WHERE ID = (SELECT ID FROM Employees WHERE ID = 2)),
+    (SELECT Birthday FROM Employees WHERE ID = (SELECT ID FROM Employees WHERE ID = 2)),
+    YEAR(GETDATE()) - YEAR((SELECT Birthday FROM Employees WHERE ID = (SELECT ID FROM Employees WHERE ID = 2))),
+    2
+)
+
 ------------------------------------------
 SELECT * FROM Workers
 WHERE 
