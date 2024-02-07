@@ -17,7 +17,7 @@ CROSS JOIN Speciality
 
 SELECT Worker_name
 FROM Workers
-UNION ALL
+UNION 
 SELECT Employee_name
 FROM Employees
 

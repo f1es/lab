@@ -40,9 +40,3 @@ INSERT INTO Workers VALUES
     YEAR(GETDATE()) - YEAR((SELECT Birthday FROM Employees WHERE ID = (SELECT ID FROM Employees WHERE ID = 2))),
     2
 )
-
-------------------------------------------
-SELECT * FROM Workers
-WHERE 
-DAY(Workers.Birthday) = DAY(GETDATE()) AND 
-MONTH(Workers.Birthday) = MONTH(GETDATE())

@@ -50,3 +50,11 @@ BEGIN
 	SELECT ID, Worker_Name, Age FROM Workers
 	RETURN
 END;
+
+
+SELECT * FROM ShowWorkersInfo()
+SELECT * FROM ShowCompanies()
+SELECT * FROM SpecialistsCount()
+SELECT dbo.WorkersAverageAge()
+SELECT dbo.SpecialitiesAverageSalary()
+SELECT * FROM GetWorkersTable()
