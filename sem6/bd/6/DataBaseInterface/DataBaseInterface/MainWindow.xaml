@@ -6,23 +6,20 @@
         xmlns:local="clr-namespace:DataBaseInterface"
         mc:Ignorable="d"
         Title="MainWindow" Height="1060" Width="1920" ResizeMode="CanResize" HorizontalAlignment="Stretch">
-    <Grid HorizontalAlignment="Center">
-        <ListBox x:Name="data" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <ListView x:Name="listbox" ItemsSource="{Binding SourceCollection}" Margin="-381,0,381,-1">
+    <Grid HorizontalAlignment="Center" Margin="0,39,0,0">
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Margin="90,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="39"/>
+        <Button x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Margin="-573,912,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="AddButton_Click"/>
+        <ListView x:Name="TablesListView" Margin="-575,-22,852,102" Width="470" Height="930" SelectionChanged="TablesListView_SelectionChanged">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Test1" DisplayMemberBinding="{Binding Test1}" />
-                    <GridViewColumn Header="Test2" DisplayMemberBinding="{Binding Test2}" />
-                    <GridViewColumn Header="Test3" DisplayMemberBinding="{Binding Test3}" />
-                    <GridViewColumn Header="Button">
-                        <GridViewColumn.CellTemplate>
-                            <DataTemplate>
-                                <Button>Button Text</Button>
-                            </DataTemplate>
-                        </GridViewColumn.CellTemplate>
+                    <GridViewColumn Width="451">
+                        <GridViewColumn.Header>
+                            <TextBlock Text="Tables"></TextBlock>
+                        </GridViewColumn.Header>
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" Margin="820,-3,-482,3" IsReadOnly="False"/>
     </Grid>
 </Window>
