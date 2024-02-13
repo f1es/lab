@@ -1,0 +1,66 @@
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\appsettings.json
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VS\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\VS\Blazor2007\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\appsettings.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WebApi\obj\Debug\net7.0\ref\WebApi.dll

@@ -1,0 +1,23 @@
+﻿@page "/image"
+<h3>SUS</h3>
+
+@if (imageSource != null)
+{
+	<p>
+		<img src="@imageSource"/>
+	</p>
+}
+
+@code {
+	private string? imageSource;
+
+	private void ShowImage()
+	{
+		imageSource = "https://localhost:7039/Image";//"images/wonder-day-among-us-png-29.png";
+	}
+
+	protected override void OnInitialized()
+	{
+		ShowImage();	
+	}
+}

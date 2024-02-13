@@ -1,0 +1,1656 @@
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.pdb
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.h7e48zix4y.js
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.pdb.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.h7e48zix4y.js.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.staticwebassets.runtime.json
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.pdb
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.JSInterop.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.CSharp.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.AppContext.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Buffers.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Concurrent.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Immutable.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Specialized.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Configuration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Console.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Core.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.Common.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Process.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Drawing.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Drawing.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Formats.Asn1.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Formats.Tar.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.Calendars.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipes.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Expressions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Parallel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Queryable.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Memory.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Http.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Http.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.HttpListener.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Mail.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.NameResolution.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Ping.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Quic.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Requests.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Security.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.ServicePoint.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Sockets.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebClient.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebProxy.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebSockets.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Numerics.Vectors.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Numerics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ObjectModel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Uri.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Metadata.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.Reader.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.Writer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Handles.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Loader.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Numerics.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.AccessControl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Claims.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Principal.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.SecureString.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ServiceModel.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ServiceProcess.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Json.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Channels.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Overlapped.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Thread.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Timer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Transactions.Local.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Transactions.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ValueTuple.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Web.HttpUtility.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Web.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Windows.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.Linq.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.Serialization.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XPath.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\WindowsBase.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\mscorlib.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\netstandard.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.CoreLib.dll
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.js
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.timezones.blat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.wasm
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_CJK.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_EFIGS.dat
+D:\VS\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_no_CJK.dat
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.AssemblyReference.cache
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.AssemblyInfoInputs.cache
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.AssemblyInfo.cs
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.CoreCompileInputs.cache
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.MvcApplicationPartsAssemblyInfo.cache
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0T66sMp4.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YYMMvHr2.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VbF1oVyF.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JJ+Gk9FR.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\C8kDY498.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\woqeoi5f.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\G0nG7trL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\dDTeUbCO.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MDdcs1gu.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\myctliRw.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\06Vgmuup.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lBJEqR+C.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QCDQyIem.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ioEAx3Ow.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\la9VJxkd.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\oTg2U9bn.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\5PpjMnIb.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\F8RiQPMU.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rLYG60TW.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Cn3Ije4c.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qJ5tOTTp.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\P8Z+8dQk.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Vjf9ZAMz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qqzR2IwG.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YTeQMoLB.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qLWYUHXz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\F+IHDJ5N.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ON2rUUGE.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\90tAry47.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MyhgpinR.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qs3YSkPM.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0hMv48V8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\tmCjGwUa.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3IolwhiY.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\CRLJft+j.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\E63Zs0rr.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HIAB9jUs.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6EMg5eJy.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rmsiGFC5.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vlMqnSls.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zNi7Hcla.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\KOuX+AlI.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\AX8SgGV2.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\boEtv1e4.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\tcuUGejN.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\iSMucVJ6.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0DMdfI+8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GXr+yrk2.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MpYCR3Aq.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\7qHs0h8W.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\fFhTjBsN.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JANdeMBB.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\FB+80o+P.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QxL5tFcF.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qN3E9C+B.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2vO3N9T8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\EjzTuOdw.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HZFqsOdx.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zzTxbO3J.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YS0cenMr.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JxQADcbF.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\f6fnoS5e.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GqS2UxtJ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MyFTGnbC.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Z9o0mCTt.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\INdpq0Ht.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\XCP29NOU.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\IOwSRhs8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\wGWjr4Qc.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\uniJl1Vy.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\l7xepBuL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Xvd+AA9W.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3Sa36kYu.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vfIu9KLJ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vyOtkkXf.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\be6uU6Fr.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Uk8J0exL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+3GqhXlR.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\8wDhdosr.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\g2+Ll3Yi.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Z7ez7xcW.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JU9+8TuH.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gDb++Qul.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MKq5wjNw.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1D5N1Ysy.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\67+iMNd2.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+g+1zwXp.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ddzDgems.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Pr72KMVQ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\4wJHe5Kc.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hk807RME.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\wjnH8LAZ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gj5GT5Ic.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\TXFObY1v.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\mKCKHyKe.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+dz1+50H.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3HX2EO+I.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ELp6fRJV.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\kbxLpUU0.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\CgJc4tLk.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\LWeZTzgm.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9H7xuYen.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\bTPuCLGz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZGgU+hcK.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Ma9ebEog.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UcVJvPx7.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+FRi3o0W.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1Tr3hieR.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GOVBuIPo.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\maJvUpxh.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2YRixe7+.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VVMG8vvi.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zge1OHUf.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YtpXm8bx.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\acBIkcsv.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\O6ILNJ6Q.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Wcw0TWtJ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\PedT+3+v.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+NtkEZkb.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2A23SccA.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RwD4VZ1E.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ykBxL4WL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\A2x7RpEE.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\z9kvL2N5.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\pHGJ2JSe.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qUDgxOdf.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QVskoc7j.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\e4q+HeIG.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UVCr03gc.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\p2NMlrHM.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yUMW+kbL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lH6IGGR+.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\mdvmZosU.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MDP3nm0h.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VSG8VyY8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qgoYk+UL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\SClaHXA4.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\djx9KNbN.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Jkcz7+xT.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9m6J1Wp+.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\n6a+6vHO.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\LFNinLob.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\jAh2U6AG.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9T8lfW7o.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3AD7t6Ci.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6mx9cs+P.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lBE5EXH+.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qMnRDpcM.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\jFsF4Je0.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yOslfC1V.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6wzQfQa4.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\IqIcBvL8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\34tXlMAj.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\NrMEbgqZ.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hda2zDnp.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lixbla55.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\kV7vCbZT.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\8JGs7ZQR.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\dClcrWpi.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3y8iKvaL.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\WfSARM6i.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zIL1Qt67.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+N5G232n.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zgYbI3Ej.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rhwh69UC.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GV5RGZc+.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UqQ+cqne.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\svs+Zr7j.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0uEQg22m.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\oU3RKx4k.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yN3s1BMk.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9x5ayNUo.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qkvemBIT.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Pb1ebQUs.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qGeU3qJv.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\eUxl61md.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Jzu1N58N.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ff+Mnxv1.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\aQWjjWW3.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gvKHlWJq.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HAiKhih6.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\k97WzKnG.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hTnK5h94.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\C7fMBQUz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\SRCAno7h.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZT+EPI8A.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hvT9MQg8.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZagF6uuz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\w74Ri8xa.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1ndjm8cw.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\McbadIuB.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RWZF9TR7.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2ZZt1eKl.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\N1wt34vz.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RT+0dx+9.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\fbSktMDf.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3LPEh8UF.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rsjuvGZY.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HzesF5Q2.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MLgayy0Y.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rClcwE29.gz
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\blazor.boot.json
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.Blazor2007.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor2007.props
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor2007.props
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor2007.props
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.pack.json
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.build.json
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.development.json
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\bundle\Blazor2007.styles.css
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\projectbundle\Blazor2007.bundle.scp.css
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.CopyComplete
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.dll
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\refint\Blazor2007.dll
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.pdb
+D:\VS\Blazor2007\Blazor2007\obj\Debug\net7.0\ref\Blazor2007.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.h7e48zix4y.js
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Security.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Memory.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Json.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Core.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.JavaScript.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Uri.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Windows.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Requests.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Claims.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ValueTuple.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Mail.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.4.h7e48zix4y.js.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Data.Common.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Numerics.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Globalization.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\WindowsBase.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Net.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Xml.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.pdb.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\wwwroot\_framework\Blazor2007.dll.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.staticwebassets.runtime.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Blazor2007.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.JSInterop.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.CSharp.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.VisualBasic.Core.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.VisualBasic.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Win32.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\Microsoft.Win32.Registry.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.AppContext.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Buffers.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Concurrent.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Immutable.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.NonGeneric.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.Specialized.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Collections.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.Annotations.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.DataAnnotations.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.EventBasedAsync.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.TypeConverter.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ComponentModel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Configuration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Console.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Core.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.Common.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.DataSetExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Data.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Contracts.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Debug.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.FileVersionInfo.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Process.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.StackTrace.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.TextWriterTraceListener.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Tools.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.TraceSource.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Diagnostics.Tracing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Drawing.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Drawing.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Dynamic.Runtime.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Formats.Asn1.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Formats.Tar.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.Calendars.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Globalization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.Brotli.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.FileSystem.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.ZipFile.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Compression.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.DriveInfo.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.Watcher.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.FileSystem.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.IsolatedStorage.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.MemoryMappedFiles.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipes.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.Pipes.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.UnmanagedMemoryStream.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.IO.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Expressions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Parallel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.Queryable.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Memory.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Http.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Http.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.HttpListener.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Mail.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.NameResolution.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.NetworkInformation.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Ping.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Quic.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Requests.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Security.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.ServicePoint.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.Sockets.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebClient.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebHeaderCollection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebProxy.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebSockets.Client.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.WebSockets.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Net.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Numerics.Vectors.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Numerics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ObjectModel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.DataContractSerialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Uri.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Xml.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.DispatchProxy.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.ILGeneration.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.Lightweight.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Emit.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Metadata.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.TypeExtensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Reflection.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.Reader.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.ResourceManager.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Resources.Writer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.CompilerServices.VisualC.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Handles.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.JavaScript.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.InteropServices.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Intrinsics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Loader.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Numerics.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Formatters.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.Serialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Runtime.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.AccessControl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Claims.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Algorithms.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Cng.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Csp.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Encoding.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.OpenSsl.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.Primitives.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.X509Certificates.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Cryptography.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Principal.Windows.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.Principal.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.SecureString.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Security.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ServiceModel.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ServiceProcess.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encoding.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.Json.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Text.RegularExpressions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Channels.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Overlapped.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Dataflow.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Extensions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.Parallel.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Tasks.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Thread.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.ThreadPool.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.Timer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Threading.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Transactions.Local.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Transactions.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.ValueTuple.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Web.HttpUtility.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Web.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Windows.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.Linq.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.ReaderWriter.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.Serialization.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XPath.XDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XPath.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XmlDocument.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.XmlSerializer.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Xml.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\WindowsBase.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\mscorlib.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\netstandard.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\System.Private.CoreLib.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.js
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.timezones.blat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\dotnet.wasm
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_CJK.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_EFIGS.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\bin\Debug\net7.0\icudt_no_CJK.dat
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.AssemblyReference.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.AssemblyInfoInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.AssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0T66sMp4.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YYMMvHr2.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VbF1oVyF.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JJ+Gk9FR.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\C8kDY498.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\woqeoi5f.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\G0nG7trL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\dDTeUbCO.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MDdcs1gu.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\myctliRw.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\06Vgmuup.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lBJEqR+C.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QCDQyIem.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ioEAx3Ow.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\la9VJxkd.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\oTg2U9bn.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\5PpjMnIb.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\F8RiQPMU.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rLYG60TW.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Cn3Ije4c.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qJ5tOTTp.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\P8Z+8dQk.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Vjf9ZAMz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qqzR2IwG.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YTeQMoLB.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qLWYUHXz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\F+IHDJ5N.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ON2rUUGE.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\90tAry47.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MyhgpinR.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qs3YSkPM.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0hMv48V8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\tmCjGwUa.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3IolwhiY.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\CRLJft+j.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\E63Zs0rr.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HIAB9jUs.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6EMg5eJy.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rmsiGFC5.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vlMqnSls.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zNi7Hcla.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\KOuX+AlI.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\AX8SgGV2.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\boEtv1e4.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\tcuUGejN.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\iSMucVJ6.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0DMdfI+8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GXr+yrk2.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MpYCR3Aq.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\7qHs0h8W.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\fFhTjBsN.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JANdeMBB.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\FB+80o+P.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QxL5tFcF.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qN3E9C+B.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2vO3N9T8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\EjzTuOdw.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HZFqsOdx.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zzTxbO3J.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YS0cenMr.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JxQADcbF.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\f6fnoS5e.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GqS2UxtJ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MyFTGnbC.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Z9o0mCTt.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\INdpq0Ht.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\XCP29NOU.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\IOwSRhs8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\wGWjr4Qc.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\uniJl1Vy.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\l7xepBuL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Xvd+AA9W.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3Sa36kYu.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vfIu9KLJ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\vyOtkkXf.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\be6uU6Fr.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Uk8J0exL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+3GqhXlR.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\8wDhdosr.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\g2+Ll3Yi.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Z7ez7xcW.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\JU9+8TuH.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gDb++Qul.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MKq5wjNw.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1D5N1Ysy.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\67+iMNd2.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+g+1zwXp.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ddzDgems.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Pr72KMVQ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\4wJHe5Kc.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hk807RME.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\wjnH8LAZ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gj5GT5Ic.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\TXFObY1v.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\mKCKHyKe.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+dz1+50H.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3HX2EO+I.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ELp6fRJV.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\kbxLpUU0.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\CgJc4tLk.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\LWeZTzgm.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9H7xuYen.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\bTPuCLGz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZGgU+hcK.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Ma9ebEog.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UcVJvPx7.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+FRi3o0W.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1Tr3hieR.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GOVBuIPo.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\maJvUpxh.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2YRixe7+.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VVMG8vvi.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zge1OHUf.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\YtpXm8bx.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\acBIkcsv.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\O6ILNJ6Q.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Wcw0TWtJ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\PedT+3+v.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+NtkEZkb.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2A23SccA.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RwD4VZ1E.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ykBxL4WL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\A2x7RpEE.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\z9kvL2N5.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\pHGJ2JSe.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qUDgxOdf.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\QVskoc7j.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\e4q+HeIG.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UVCr03gc.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\p2NMlrHM.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yUMW+kbL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lH6IGGR+.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\mdvmZosU.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\MDP3nm0h.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\VSG8VyY8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qgoYk+UL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\SClaHXA4.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\djx9KNbN.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Jkcz7+xT.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9m6J1Wp+.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\n6a+6vHO.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\LFNinLob.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\jAh2U6AG.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9T8lfW7o.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3AD7t6Ci.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6mx9cs+P.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lBE5EXH+.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qMnRDpcM.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\jFsF4Je0.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yOslfC1V.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\6wzQfQa4.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\IqIcBvL8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\34tXlMAj.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\NrMEbgqZ.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hda2zDnp.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\lixbla55.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\kV7vCbZT.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\8JGs7ZQR.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\dClcrWpi.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3y8iKvaL.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\WfSARM6i.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zIL1Qt67.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\+N5G232n.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\zgYbI3Ej.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rhwh69UC.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\GV5RGZc+.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\UqQ+cqne.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\svs+Zr7j.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\0uEQg22m.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\oU3RKx4k.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\yN3s1BMk.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\9x5ayNUo.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qkvemBIT.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Pb1ebQUs.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\qGeU3qJv.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\eUxl61md.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\Jzu1N58N.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ff+Mnxv1.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\aQWjjWW3.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\gvKHlWJq.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\HAiKhih6.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\k97WzKnG.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hTnK5h94.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\C7fMBQUz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\SRCAno7h.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZT+EPI8A.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\hvT9MQg8.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\ZagF6uuz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\w74Ri8xa.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\1ndjm8cw.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\McbadIuB.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RWZF9TR7.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2ZZt1eKl.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\N1wt34vz.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\RT+0dx+9.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\fbSktMDf.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\3LPEh8UF.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rsjuvGZY.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\LHNs8ax3.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\2GQbkzHC.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\build-gz\rClcwE29.gz
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\blazor.boot.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.Blazor2007.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor2007.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor2007.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor2007.props
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.build.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\staticwebassets.development.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\bundle\Blazor2007.styles.css
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\scopedcss\projectbundle\Blazor2007.bundle.scp.css
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.csproj.CopyComplete
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\refint\Blazor2007.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\Blazor2007.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\Blazor2007\obj\Debug\net7.0\ref\Blazor2007.dll

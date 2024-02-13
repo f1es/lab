@@ -1,0 +1,39 @@
+﻿@page "/get"
+<h3>BURO KADROV</h3>
+<p>@output</p>
+
+@code {
+	public string output = "";
+
+	public class Worker
+	{
+		public int Id { get; set; }
+		public string? Name { get; set; }
+		public int Age { get; set; }
+
+		public Worker(int id, string name, int age)
+		{
+			Id = id;
+			Name = name;
+			Age = age;
+		}
+	}
+
+	Worker w = new(1, "Alexey", 22);
+	Worker w2 = new(2, "Sergey", 25);
+	Worker w3 = new(1, "Dmitriy", 21);
+
+
+	protected override async Task OnInitializedAsync()
+	{
+		output = "";
+		List<Worker> list = new List<Worker>();
+		list.Add(w);
+		list.Add(w2);
+		list.Add(w3);
+		foreach (var w in list)
+		{
+			output += $"{w.Id}\t{w.Name}\t{w.Age}\n";
+		}
+	}
+}

@@ -1,0 +1,36 @@
+D:\VS\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.exe
+D:\VS\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.deps.json
+D:\VS\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.runtimeconfig.json
+D:\VS\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.dll
+D:\VS\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.pdb
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.AssemblyReference.cache
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.Form1.resources
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.GenerateResource.cache
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.AssemblyInfoInputs.cache
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.AssemblyInfo.cs
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.CoreCompileInputs.cache
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.dll
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\refint\WinFormsAppClient.dll
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.pdb
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.genruntimeconfig.cache
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\ref\WinFormsAppClient.dll
+D:\VS\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.Properties.Resources.resources
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.exe
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.deps.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.runtimeconfig.json
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\bin\Debug\net6.0-windows\WinFormsAppClient.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.AssemblyReference.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.Form1.resources
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.Properties.Resources.resources
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.GenerateResource.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.AssemblyInfoInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.AssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\refint\WinFormsAppClient.dll
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.pdb
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\WinFormsAppClient.genruntimeconfig.cache
+D:\Git\lab\sem6\spp practice\1\Blazor2007\WinFormsAppClient\obj\Debug\net6.0-windows\ref\WinFormsAppClient.dll
