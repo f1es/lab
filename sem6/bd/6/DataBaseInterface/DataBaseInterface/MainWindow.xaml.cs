@@ -23,15 +23,17 @@ namespace DataBaseInterface
     public partial class MainWindow : Window
     {
         //ObservableCollection<DataTable> tables = new ObservableCollection<DataTable>();
-        private Dictionary<string, DataTable> tablesNamesDictionary = new Dictionary<string, DataTable>();
-        private ObservableCollection<string> tablesNames = new ObservableCollection<string>();
+        private Dictionary<string, DataTable> _tablesNamesDictionary = new Dictionary<string, DataTable>();
+        private ObservableCollection<string> _tablesNames = new ObservableCollection<string>();
+        private ObservableCollection<EditField> _editFields = new ObservableCollection<EditField>();
+        private int _editingRow = -1;
         public MainWindow()
         {
             InitializeComponent();
 
             //names = new ObservableCollection<string>() { "John", "Alex", "Sam",};
             //TablesListView.ItemsSource = names;
-            TablesListView.ItemsSource = tablesNames;
+            TablesListView.ItemsSource = _tablesNames;
 
             DataTable Workers = new DataTable();
             Workers.Columns.Add("id");
@@ -55,21 +57,54 @@ namespace DataBaseInterface
             Speciality.Rows.Add(new object[] { 4, "programmer", 500 });
             Speciality.Rows.Add(new object[] { 5, "mehanik", 300 });
 
-            tablesNames.Add("Workers");
-            tablesNames.Add("Speciality");
-            tablesNamesDictionary.Add("Workers", Workers);
-            tablesNamesDictionary.Add("Speciality", Speciality);
+            _tablesNames.Add("Workers");
+            _tablesNames.Add("Speciality");
+            _tablesNamesDictionary.Add("Workers", Workers);
+            _tablesNamesDictionary.Add("Speciality", Speciality);
+
+            lb1.ItemsSource = _editFields;
+            //List<EditField> l = new List<EditField>();
+            //l.Add(new EditField { Name = "id", Content = "1" });
+			//l.Add(new EditField { Name = "name", Content = "Kirill" });
+			//l.Add(new EditField { Name = "salary", Content = "200" });
+			//l.Add(new TextBox { Text = "weafsgrh" });
+			//lv.ItemsSource = l;
+            //lb1.ItemsSource = l;
+            
         }
 
         private void ViewTableButton_Click(object sender, RoutedEventArgs e)
         {
-            if (TablesListView.SelectedItem != null)
-                dataGrid.ItemsSource = tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
+            //if (TablesListView.SelectedItem != null)
+            //    dataGrid.ItemsSource = tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
+            _editingRow = dataGrid.SelectedIndex;
+            lb.Content = _editingRow.ToString();
+
+			_editFields.Clear();
+
+            int i = 0;
+            foreach(var cell in dataGrid.SelectedCells)
+            {
+                _editFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = ((DataRowView)cell.Item).Row[i].ToString() });
+                i++;
+            }
         }
 
         private void TablesListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            //lb.Content = TablesListView.SelectedItem.ToString();
+			if (TablesListView.SelectedItem != null)
+				dataGrid.ItemsSource = _tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
+		}
 
-        }
+		private void acceptEditButton_Click(object sender, RoutedEventArgs e)
+		{
+            //dataGrid.ItemsSource
+	    }
+
+	public class EditField
+    {
+        public string? Name { get; set; }
+        public string? Content { get; set; }
     }
 }

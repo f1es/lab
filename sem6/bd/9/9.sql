@@ -1,0 +1,56 @@
+CREATE LOGIN WorkerLogin WITH PASSWORD = '123'
+CREATE USER WorkerUser FOR LOGIN WorkerLogin
+
+CREATE LOGIN SemenLogin WITH PASSWORD = '123'
+CREATE USER WorkerSemen FOR LOGIN SemenLogin
+ALTER ROLE Worker ADD MEMBER WorkerSemen
+
+CREATE LOGIN DmitriyLogin WITH PASSWORD = '123'
+CREATE USER WorkerDmitriy FOR LOGIN DmitriyLogin
+ALTER ROLE Worker ADD MEMBER WorkerDmitriy
+
+CREATE LOGIN OlegLogin WITH PASSWORD = '123'
+CREATE USER WorkerOleg FOR LOGIN OlegLogin
+ALTER ROLE Worker ADD MEMBER WorkerOleg
+
+CREATE LOGIN PetrLogin WITH PASSWORD = '123'
+CREATE USER WorkerPetr FOR LOGIN PetrLogin
+ALTER ROLE Worker ADD MEMBER WorkerPetr
+
+CREATE LOGIN IvanLogin WITH PASSWORD = '123'
+CREATE USER EmployeeIvan FOR LOGIN IvanLogin
+ALTER ROLE Employee ADD MEMBER EmployeeIvan
+
+CREATE LOGIN AndreyLogin WITH PASSWORD = '123'
+CREATE USER EmployeeAndrey FOR LOGIN AndreyLogin
+ALTER ROLE Employee ADD MEMBER EmployeeAndrey
+
+CREATE LOGIN AdminLogin WITH PASSWORD = 'admin'
+CREATE USER AdminIgor FOR LOGIN AdminLogin
+ALTER ROLE Admin ADD MEMBER AdminIgor
+
+CREATE ROLE Worker
+CREATE ROLE Employee
+CREATE ROLE Admin
+ALTER ROLE Worker ADD MEMBER WorkerUser
+
+DENY DELETE, INSERT, UPDATE TO Worker
+GRANT DELETE, INSERT, UPDATE TO Worker
+REVOKE DELETE, INSERT, UPDATE TO Worker
+GRANT SELECT, INSERT, UPDATE ON WorkersSchema.Speciality TO Employee
+GRANT UPDATE ON WorkersSchema.Speciality TO Worker
+GRANT SELECT, INSERT, UPDATE ON WorkersSchema.Workers TO Employee
+GRANT SELECT, INSERT, UPDATE, DELETE ON dbo.Workers_offences TO Employee
+GRANT SELECT, INSERT, UPDATE, DELETE ON dbo.Workers_encouragement TO Employee
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE TABLE TO Admin
+
+CREATE SCHEMA WorkersSchema
+ALTER SCHEMA WorkersSchema
+
+ALTER SCHEMA WorkersSchema TRANSFER dbo.Workers
+ALTER SCHEMA WorkersSchema TRANSFER dbo.Speciality
+ALTER SCHEMA WorkersSchema TRANSFER dbo.WorkersSpecialitiesView
+
+
+
+BACKUP DATABASE buroKadrov TO DISK = 'D:\db copy\buroKadrov.bak'
