@@ -25,8 +25,9 @@ namespace DataBaseInterface
         //ObservableCollection<DataTable> tables = new ObservableCollection<DataTable>();
         private Dictionary<string, DataTable> _tablesNamesDictionary = new Dictionary<string, DataTable>();
         private ObservableCollection<string> _tablesNames = new ObservableCollection<string>();
-        private ObservableCollection<EditField> _editFields = new ObservableCollection<EditField>();
-        private int _editingRow = -1;
+        private ObservableCollection<EditField> _editingFields = new ObservableCollection<EditField>();
+        public string SelectedDataTableKey { get; set; }
+        public Dictionary<string, DataTable> TablesNamesDictionary { get =>  _tablesNamesDictionary; }
         public MainWindow()
         {
             InitializeComponent();
@@ -41,7 +42,7 @@ namespace DataBaseInterface
             Workers.Columns.Add("birthday");
             Workers.Columns.Add("age");
             Workers.Columns.Add("speciality_id");
-            Workers.Rows.Add(new object[] { 1, "Kirill", "1999-5-5", 22, 1});
+            Workers.Rows.Add(new object[] { 1, "Kirill", "1999-5-5", 22, 1 });
             Workers.Rows.Add(new object[] { 2, "Mihail", "1998-6-8", 21, 4 });
             Workers.Rows.Add(new object[] { 3, "John", "1999-1-5", 22, 3 });
             Workers.Rows.Add(new object[] { 4, "Ivan", "2000-9-7", 22, 1 });
@@ -51,7 +52,7 @@ namespace DataBaseInterface
             Speciality.Columns.Add("id");
             Speciality.Columns.Add("name");
             Speciality.Columns.Add("salary");
-            Speciality.Rows.Add(new object[] { 1, "slesar", 200});
+            Speciality.Rows.Add(new object[] { 1, "slesar", 200 });
             Speciality.Rows.Add(new object[] { 2, "yborshik", 150 });
             Speciality.Rows.Add(new object[] { 3, "youtuber", 400 });
             Speciality.Rows.Add(new object[] { 4, "programmer", 500 });
@@ -61,50 +62,65 @@ namespace DataBaseInterface
             _tablesNames.Add("Speciality");
             _tablesNamesDictionary.Add("Workers", Workers);
             _tablesNamesDictionary.Add("Speciality", Speciality);
-
-            lb1.ItemsSource = _editFields;
-            //List<EditField> l = new List<EditField>();
-            //l.Add(new EditField { Name = "id", Content = "1" });
-			//l.Add(new EditField { Name = "name", Content = "Kirill" });
-			//l.Add(new EditField { Name = "salary", Content = "200" });
-			//l.Add(new TextBox { Text = "weafsgrh" });
-			//lv.ItemsSource = l;
-            //lb1.ItemsSource = l;
-            
         }
 
-        private void ViewTableButton_Click(object sender, RoutedEventArgs e)
+        private void EditRowButton_Click(object sender, RoutedEventArgs e)
         {
             //if (TablesListView.SelectedItem != null)
             //    dataGrid.ItemsSource = tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
-            _editingRow = dataGrid.SelectedIndex;
-            lb.Content = _editingRow.ToString();
+            
 
-			_editFields.Clear();
+            int editingRow = dataGrid.SelectedIndex;
+            if (editingRow == -1)
+                return;
+
+            _editingFields.Clear();
 
             int i = 0;
-            foreach(var cell in dataGrid.SelectedCells)
+            foreach (var cell in dataGrid.SelectedCells)
             {
-                _editFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = ((DataRowView)cell.Item).Row[i].ToString() });
+                _editingFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = ((DataRowView)cell.Item).Row[i].ToString() });
                 i++;
             }
-        }
+
+			RowEditWindow editWindow = new RowEditWindow(_editingFields, editingRow);
+			editWindow.Show();
+		}
 
         private void TablesListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            SelectedDataTableKey = TablesListView.SelectedItem.ToString();
+
+            if (SelectedDataTableKey == null)
+                return;
+
             //lb.Content = TablesListView.SelectedItem.ToString();
-			if (TablesListView.SelectedItem != null)
-				dataGrid.ItemsSource = _tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
+            if (TablesListView.SelectedItem != null)
+                dataGrid.ItemsSource = _tablesNamesDictionary[SelectedDataTableKey].DefaultView;
+
+			lb.Content = TablesListView.SelectedItem.ToString();
 		}
 
-		private void acceptEditButton_Click(object sender, RoutedEventArgs e)
+		private void addButton_Click(object sender, RoutedEventArgs e)
 		{
-            //dataGrid.ItemsSource
-	    }
+            ObservableCollection<EditField> addFields = new ObservableCollection<EditField>();
 
-	public class EditField
-    {
-        public string? Name { get; set; }
-        public string? Content { get; set; }
-    }
+			foreach (var column in dataGrid.Columns)
+			{
+				addFields.Add(new EditField() { Name = column.Header.ToString() , Content = ""});
+			}
+
+			RowAddWindow addWindow = new RowAddWindow(addFields);
+            addWindow.Show();
+		}
+
+		private void deleteButton_Click(object sender, RoutedEventArgs e)
+		{
+            if (dataGrid.SelectedIndex ==  -1) 
+                return;
+
+            _tablesNamesDictionary[SelectedDataTableKey].Rows[dataGrid.SelectedIndex].Delete();
+		}
+	}
+   
 }

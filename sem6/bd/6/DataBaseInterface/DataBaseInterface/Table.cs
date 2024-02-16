@@ -9,7 +9,7 @@ namespace DataBaseInterface
 {
     class Table
     {
-        public DataTable DataTable {  get; set; }
-        public string Name { get; set; }
+        public DataTable? DataTable {  get; set; }
+        public string? Name { get; set; }
     }
 }

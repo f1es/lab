@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\App.xaml
-11407045341
+3-1035626360
 
-41790590703
+7-1978379363
 194-1617825143
-MainWindow.xaml;
+MainWindow.xaml;RowAddWindow.xaml;RowEditWindow.xaml;
 
 False
 

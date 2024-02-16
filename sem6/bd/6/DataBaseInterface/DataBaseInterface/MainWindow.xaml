@@ -8,11 +8,12 @@
         Title="MainWindow" Height="1060" Width="1920" ResizeMode="CanResize" HorizontalAlignment="Stretch" WindowStartupLocation="CenterScreen">
     <Grid HorizontalAlignment="Center" Margin="0,0,0,0" Width="1920" Height="1080">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="213*"/>
+            <ColumnDefinition Width="160*"/>
+            <ColumnDefinition Width="53*"/>
             <ColumnDefinition Width="427*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="AddButton" Content="View" HorizontalAlignment="Left" Margin="10,958,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="ViewTableButton_Click"/>
-        <ListView x:Name="TablesListView" Margin="11,10,232,140" Width="396" Height="930" SelectionChanged="TablesListView_SelectionChanged">
+        <Button x:Name="AddButton" Content="Edit" HorizontalAlignment="Left" Margin="440,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="EditRowButton_Click" Grid.Column="2"/>
+        <ListView x:Name="TablesListView" Margin="11,10,73,140" Width="396" Height="930" SelectionChanged="TablesListView_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="400">
@@ -23,29 +24,9 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="1"/>
-        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="200,443,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <ListView x:Name="lv" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="516,279,1155,173" Grid.ColumnSpan="2">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <ListBox x:Name="lb1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="175,0,878,0" HorizontalContentAlignment="Stretch" VerticalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectedIndex="4" Grid.Column="1">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <Grid Margin="-2">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="100"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="{Binding Name}" Grid.ColumnSpan="1" Margin="0,0,0,0"/>
-                        <TextBox Text="{Binding Content}" Grid.Column="1" HorizontalContentAlignment="Right" Height="20" Width="90"/>
-                    </Grid>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        <Button x:Name="acceptEditButton" Content="YEEES?" HorizontalAlignment="Left" Margin="254,616,0,0" VerticalAlignment="Top" Width="67" Click="acceptEditButton_Click" Grid.Column="1"/>
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2"/>
+        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="374,29,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="addButton_Click"/>
+        <Button x:Name="deleteButton" Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="deleteButton_Click"/>
     </Grid>
 </Window>
