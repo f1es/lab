@@ -22,18 +22,13 @@ namespace DataBaseInterface
     /// </summary>
     public partial class MainWindow : Window
     {
-        //ObservableCollection<DataTable> tables = new ObservableCollection<DataTable>();
-        private Dictionary<string, DataTable> _tablesNamesDictionary = new Dictionary<string, DataTable>();
+        private Dictionary<string, DataTable> _tablesDictionary = new Dictionary<string, DataTable>();
         private ObservableCollection<string> _tablesNames = new ObservableCollection<string>();
-        private ObservableCollection<EditField> _editingFields = new ObservableCollection<EditField>();
         public string SelectedDataTableKey { get; set; }
-        public Dictionary<string, DataTable> TablesNamesDictionary { get =>  _tablesNamesDictionary; }
+        public Dictionary<string, DataTable> TablesNamesDictionary { get =>  _tablesDictionary; }
         public MainWindow()
         {
             InitializeComponent();
-
-            //names = new ObservableCollection<string>() { "John", "Alex", "Sam",};
-            //TablesListView.ItemsSource = names;
             TablesListView.ItemsSource = _tablesNames;
 
             DataTable Workers = new DataTable();
@@ -60,30 +55,28 @@ namespace DataBaseInterface
 
             _tablesNames.Add("Workers");
             _tablesNames.Add("Speciality");
-            _tablesNamesDictionary.Add("Workers", Workers);
-            _tablesNamesDictionary.Add("Speciality", Speciality);
+            _tablesDictionary.Add("Workers", Workers);
+            _tablesDictionary.Add("Speciality", Speciality);
         }
 
         private void EditRowButton_Click(object sender, RoutedEventArgs e)
         {
             //if (TablesListView.SelectedItem != null)
             //    dataGrid.ItemsSource = tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
-            
-
             int editingRow = dataGrid.SelectedIndex;
             if (editingRow == -1)
                 return;
 
-            _editingFields.Clear();
+            ObservableCollection<EditField> editingFields = new ObservableCollection<EditField>();
 
             int i = 0;
             foreach (var cell in dataGrid.SelectedCells)
             {
-                _editingFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = ((DataRowView)cell.Item).Row[i].ToString() });
+                editingFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = ((DataRowView)cell.Item).Row[i].ToString() });
                 i++;
             }
 
-			RowEditWindow editWindow = new RowEditWindow(_editingFields, editingRow);
+			RowEditWindow editWindow = new RowEditWindow(editingFields, editingRow);
 			editWindow.Show();
 		}
 
@@ -94,11 +87,10 @@ namespace DataBaseInterface
             if (SelectedDataTableKey == null)
                 return;
 
-            //lb.Content = TablesListView.SelectedItem.ToString();
             if (TablesListView.SelectedItem != null)
-                dataGrid.ItemsSource = _tablesNamesDictionary[SelectedDataTableKey].DefaultView;
+                dataGrid.ItemsSource = _tablesDictionary[SelectedDataTableKey].DefaultView;
 
-			lb.Content = TablesListView.SelectedItem.ToString();
+			lb.Content = TablesListView.SelectedItem.ToString();////
 		}
 
 		private void addButton_Click(object sender, RoutedEventArgs e)
@@ -119,7 +111,7 @@ namespace DataBaseInterface
             if (dataGrid.SelectedIndex ==  -1) 
                 return;
 
-            _tablesNamesDictionary[SelectedDataTableKey].Rows[dataGrid.SelectedIndex].Delete();
+            _tablesDictionary[SelectedDataTableKey].Rows[dataGrid.SelectedIndex].Delete();
 		}
 	}
    

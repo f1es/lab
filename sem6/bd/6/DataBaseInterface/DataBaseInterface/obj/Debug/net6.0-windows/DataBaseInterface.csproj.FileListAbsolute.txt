@@ -65,3 +65,7 @@ D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-window
 D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\rowEditWindow.baml
 D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowAddWindow.g.cs
 D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowAddWindow.baml
+X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowAddWindow.g.cs
+X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowEditWindow.g.cs
+X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowAddWindow.baml
+X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\RowEditWindow.baml
