@@ -12,7 +12,6 @@
             <ColumnDefinition Width="53*"/>
             <ColumnDefinition Width="427*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="AddButton" Content="Edit" HorizontalAlignment="Left" Margin="440,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="EditRowButton_Click" Grid.Column="2"/>
         <ListView x:Name="TablesListView" Margin="11,10,73,140" Width="396" Height="930" SelectionChanged="TablesListView_SelectionChanged">
             <ListView.View>
                 <GridView>
@@ -25,8 +24,7 @@
             </ListView.View>
         </ListView>
         <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2"/>
-        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="374,29,0,0" VerticalAlignment="Top" Grid.Column="2"/>
-        <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="addButton_Click"/>
-        <Button x:Name="deleteButton" Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,953,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="deleteButton_Click"/>
+        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="viewButton" Grid.Column="2" Content="View" HorizontalAlignment="Left" Margin="440,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="viewButtonClick"/>
     </Grid>
 </Window>

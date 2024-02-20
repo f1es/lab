@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DataBaseInterface.Entities;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -39,13 +41,14 @@ namespace DataBaseInterface
 		private void acceptButton_Click(object sender, RoutedEventArgs e)
 		{
             object[] newRow = new object[addListBox.Items.Count];
-            for(int i = 0; i <  newRow.Length; i++)
+            //List<Encouragement> newRow = new List<Encouragement>();
+            for(int i = 0; i < addListBox.Items.Count; i++)
             {
                 newRow[i] = ((EditField)addListBox.Items[i]).Content;
             }
 
             MainWindow mainWindow = (MainWindow)Application.Current.Windows[0];
-            mainWindow.TablesNamesDictionary[mainWindow.SelectedDataTableKey].Rows.Add(newRow);
+            ((List<object>)mainWindow._dbTablesDictionary[mainWindow.SelectedDataTableKey]).Add(newRow);
             Close();
 		}
 	}

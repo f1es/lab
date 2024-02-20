@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\
+D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\
 DataBaseInterface
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-X:\vs\git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\App.xaml
-3-1035626360
+D:\Git\lab\sem6\bd\6\DataBaseInterface\DataBaseInterface\App.xaml
+6-593588804
 
-9-586284126
-2141985434767
-MainWindow.xaml;RowAddWindow.xaml;RowEditWindow.xaml;
+312083941483
+214-1658839552
+DataTables\AddEncouragementWindow.xaml;DataTables\EditEncouragementWindow.xaml;DataTables\EncouragementWindow.xaml;MainWindow.xaml;RowAddWindow.xaml;RowEditWindow.xaml;
 
 True
 

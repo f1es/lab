@@ -7,6 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="DataTables\AddEncouragementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataTables\EditEncouragementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataTables\EncouragementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RowAddWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +24,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="DataTables\AddEncouragementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTables\EditEncouragementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataTables\EncouragementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
