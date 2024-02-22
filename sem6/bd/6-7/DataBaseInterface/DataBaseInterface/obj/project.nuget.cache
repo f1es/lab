@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P0sO0hYb1doP9OYWKvRFXZWKeEc47Xiyxs9Kg+0sWjnwqXaD1A4b3T1hHCcbrGgBcmTOqWoTtemiPUuOA5qjsg==",
+  "dgSpecHash": "I+cmRB8BxkwFQZEjZGTAxJJKYrtbfadhFTxJbMPDg6XwLARtUcKjR9GnalrjMYrDv+CiuKjkqSwmxqQQMUXa2w==",
   "success": true,
-  "projectFilePath": "D:\\Git\\lab\\sem6\\bd\\6\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
+  "projectFilePath": "D:\\Git\\lab\\sem6\\bd\\6-7\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fles\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fles\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

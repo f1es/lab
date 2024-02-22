@@ -23,8 +23,12 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2"/>
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2">
+            <!--<DataGridTextColumn Header="ID" Binding="{Binding Path=Encouragement}" Visibility="Hidden"/>-->
+        </DataGrid>
         <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top"/>
         <Button x:Name="viewButton" Grid.Column="2" Content="View" HorizontalAlignment="Left" Margin="440,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="viewButtonClick"/>
+        <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="AddButtonClick"/>
+        <Button Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="DeleteButtonClick"/>
     </Grid>
 </Window>

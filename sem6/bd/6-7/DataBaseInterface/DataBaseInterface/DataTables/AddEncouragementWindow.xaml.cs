@@ -32,10 +32,11 @@ namespace DataBaseInterface.DataTables
 			_db.Encouragements.Add(new Encouragement() { EncouragementName = nameTextBox.Text });
 			_db.SaveChanges();
 
-			foreach(Window window in Application.Current.Windows.OfType<EncouragementWindow>())
+			foreach(Window window in Application.Current.Windows.OfType<MainWindow>())
 			{
-				((EncouragementWindow)window).UpdateDataGrid();
+				((MainWindow)window).UpdateDataGrid();
 			}
+			
 			Close();
 		}
 

@@ -38,14 +38,14 @@ namespace DataBaseInterface
 		private void acceptButton_Click(object sender, RoutedEventArgs e)
 		{
             MainWindow mainWindow = (MainWindow)Application.Current.Windows[0];
-            object[] rowArray = mainWindow.TablesNamesDictionary[mainWindow.SelectedDataTableKey].Rows[_editingRow].ItemArray;
+            object[] rowArray = mainWindow.TablesNamesDictionary[mainWindow.SelectedTable].Rows[_editingRow].ItemArray;
 
 			for (int i = 0; i < rowArray.Length; i++)
 			{
 				rowArray[i] = EditFields[i].Content;
 			}
 
-            mainWindow.TablesNamesDictionary[mainWindow.SelectedDataTableKey].Rows[_editingRow].ItemArray = rowArray;
+            mainWindow.TablesNamesDictionary[mainWindow.SelectedTable].Rows[_editingRow].ItemArray = rowArray;
             Close();
 		}
 

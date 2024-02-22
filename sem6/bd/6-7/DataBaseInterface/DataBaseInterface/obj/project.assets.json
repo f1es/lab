@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\lab\\sem6\\bd\\6\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
+      "projectUniqueName": "D:\\Git\\lab\\sem6\\bd\\6-7\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
       "projectName": "DataBaseInterface",
-      "projectPath": "D:\\Git\\lab\\sem6\\bd\\6\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
+      "projectPath": "D:\\Git\\lab\\sem6\\bd\\6-7\\DataBaseInterface\\DataBaseInterface\\DataBaseInterface.csproj",
       "packagesPath": "C:\\Users\\fles\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\lab\\sem6\\bd\\6\\DataBaseInterface\\DataBaseInterface\\obj\\",
+      "outputPath": "D:\\Git\\lab\\sem6\\bd\\6-7\\DataBaseInterface\\DataBaseInterface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fles\\AppData\\Roaming\\NuGet\\NuGet.Config",

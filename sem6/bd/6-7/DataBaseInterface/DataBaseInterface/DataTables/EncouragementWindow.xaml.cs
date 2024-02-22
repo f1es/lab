@@ -28,7 +28,8 @@ namespace DataBaseInterface.DataTables
 			dataGrid.ItemsSource = db.Encouragements.ToList();
 			_db = db;
 			UpdateDataGrid();
-			
+			//dataGrid.Columns[1].Visibility = Visibility.Hidden;
+			//var a = dataGrid.Columns;
 		}
 		private void CloseButtonClick(object sender, RoutedEventArgs e)
 		{

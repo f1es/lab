@@ -48,7 +48,7 @@ namespace DataBaseInterface
             }
 
             MainWindow mainWindow = (MainWindow)Application.Current.Windows[0];
-            ((List<object>)mainWindow._dbTablesDictionary[mainWindow.SelectedDataTableKey]).Add(newRow);
+            ((List<object>)mainWindow._dbTablesDictionary[mainWindow.SelectedTable]).Add(newRow);
             Close();
 		}
 	}
