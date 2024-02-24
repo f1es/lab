@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\App.xaml
-6-593588804
+4-1096423865
 
-29691846246
+271805615235
 214-1658839552
-DataTables\AddEncouragementWindow.xaml;DataTables\EditEncouragementWindow.xaml;DataTables\EncouragementWindow.xaml;MainWindow.xaml;RowAddWindow.xaml;RowEditWindow.xaml;
+DataTables\CompanyWindow.xaml;DataTables\DirectorWindow.xaml;DataTables\EncouragementWindow.xaml;MainWindow.xaml;
 
 False
 

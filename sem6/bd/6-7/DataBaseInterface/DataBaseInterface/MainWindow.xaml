@@ -24,11 +24,31 @@
             </ListView.View>
         </ListView>
         <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2">
-            <!--<DataGridTextColumn Header="ID" Binding="{Binding Path=Encouragement}" Visibility="Hidden"/>-->
+            <DataGrid.Columns>
+                <DataGridTemplateColumn CanUserSort="False" Width="50" Visibility="Hidden">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Action"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="30" Height="30">
+                                    <Image Source="/Recycle-Bin-Trash-PNG-Photo.png" MaxHeight="30" MaxWidth="30" Stretch="Fill" />
+                                </Button>
+                                <Button Width="30" Height="30">
+                                    <Image Source="/Recycle-Bin-Trash-PNG-Photo.png" MaxHeight="30" MaxWidth="30" Stretch="Fill" />
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+            </DataGrid.Columns>
         </DataGrid>
         <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="viewButton" Grid.Column="2" Content="View" HorizontalAlignment="Left" Margin="440,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="viewButtonClick"/>
+        <Button x:Name="viewButton" Grid.Column="2" Content="View" HorizontalAlignment="Left" Margin="440,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="viewButton_Click"/>
         <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="AddButtonClick"/>
         <Button Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="DeleteButtonClick"/>
+        <Button x:Name="editButton" Grid.Column="2" Content="Edit" HorizontalAlignment="Left" Margin="604,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="EditButtonClick"/>
     </Grid>
 </Window>

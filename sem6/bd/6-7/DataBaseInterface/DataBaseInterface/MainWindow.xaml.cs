@@ -32,11 +32,9 @@ namespace DataBaseInterface
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Dictionary<string, DataTable> _tablesDictionary = new Dictionary<string, DataTable>();
         private ObservableCollection<string> _tablesNames = new ObservableCollection<string>();
-        public string SelectedTable { get; set; }
-        public Dictionary<string, DataTable> TablesNamesDictionary { get =>  _tablesDictionary; }
-
+        public string? SelectedTable { get; set; }
+       
 
 		public Dictionary<string, object> _dbTablesDictionary = new Dictionary<string, object>();
 		private IS_Buro_KadrovContext _db = new IS_Buro_KadrovContext();
@@ -47,68 +45,38 @@ namespace DataBaseInterface
 			_tablesNames.Add("Encouragements");
 			_tablesNames.Add("Speciality");
 			_tablesNames.Add("Department");
-
-			//_dbTablesDictionary.Add("Encouragements", _db.Encouragements.ToList());
-			//_dbTablesDictionary.Add("Speciality", _db.Specialities.ToList());
-			//_dbTablesDictionary.Add("Department", _db.Departments.ToList());
-
-			//_db.Contracts.Add();
-			//dataGrid.ItemsSource = _db.Encouragements.ToList();
-
-			//foreach(var column in dataGrid.Columns)
-			//{
-			//	if (column.Header.ToString() == "Id") column.Visibility = Visibility.Hidden;
-			//}
+			_tablesNames.Add("Directors");
+			_tablesNames.Add("Company");
 
 			TablesListView.ItemsSource = _tablesNames;
 		}
 
-        private void EditRowButton_Click(object sender, RoutedEventArgs e)
+        private void EditButtonClick(object sender, RoutedEventArgs e)
         {
-            //if (TablesListView.SelectedItem != null)
-            //    dataGrid.ItemsSource = tablesNamesDictionary[((string)TablesListView.SelectedItem)].DefaultView;
-            int editingRow = dataGrid.SelectedIndex;
-            if (editingRow == -1)
+            if (dataGrid.SelectedIndex == -1)
                 return;
 
-            ObservableCollection<EditField> editingFields = new ObservableCollection<EditField>();
-
-			int i = 0;
-			//var element = dataGrid.Items[dataGrid.SelectedIndex];
-			foreach (var cell in dataGrid.SelectedCells)
+			switch (SelectedTable)
 			{
-				
-				editingFields.Add(new EditField() { Name = cell.Column.Header.ToString(), Content = (cell.Item).ToString() });
-				i++;
+				case "Encouragements":
+					new EncouragementWindow(_db, ((Encouragement)dataGrid.SelectedItems[0]).Id).Show();
+					break;
+				case "Directors":
+					new DirectorWindow(_db, ((Director)dataGrid.SelectedItems[0]).Id).Show();
+					break;
 			}
 
-			//foreach (var item in dataGrid.SelectedItems)
-			//{
-			//	editingFields.Add(new EditField() { Content = item.ToString() });
-			//}
-
-			RowEditWindow editWindow = new RowEditWindow(editingFields, editingRow);
-			editWindow.Show();
+			UpdateDataGrid();
 		}
 
         private void TablesListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-			//dataGrid.ItemsSource = _db.Encouragements.ToList();
 			SelectedTable = TablesListView.SelectedItem.ToString();
-
             if (SelectedTable == null)
                 return;
 
-			
-			//dataGrid.ItemsSource = (IEnumerable)_dbTablesDictionary[SelectedDataTableKey];
 			UpdateDataGrid();
 			HideId(dataGrid);
-
-			//if (TablesListView.SelectedItem != null)
-			//    dataGrid.ItemsSource = _tablesDictionary[SelectedDataTableKey].DefaultView;
-
-			//lb.Content = TablesListView.SelectedItem.ToString();////
 		}
 
 		private void AddButtonClick(object sender, RoutedEventArgs e)
@@ -116,7 +84,13 @@ namespace DataBaseInterface
 			switch(SelectedTable)
 			{
 				case "Encouragements":
-					new AddEncouragementWindow(_db).Show();
+					new EncouragementWindow(_db).Show();
+					break;
+				case "Directors":
+					new DirectorWindow(_db).Show();
+					break;
+				case "Company":
+					new CompanyWindow(_db).Show();
 					break;
 			}
 		}
@@ -140,21 +114,18 @@ namespace DataBaseInterface
 					var deletingDepartment = _db.Departments.Where(enc => enc.Id == ((Department)dataGrid.SelectedItems[0]).Id).Single();
 					_db.Departments.Remove(deletingDepartment);
 					break;
+				case "Directors":
+					var deletingDirector = _db.Directors.Where(enc => enc.Id == ((Director)dataGrid.SelectedItems[0]).Id).Single();
+					_db.Directors.Remove(deletingDirector);
+					break;
+				case "Company":
+					var deletingCompany = _db.Companies.Where(comp => comp.Id == ((Company)dataGrid.SelectedItems[0]).Id).Single();
+					_db.Companies.Remove(deletingCompany);
+					break;
+
 			}
 			_db.SaveChanges();
 			UpdateDataGrid();
-			//_tablesDictionary[SelectedDataTableKey].Rows[dataGrid.SelectedIndex].Delete();
-		}
-
-		private void viewButtonClick(object sender, RoutedEventArgs e)
-		{
-
-			switch (SelectedTable)
-			{
-				case "Encouragements":
-					new EncouragementWindow(_db).Show();
-					break;
-			}
 		}
 
 		public void HideId(DataGrid dataGrid)
@@ -179,9 +150,22 @@ namespace DataBaseInterface
 				case "Department":
 					dataGrid.ItemsSource = _db.Departments.ToList();
 					break;
+				case "Directors":
+					dataGrid.ItemsSource = _db.Directors.ToList();
+					break;
+				case "Company":
+					dataGrid.ItemsSource = _db.Companies.ToList();
+					break;
 			}
-			//dataGrid.ItemsSource = (IEnumerable)_dbTablesDictionary[SelectedDataTableKey];
 			HideId(dataGrid);
+		}
+
+		private void viewButton_Click(object sender, RoutedEventArgs e)
+		{
+			var table = from a in _db.Encouragements
+						where a.Id % 2 == 0
+						select a;
+			dataGrid.ItemsSource = table.ToList();
 		}
 	}
 }

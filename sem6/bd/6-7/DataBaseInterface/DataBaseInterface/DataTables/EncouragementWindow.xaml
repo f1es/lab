@@ -5,18 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataBaseInterface.DataTables"
         mc:Ignorable="d"
-        Title="EncouragementWindow" Height="500" Width="800">
-    <Grid Width="800" Margin="0,0,0,0">
-        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,124" IsReadOnly="True" SelectionMode="Single" AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Visibility="Hidden"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding EncouragementName}"/>
-            </DataGrid.Columns>
-        </DataGrid>
-        <Button x:Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="723,365,0,0" VerticalAlignment="Top" Click="CloseButtonClick" Width="40" Height="40"/>
-        <Button x:Name="addButton" Content="Add" HorizontalAlignment="Left" Margin="678,365,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="AddButtonClick"/>
-        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="635,365,0,0" VerticalAlignment="Top" Height="40" Click="DeleteButtonClick"/>
-        <Button x:Name="editButton" Content="Edit" HorizontalAlignment="Left" Margin="590,365,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="EditButtonClick"/>
-
+        Title="EditEncouragementWindow" Height="450" Width="450">
+    <Grid>
+        <Button x:Name="acceptButton" Margin="61,343,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Accept" Click="AcceptButtonClick" Width="120" Height="50"></Button>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="232,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Encouragement name" HorizontalAlignment="Left" Margin="92,29,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="262,343,0,0" VerticalAlignment="Top" Width="120" Height="50" Click="CancelButtonClick"/>
     </Grid>
 </Window>

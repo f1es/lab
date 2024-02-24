@@ -15,51 +15,49 @@ using System.Windows.Shapes;
 
 namespace DataBaseInterface.DataTables
 {
-	/// <summary>
-	/// Логика взаимодействия для EncouragementWindow.xaml
-	/// </summary>
-	public partial class EncouragementWindow : Window
-	{
-		private IS_Buro_KadrovContext _db;
+    /// <summary>
+    /// Логика взаимодействия для EditEncouragementWindow.xaml
+    /// </summary>
+    public partial class EncouragementWindow : Window
+    {
+        IS_Buro_KadrovContext _db;
+        private int _editingId = -1;
+        public EncouragementWindow(IS_Buro_KadrovContext db, int editId)
+        {
+            InitializeComponent();
+            _db = db;
+            _editingId = editId;
+            Encouragement encouragement = _db.Encouragements.Where(enc  => enc.Id == _editingId).Single();
+            nameTextBox.Text = encouragement.EncouragementName;
+        }
+
 		public EncouragementWindow(IS_Buro_KadrovContext db)
 		{
 			InitializeComponent();
-
-			dataGrid.ItemsSource = db.Encouragements.ToList();
 			_db = db;
-			UpdateDataGrid();
-			//dataGrid.Columns[1].Visibility = Visibility.Hidden;
-			//var a = dataGrid.Columns;
-		}
-		private void CloseButtonClick(object sender, RoutedEventArgs e)
-		{
-			Close();
 		}
 
-		private void AddButtonClick(object sender, RoutedEventArgs e)
+		private void AcceptButtonClick(object sender, RoutedEventArgs e)
 		{
-			new AddEncouragementWindow(_db).Show();
+            if (_editingId != -1)
+            {
+                _db.Encouragements.Where(enc => enc.Id == _editingId).Single().EncouragementName = nameTextBox.Text;
+            }
+            else
+                _db.Encouragements.Add(new Encouragement() { EncouragementName = nameTextBox.Text});
+
+            _db.SaveChanges();
+
+            foreach (Window window in Application.Current.Windows.OfType<MainWindow>())
+            {
+                ((MainWindow)window).UpdateDataGrid();
+            }
+            Close();
 		}
 
-		private void DeleteButtonClick(object sender, RoutedEventArgs e)
+		private void CancelButtonClick(object sender, RoutedEventArgs e)
 		{
-			int selectedId = ((Encouragement)dataGrid.SelectedItems[0]).Id;
-			var deletingEncouragement = _db.Encouragements.Where(enc => enc.Id == selectedId).Single();
-			_db.Encouragements.Remove(deletingEncouragement);
-			_db.SaveChanges();
-			UpdateDataGrid();
-		}
-
-		public void UpdateDataGrid()
-		{
-			dataGrid.ItemsSource = null;
-			dataGrid.ItemsSource = _db.Encouragements.ToList();
-		}
-
-		private void EditButtonClick(object sender, RoutedEventArgs e)
-		{
-			int selectedId = ((Encouragement)dataGrid.SelectedItems[0]).Id;
-			new EditEncouragementWindow(_db, selectedId).Show();
+            Close();
 		}
 	}
 }

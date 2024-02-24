@@ -7,39 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="DataTables\AddEncouragementWindow.xaml.cs">
+    <Compile Update="DataTables\CompanyWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="DataTables\EditEncouragementWindow.xaml.cs">
+    <Compile Update="DataTables\DirectorWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="DataTables\EncouragementWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="RowAddWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="RowEditWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="DataTables\AddEncouragementWindow.xaml">
+    <Page Update="DataTables\CompanyWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="DataTables\EditEncouragementWindow.xaml">
+    <Page Update="DataTables\DirectorWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DataTables\EncouragementWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="RowAddWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="RowEditWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

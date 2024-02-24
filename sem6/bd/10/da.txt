@@ -3,10 +3,12 @@ ID          Worker_name                                        Birthday   Age   
           1 Volodimir                                          2000-12-12          24             1
           2 Oleksei                                            1999-11-11          25          NULL
           3 Oleksii                                            1998-9-30           26             2
-          4 Mihail                                             1995-11-12          27             5
+          4 Mihail                                             1995-11-12          31             5
           5 Sergio                                             2001-7-5            23             3
-          6 Serega                                             1999-11-12          25             1
-          7 Grigoriy                                           1999-11-12          25             2
-       1006 Serega                                             1999-11-12          25             1
+          6 Serega                                             1999-11-12          29             1
+          7 Grigoriy                                           1999-11-12          29             2
+       1006 Serega                                             1999-11-12          29             1
+       3033 volodimir                                          1999-05-17          21             1
+       4054 volodimir                                          1999-05-17          21             1
 
-(8 rows affected)
+(10 rows affected)
