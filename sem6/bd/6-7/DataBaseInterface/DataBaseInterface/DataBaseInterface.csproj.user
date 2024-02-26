@@ -7,27 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="DataTables\CompanyWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="DataTables\DirectorWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="DataTables\EncouragementWindow.xaml.cs">
+    <Compile Update="Windows\TestFilterPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="DataTables\CompanyWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="DataTables\DirectorWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="DataTables\EncouragementWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\TestFilterPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

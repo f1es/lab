@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataBaseInterface"
+        xmlns:windows="clr-namespace:DataBaseInterface.Windows"
         mc:Ignorable="d"
         Title="MainWindow" Height="1060" Width="1920" ResizeMode="CanResize" HorizontalAlignment="Stretch" WindowStartupLocation="CenterScreen">
     <Grid HorizontalAlignment="Center" Margin="0,0,0,0" Width="1920" Height="1080">
@@ -12,7 +13,7 @@
             <ColumnDefinition Width="53*"/>
             <ColumnDefinition Width="427*"/>
         </Grid.ColumnDefinitions>
-        <ListView x:Name="TablesListView" Margin="11,10,73,140" Width="396" Height="930" SelectionChanged="TablesListView_SelectionChanged">
+        <ListView x:Name="TablesListView" Margin="11,10,73,140" Width="396" Height="930" SelectionChanged="TablesListViewSelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="400">
@@ -23,7 +24,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Margin="440,0,10,142" IsReadOnly="True" SelectionMode="Single" Grid.Column="2">
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Margin="481,0,0,180" IsReadOnly="True" SelectionMode="Single" Grid.Column="2"
+                  Width="800" Height="900">
             <DataGrid.Columns>
                 <DataGridTemplateColumn CanUserSort="False" Width="50" Visibility="Hidden">
                     <DataGridTemplateColumn.Header>
@@ -42,7 +44,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                
+
             </DataGrid.Columns>
         </DataGrid>
         <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top"/>
@@ -50,5 +52,9 @@
         <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="AddButtonClick"/>
         <Button Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="DeleteButtonClick"/>
         <Button x:Name="editButton" Grid.Column="2" Content="Edit" HorizontalAlignment="Left" Margin="604,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="EditButtonClick"/>
+
+        <Frame x:Name="filterFrame" Content="{Binding Page}" Grid.Column="2" Margin="381,0,800,180" Height="900" Width="100" NavigationUIVisibility="Hidden"/>
+
+
     </Grid>
 </Window>

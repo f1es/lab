@@ -1,0 +1,15 @@
+﻿<Window x:Class="DataBaseInterface.Windows.EncouragementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBaseInterface.Windows"
+        mc:Ignorable="d"
+        Title="EditEncouragementWindow" Height="450" Width="450">
+    <Grid>
+        <Button x:Name="acceptButton" Margin="61,343,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Accept" Click="AcceptButtonClick" Width="120" Height="50"></Button>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="232,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Encouragement name" HorizontalAlignment="Left" Margin="92,29,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="262,343,0,0" VerticalAlignment="Top" Width="120" Height="50" Click="CancelButtonClick"/>
+    </Grid>
+</Window>

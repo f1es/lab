@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\App.xaml
-4-1096423865
+5-522489311
 
-271805615235
+291645293482
 214-1658839552
-DataTables\CompanyWindow.xaml;DataTables\DirectorWindow.xaml;DataTables\EncouragementWindow.xaml;MainWindow.xaml;
+MainWindow.xaml;Windows\CompanyWindow.xaml;Windows\DirectorWindow.xaml;Windows\EncouragementWindow.xaml;Windows\TestFilterPage.xaml;
 
 False
 

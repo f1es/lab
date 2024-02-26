@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 
 namespace DataBaseInterface.Entities
 {
@@ -12,5 +14,8 @@ namespace DataBaseInterface.Entities
         public DateTime Birthday { get; set; }
 
         public virtual Company? Company { get; set; }
-    }
+
+        public FullName FullName { get =>  new FullName(FirstName, MiddleNames, LastName); }
+
+	}
 }

@@ -1,4 +1,4 @@
-﻿using DataBaseInterface.DataTables;
+﻿using DataBaseInterface.Windows;
 using DataBaseInterface.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
@@ -24,6 +24,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace DataBaseInterface
 {
@@ -33,14 +34,16 @@ namespace DataBaseInterface
     public partial class MainWindow : Window
     {
         private ObservableCollection<string> _tablesNames = new ObservableCollection<string>();
-        public string? SelectedTable { get; set; }
-       
-
-		public Dictionary<string, object> _dbTablesDictionary = new Dictionary<string, object>();
 		private IS_Buro_KadrovContext _db = new IS_Buro_KadrovContext();
+		private TestFilterPage _filterPage = new TestFilterPage();
+		public Page Page { get; set; }
+		
+        public string? SelectedTable { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+			DataContext = this;
+			//Page = new TestFilterPage();
 
 			_tablesNames.Add("Encouragements");
 			_tablesNames.Add("Speciality");
@@ -64,19 +67,21 @@ namespace DataBaseInterface
 				case "Directors":
 					new DirectorWindow(_db, ((Director)dataGrid.SelectedItems[0]).Id).Show();
 					break;
+				case "Company":
+					new CompanyWindow(_db, ((Company)dataGrid.SelectedItems[0]).Id).Show();
+					break;
 			}
 
 			UpdateDataGrid();
 		}
 
-        private void TablesListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void TablesListViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 			SelectedTable = TablesListView.SelectedItem.ToString();
             if (SelectedTable == null)
                 return;
 
 			UpdateDataGrid();
-			HideId(dataGrid);
 		}
 
 		private void AddButtonClick(object sender, RoutedEventArgs e)
@@ -138,11 +143,14 @@ namespace DataBaseInterface
 		}
 		public void UpdateDataGrid()
 		{
+			filterFrame.Content = null;
 			dataGrid.ItemsSource = null;
 			switch(SelectedTable)
 			{
 				case "Encouragements":
 					dataGrid.ItemsSource = _db.Encouragements.ToList();
+					filterFrame.Content = _filterPage;
+
 					break;
 				case "Speciality":
 					dataGrid.ItemsSource = _db.Specialities.ToList();
@@ -151,21 +159,50 @@ namespace DataBaseInterface
 					dataGrid.ItemsSource = _db.Departments.ToList();
 					break;
 				case "Directors":
+
+					//if (checkBox.IsChecked == true)
+					//dataGrid.ItemsSource = _db.Directors.Where(dir => dir.LastName == "Ковалёв").ToList();
+					//else
 					dataGrid.ItemsSource = _db.Directors.ToList();
 					break;
 				case "Company":
 					dataGrid.ItemsSource = _db.Companies.ToList();
 					break;
 			}
-			HideId(dataGrid);
+			//HideId(dataGrid);
+		}
+
+		public void UpdateTestFilters()
+		{
+			//((TestFilterPage)Page).checkbox1
+
+			var encouragements = _db.Encouragements;
+			var collection = _db.Encouragements.ToList();
+
+			if (_filterPage.checkbox1.IsChecked == true)
+			{
+				collection = encouragements.Where(enc => enc.Id % 2 == 0).ToList();
+			}
+			if (_filterPage.checkbox2.IsChecked == true)
+				collection = collection.Where(enc => enc.Id > 2).ToList();
+
+			dataGrid.ItemsSource = collection;
 		}
 
 		private void viewButton_Click(object sender, RoutedEventArgs e)
 		{
-			var table = from a in _db.Encouragements
-						where a.Id % 2 == 0
-						select a;
-			dataGrid.ItemsSource = table.ToList();
+			var encouragements = _db.Encouragements;
+			var collection = _db.Encouragements.ToList();
+
+			//if (checkBox.IsChecked == true)
+			//{
+			//	collection = encouragements.Where(enc => enc.Id % 2 == 0).ToList();
+			//}
+			//if (checkbox2.IsChecked == true)
+			//	collection = collection.Where(enc => enc.Id > 2).ToList();
+			
+			dataGrid.ItemsSource = collection;
+
 		}
 	}
 }
