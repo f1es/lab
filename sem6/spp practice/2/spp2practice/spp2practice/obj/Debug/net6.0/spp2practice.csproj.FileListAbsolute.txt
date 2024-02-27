@@ -1,0 +1,64 @@
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\appsettings.Development.json
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\appsettings.json
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.exe
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.deps.json
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.runtimeconfig.json
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.dll
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.pdb
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VS\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.AssemblyReference.cache
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.AssemblyInfoInputs.cache
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.AssemblyInfo.cs
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.CoreCompileInputs.cache
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.MvcApplicationPartsAssemblyInfo.cs
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.MvcApplicationPartsAssemblyInfo.cache
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.spp2practice.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.build.spp2practice.props
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.spp2practice.props
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.spp2practice.props
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.pack.json
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.build.json
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.development.json
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\scopedcss\bundle\spp2practice.styles.css
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.CopyComplete
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.dll
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\refint\spp2practice.dll
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.pdb
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.genruntimeconfig.cache
+D:\VS\spp2practice\spp2practice\obj\Debug\net6.0\ref\spp2practice.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\appsettings.Development.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\appsettings.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.exe
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.deps.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.runtimeconfig.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\spp2practice.pdb
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.AssemblyReference.cache
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.AssemblyInfoInputs.cache
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.AssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.MvcApplicationPartsAssemblyInfo.cs
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.spp2practice.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.build.spp2practice.props
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.spp2practice.props
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.spp2practice.props
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\scopedcss\bundle\spp2practice.styles.css
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.csproj.CopyComplete
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\refint\spp2practice.dll
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.pdb
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\spp2practice.genruntimeconfig.cache
+D:\Git\lab\sem6\spp practice\2\spp2practice\spp2practice\obj\Debug\net6.0\ref\spp2practice.dll

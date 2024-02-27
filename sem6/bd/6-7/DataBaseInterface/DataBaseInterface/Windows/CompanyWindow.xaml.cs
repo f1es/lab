@@ -22,21 +22,13 @@ namespace DataBaseInterface.Windows
 	{
 		private IS_Buro_KadrovContext _db;
 		private int _editId = -1;
+		private DirectorsNames _directorsNames;
 		public CompanyWindow(IS_Buro_KadrovContext db)
 		{
 			InitializeComponent();
 			_db = db;
-
-			List<Director> directors = new List<Director>();
-			foreach (var name in GetDirectorsFullNames())
-            {
-				directors.Add(_db.Directors.Where(dir => dir.Id == GetDirectorIdByFullName(name)).Single());
-            }
-			
-			var unionDirecors = directors.Union(_db.Directors.ToList()).ToList();
-			
-
-			directorComboBox.ItemsSource = GetDirectorsFullNamesAsString();
+			_directorsNames = new DirectorsNames(_db);
+			directorComboBox.ItemsSource = _directorsNames.GetExceptDirectorsNames();
 		}
 
 		public CompanyWindow(IS_Buro_KadrovContext db, int editId)
@@ -44,42 +36,12 @@ namespace DataBaseInterface.Windows
 			InitializeComponent();
 			_db = db;
 			_editId = editId;
-			directorComboBox.ItemsSource = GetDirectorsFullNamesAsString();
+			directorComboBox.ItemsSource = _directorsNames.GetDirectorsFullNamesAsString();
 
 			Company company = _db.Companies.Where(dir => dir.Id == _editId).Single();
 			companyNameTextBox.Text = company.CompanyName;
 			baseDateTextBox.Text = company.BaseDate.ToString();
-			directorComboBox.SelectedItem = GetDirectorFullNameById(company.DirectorId).ToString();
-		}
-
-		public List<FullName> GetDirectorsFullNames()
-		{
-			return _db.Directors.Select(dir => dir.FullName).ToList();
-		}
-		public List<string> GetDirectorsFullNamesAsString()
-		{
-			List<string> fullNames = new List<string>();
-			foreach (var name in GetDirectorsFullNames())
-				fullNames.Add(name.ToString());
-			directorComboBox.ItemsSource = fullNames;
-			return fullNames;
-		}
-		public FullName GetDirectorFullNameById(int id)
-		{
-			var director = _db.Directors.Where(dir => dir.Id == id).Single();
-			return director.FullName;
-		}
-
-		public int GetDirectorIdByFullName(FullName fullName)
-		{
-			int id;
-			id = _db.Directors
-				.Where(
-				dir => dir.FirstName == fullName.FirstName &&
-				dir.MiddleNames == fullName.MiddleName && 
-				dir.LastName == fullName.LastName)
-				.Single().Id;
-			return id;
+			directorComboBox.SelectedItem = _directorsNames.GetDirectorFullNameById(company.DirectorId).ToString();
 		}
 
 		private void AcceptButtonClick(object sender, RoutedEventArgs e)
@@ -89,7 +51,7 @@ namespace DataBaseInterface.Windows
 				MessageBox.Show("Incorrect date");
 				return;
 			}
-			int selectedDirectorId = GetDirectorIdByFullName(new FullName(directorComboBox.SelectedItem.ToString()));
+			int selectedDirectorId = _directorsNames.GetDirectorIdByFullName(new FullName(directorComboBox.SelectedItem.ToString()));
 
 
 			if (_editId == -1) //Add

@@ -20,7 +20,7 @@ namespace SPP2.Controllers
     [Route("Picture")]
     public class PictureController : ControllerBase
     {
-        string? imageSource = @"X:\vs\SPP2\SPP2\png-clipart-gray-stone-rock-stone-image-file-formats-stone-carving-thumbnail.png";
+        string? imageSource = @"D:\Git\lab\sem6\spp\2\SPP2\SPP2\png-clipart-gray-stone-rock-stone-image-file-formats-stone-carving-thumbnail.png";
         [HttpGet(Name = "GetPicture")]
         public IActionResult Get()
         {

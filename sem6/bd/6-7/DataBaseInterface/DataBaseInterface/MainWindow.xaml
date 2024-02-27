@@ -48,7 +48,6 @@
             </DataGrid.Columns>
         </DataGrid>
         <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="viewButton" Grid.Column="2" Content="View" HorizontalAlignment="Left" Margin="440,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="viewButton_Click"/>
         <Button x:Name="addButton" Grid.Column="2" Content="Add" HorizontalAlignment="Left" Margin="495,956,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="AddButtonClick"/>
         <Button Grid.Column="2" Content="Delete" HorizontalAlignment="Left" Margin="550,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="DeleteButtonClick"/>
         <Button x:Name="editButton" Grid.Column="2" Content="Edit" HorizontalAlignment="Left" Margin="604,956,0,0" VerticalAlignment="Top" Height="50" Width="49" Click="EditButtonClick"/>
