@@ -72,7 +72,7 @@ namespace DataBaseInterface
 					break;
 			}
 
-			UpdateDataGrid();
+			//UpdateDataGrid();
 		}
 
         private void TablesListViewSelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -143,14 +143,17 @@ namespace DataBaseInterface
 		}
 		public void UpdateDataGrid()
 		{
-			filterFrame.Content = null;
 			dataGrid.ItemsSource = null;
+			//filterFrame.Content = null;
+			filterFrame.Visibility = Visibility.Hidden;
 			switch(SelectedTable)
 			{
 				case "Encouragements":
-					dataGrid.ItemsSource = _db.Encouragements.ToList();
-					filterFrame.Content = _filterPage;
 
+					dataGrid.ItemsSource = _db.Encouragements.ToList();
+					filterFrame.Visibility = Visibility.Visible;
+					filterFrame.Content = _filterPage;
+					UpdateTestFilters();
 					break;
 				case "Speciality":
 					dataGrid.ItemsSource = _db.Specialities.ToList();

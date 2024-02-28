@@ -36,12 +36,18 @@ namespace DataBaseInterface.Windows
 			InitializeComponent();
 			_db = db;
 			_editId = editId;
-			directorComboBox.ItemsSource = _directorsNames.GetDirectorsFullNamesAsString();
+            _directorsNames = new DirectorsNames(_db);
 
-			Company company = _db.Companies.Where(dir => dir.Id == _editId).Single();
+            Company company = _db.Companies.Where(dir => dir.Id == _editId).Single();
 			companyNameTextBox.Text = company.CompanyName;
 			baseDateTextBox.Text = company.BaseDate.ToString();
-			directorComboBox.SelectedItem = _directorsNames.GetDirectorFullNameById(company.DirectorId).ToString();
+			string currentDirector = _directorsNames.GetDirectorFullNameById(company.DirectorId).ToString();
+
+            List<FullName> directors = _directorsNames.GetExceptDirectorsNames();
+			directors.Add(_directorsNames.GetDirectorFullNameById(company.DirectorId));
+
+			directorComboBox.ItemsSource = directors;
+            directorComboBox.SelectedValue = directors.Last();
 		}
 
 		private void AcceptButtonClick(object sender, RoutedEventArgs e)
@@ -52,7 +58,6 @@ namespace DataBaseInterface.Windows
 				return;
 			}
 			int selectedDirectorId = _directorsNames.GetDirectorIdByFullName(new FullName(directorComboBox.SelectedItem.ToString()));
-
 
 			if (_editId == -1) //Add
 			{

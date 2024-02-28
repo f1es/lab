@@ -7,6 +7,7 @@
         xmlns:windows="clr-namespace:DataBaseInterface.Windows"
         mc:Ignorable="d"
         Title="MainWindow" Height="1060" Width="1920" ResizeMode="CanResize" HorizontalAlignment="Stretch" WindowStartupLocation="CenterScreen">
+    
     <Grid HorizontalAlignment="Center" Margin="0,0,0,0" Width="1920" Height="1080">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="160*"/>
