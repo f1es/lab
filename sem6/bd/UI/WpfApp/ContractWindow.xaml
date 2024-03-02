@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp.ContractWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="ContractWindow" Height="250">
+    <Grid>
+        <Label Content="Contract Number" HorizontalAlignment="Left" Margin="21,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Start Date" HorizontalAlignment="Left" Margin="21,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="End Date" HorizontalAlignment="Left" Margin="21,119,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="contractNumberTextBox" HorizontalAlignment="Left" Margin="159,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="startDateTextBox" HorizontalAlignment="Left" Margin="159,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="endDateTextBox" HorizontalAlignment="Left" Margin="159,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="acceptButton" Content="Accept" HorizontalAlignment="Left" Margin="54,183,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="180,183,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

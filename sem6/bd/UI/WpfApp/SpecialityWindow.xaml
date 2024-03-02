@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp.SpecialityWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="SpecialityWindow" Height="200" Width="400">
+    <Grid>
+        <Label Content="SpecialityName" HorizontalAlignment="Left" Margin="74,52,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="212,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="acceptButton" Content="Accept" HorizontalAlignment="Left" Margin="107,108,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="233,108,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

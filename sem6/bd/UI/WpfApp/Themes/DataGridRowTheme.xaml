@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="{x:Type DataGridRow}"
+           x:Key="DataGridRowTheme">
+        
+        <Style.Setters>
+            <Setter Property="Background" Value="#353535"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Height" Value="32"/>
+            <!--<Setter Property="Width" Value="30"/>-->
+            <Setter Property="FontFamily" Value="Yu Gothic UI Semilight"/>
+            
+        </Style.Setters>
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="#606060"/>
+            </Trigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"/>
+                    <Condition Property="IsSelected" Value="False"/>
+                </MultiTrigger.Conditions>
+                <Setter Property="Background" Value="#33FFFFFF"/>
+            </MultiTrigger>
+        </Style.Triggers>
+    </Style>
+    
+</ResourceDictionary>

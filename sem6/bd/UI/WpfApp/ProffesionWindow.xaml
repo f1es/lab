@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp.ProffesionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:style="clr-namespace:WpfApp.style"
+        mc:Ignorable="d"
+        Title="ProffesionWindow" Height="250" Style="{DynamicResource windowStyle}" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary Source="style\Style.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Profession Name" HorizontalAlignment="Left" Margin="23,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="Salary" HorizontalAlignment="Left" Margin="23,89,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="professionNameTextBox" HorizontalAlignment="Left" Margin="161,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="salaryTextBox" HorizontalAlignment="Left" Margin="161,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="acceptButton" Content="Accept" HorizontalAlignment="Left" Margin="56,146,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="182,146,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
