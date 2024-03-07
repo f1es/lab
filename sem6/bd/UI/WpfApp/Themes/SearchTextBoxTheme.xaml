@@ -11,6 +11,15 @@
             <Setter Property="FontSize" Value="17"/>
             <Setter Property="FontFamily" Value="Yu Gothic UI Semilight"/>
             <Setter Property="AllowDrop" Value="False"/>
+            <Setter Property="BorderThickness" Value="0"/>
         </Style.Setters>
+        <!--<Style.Triggers>
+            <Trigger Property="IsSelectionActive" Value="True">
+                <Setter Property="BorderBrush" Value="white"/>
+            </Trigger>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="BorderBrush" Value="white"/>
+            </Trigger>
+        </Style.Triggers>-->
     </Style>
 </ResourceDictionary>

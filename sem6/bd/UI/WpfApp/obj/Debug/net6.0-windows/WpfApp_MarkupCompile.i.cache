@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-X:\vs\WpfApp\WpfApp\obj\Debug\net6.0-windows\
+D:\Git\lab\sem6\bd\UI\WpfApp\obj\Debug\net6.0-windows\
 WpfApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-X:\vs\WpfApp\WpfApp\App.xaml
-13136193165
+D:\Git\lab\sem6\bd\UI\WpfApp\App.xaml
+14-1513435514
 
 11-1221075539
-194-97651837
-ContractWindow.xaml;DepartmentWindow.xaml;MainWindow.xaml;ProffesionWindow.xaml;SpecialityWindow.xaml;style\Style.xaml;TestUI.xaml;Themes\ButtonTheme.xaml;Themes\DataGridCellTheme.xaml;Themes\DataGridColumnHeaderTheme.xaml;Themes\DataGridRowTheme.xaml;Themes\ListViewItemTheme.xaml;Themes\SearchTextBoxTheme.xaml;
+194-1617825143
+ContractWindow.xaml;DepartmentWindow.xaml;MainWindow.xaml;ProffesionWindow.xaml;SpecialityWindow.xaml;style\Style.xaml;TestUI.xaml;Themes\ButtonTheme.xaml;Themes\CheckBoxTheme.xaml;Themes\DataGridCellTheme.xaml;Themes\DataGridColumnHeaderTheme.xaml;Themes\DataGridRowTheme.xaml;Themes\ListViewItemTheme.xaml;Themes\SearchTextBoxTheme.xaml;
 
 True
 

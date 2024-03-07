@@ -48,6 +48,9 @@
     <Page Update="Themes\ButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\CheckBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\DataGridCellTheme.xaml">
       <SubType>Designer</SubType>
     </Page>

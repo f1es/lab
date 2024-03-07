@@ -12,6 +12,7 @@
                 <ResourceDictionary Source="Themes/DataGridCellTheme.xaml"/>
                 <ResourceDictionary Source="Themes/ButtonTheme.xaml"/>
                 <ResourceDictionary Source="Themes/SearchTextBoxTheme.xaml"/>
+                <ResourceDictionary Source="Themes/CheckBoxTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
