@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Users";
+}
+
+<form>
+		@foreach (var user in UserContext.GetInstance().Users.ToList())
+		{
+			<table>
+				<tr>
+					@user.Id. @user.Name @user.Age @user.Email 
+					@Html.ActionLink("Delete", "Delete", new { id = @user.Id }) | 
+					@Html.ActionLink("Edit", "Edit", new { id = @user.Id })
+				</tr>
+			</table>
+		}
+</form>
+<br />
+<form>
+	<button name="addButton" asp-action="AddUser">Add User</button>
+</form>

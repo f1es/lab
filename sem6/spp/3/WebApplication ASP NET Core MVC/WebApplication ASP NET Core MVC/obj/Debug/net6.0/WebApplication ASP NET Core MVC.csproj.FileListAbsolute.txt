@@ -1,0 +1,454 @@
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\appsettings.Development.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\appsettings.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.staticwebassets.runtime.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.exe
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.deps.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.runtimeconfig.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.pdb
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.AssemblyReference.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.GeneratedMSBuildEditorConfig.editorconfig
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.AssemblyInfoInputs.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.AssemblyInfo.cs
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.CoreCompileInputs.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.MvcApplicationPartsAssemblyInfo.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.RazorAssemblyInfo.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.RazorAssemblyInfo.cs
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets.build.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets.development.json
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\bundle\WebApplication ASP NET Core MVC.styles.css
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication ASP NET Core MVC.bundle.scp.css
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\refint\WebApplication ASP NET Core MVC.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.pdb
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.genruntimeconfig.cache
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\ref\WebApplication ASP NET Core MVC.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Humanizer.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\MessagePack.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\MessagePack.Annotations.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Build.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Common.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Configuration.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Frameworks.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.LibraryModel.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Packaging.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.ProjectModel.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Protocol.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Versioning.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Convention.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Hosting.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Runtime.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.TypedParts.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\af\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ar\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\az\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\bg\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\da\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\el\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fa\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\he\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hr\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hu\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hy\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\id\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\is\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ku\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\lv\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\mt\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nb\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nl\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ro\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sk\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sl\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sr\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sv\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uk\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\vi\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+X:\vs\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.CopyComplete
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\appsettings.Development.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\appsettings.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.staticwebassets.runtime.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.exe
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.deps.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.runtimeconfig.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\WebApplication ASP NET Core MVC.pdb
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\EntityFramework.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Humanizer.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\MessagePack.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Common.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.CodeDom.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.AssemblyReference.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.AssemblyInfoInputs.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.AssemblyInfo.cs
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.CoreCompileInputs.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.RazorAssemblyInfo.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.RazorAssemblyInfo.cs
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication ASP NET Core MVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication ASP NET Core MVC.props
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication ASP NET Core MVC.props
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication ASP NET Core MVC.props
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets.build.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\staticwebassets.development.json
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\bundle\WebApplication ASP NET Core MVC.styles.css
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\scopedcss\projectbundle\WebApplication ASP NET Core MVC.bundle.scp.css
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.csproj.CopyComplete
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\refint\WebApplication ASP NET Core MVC.dll
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.pdb
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\WebApplication ASP NET Core MVC.genruntimeconfig.cache
+D:\Git\lab\sem6\spp\3\WebApplication ASP NET Core MVC\WebApplication ASP NET Core MVC\obj\Debug\net6.0\ref\WebApplication ASP NET Core MVC.dll
