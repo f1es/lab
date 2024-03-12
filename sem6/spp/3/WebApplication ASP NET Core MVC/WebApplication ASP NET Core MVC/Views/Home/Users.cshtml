@@ -3,7 +3,7 @@
 }
 
 <form>
-		@foreach (var user in UserContext.GetInstance().Users.ToList())
+		@foreach (var user in MarketBDContext.GetInstance().Users.ToList())
 		{
 			<table>
 				<tr>

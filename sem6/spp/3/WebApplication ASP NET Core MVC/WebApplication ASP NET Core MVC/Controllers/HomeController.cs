@@ -38,15 +38,15 @@ namespace WebApplication_ASP_NET_Core_MVC.Controllers
             user.Name = name;
             user.Age = age;
             user.Email = email;
-            UserContext.GetInstance().Users.Add(user);
-			UserContext.GetInstance().SaveChanges();
+            MarketBDContext.GetInstance().Users.Add(user);
+			MarketBDContext.GetInstance().SaveChanges();
 			return RedirectToAction("Users");
         }
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            User user = UserContext.GetInstance().Users.Where(u => u.Id == id).FirstOrDefault();
+            User user = MarketBDContext.GetInstance().Users.Where(u => u.Id == id).FirstOrDefault();
             return View(user);
         }
         [HttpPost]
@@ -54,9 +54,10 @@ namespace WebApplication_ASP_NET_Core_MVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                UserContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Name = user.Name;
-                UserContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Age = user.Age;
-                UserContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Email = user.Email;
+                MarketBDContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Name = user.Name;
+                MarketBDContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Age = user.Age;
+                MarketBDContext.GetInstance().Users.Where(u => u.Id == user.Id).FirstOrDefault().Email = user.Email;
+                MarketBDContext.GetInstance().SaveChanges();
                 return RedirectToAction("Users");
             }
             return View(user);
@@ -64,9 +65,9 @@ namespace WebApplication_ASP_NET_Core_MVC.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            User user = UserContext.GetInstance().Users.Where(u => u.Id == id).FirstOrDefault();
-			UserContext.GetInstance().Users.Remove(user);
-            UserContext.GetInstance().SaveChanges();
+            User user = MarketBDContext.GetInstance().Users.Where(u => u.Id == id).FirstOrDefault();
+			MarketBDContext.GetInstance().Users.Remove(user);
+            MarketBDContext.GetInstance().SaveChanges();
             return RedirectToAction("Users");
         }
 
