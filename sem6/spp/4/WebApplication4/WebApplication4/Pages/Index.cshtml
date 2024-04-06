@@ -1,0 +1,71 @@
+﻿@page
+@using System.Net.WebSockets;
+@using System.Text;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div id="chat"></div>
+
+    <script>
+        const socket = new WebSocket("wss://localhost:6969/ws");
+
+        socket.onopen = (event) => {
+            console.log("WebSocket connection established.");
+        };
+
+        socket.onmessage = (event) => {
+            const chatDiv = document.getElementById("chat");
+            var x = randomInt(1, 1600);
+            var y = randomInt(1, 800);
+            chatDiv.innerHTML += `<br>`
+            chatDiv.innerHTML += `<div id="popup-window" onclick="removeParent(this)" style="
+              left: ${x}px;
+              top: ${y}px; 
+              position: fixed;
+              width: 300px;
+              height: 200px;
+              background: white;
+              border: 1px solid black;
+              padding: 10px;
+              margin: auto;
+              ">
+                                  <p>${event.data}</p>
+                                  <br><br><br>
+                                </div>`
+        };
+
+        socket.onclose = (event) => {
+            if (event.wasClean) {
+                console.log(`WebSocket connection closed cleanly, code=${event.code}, reason=${event.reason}`);
+            } else {
+                console.error(`WebSocket connection died`);
+            }
+        };
+
+        function sendMessage() 
+        {
+            const messageInput = document.getElementById("messageInput");
+            const message = messageInput.value;
+            socket.send(message);
+            messageInput.value = "";
+        }
+
+        function removeParent(node) 
+        {
+            node.remove();
+        }
+
+        function randomInt(min, max) 
+        {
+          if (max == null) { max = min; min = 0; }
+          if (min > max) { var tmp = min; min = max; max = tmp; }
+          return Math.floor(min + (max - min + 1) * Math.random());
+        }
+    </script>
+</div>
