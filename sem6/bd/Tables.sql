@@ -1,4 +1,4 @@
-USE IS_Buro_Kadrov
+USE IsBuroKadrov
 
 CREATE TABLE Speciality
 (
@@ -115,14 +115,14 @@ CREATE TABLE Workers
 
 	CONSTRAINT PK_Worker_ID PRIMARY KEY (ID),
 	FOREIGN KEY (Company_ID) REFERENCES Company(ID)
-		ON UPDATE NO ACTION,
-		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+		ON DELETE NO ACTION,
 	FOREIGN KEY (Speciality_ID) REFERENCES  Speciality(ID)
 		ON UPDATE NO ACTION
 		ON DELETE NO ACTION,
 	FOREIGN KEY (Department_ID) REFERENCES Department(ID)
 		ON UPDATE NO ACTION
-		ON DELETE NO ACTION,		
+		ON DELETE NO ACTION	
 )
 
 CREATE TABLE Employee
@@ -164,6 +164,20 @@ CREATE TABLE Job_Vacancy
 		ON DELETE NO ACTION,
 )
 
+CREATE TABLE Workers_History
+(
+	Worker_ID INT NOT NULL,
+	Company_ID INT,
+	Action VARCHAR(30),
+	Action_Date DATE NOT NULL
+
+	FOREIGN KEY (Worker_ID) REFERENCES Workers(ID)
+	ON UPDATE NO ACTION
+	ON DELETE CASCADE,
+	FOREIGN KEY (Company_ID) REFERENCES Company(ID)
+	ON UPDATE NO ACTION
+	ON DELETE NO ACTION,
+)
 ------------------------------------------------------------
 
 CREATE TABLE Workers_encouragement

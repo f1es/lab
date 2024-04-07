@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MxqmMX/FBv7yowpTIRewWOtL0HhKl2PIw9lkwoocCQdMQxO0Yot6DK/2Nz8jm+xvXlzqjsRtkm4d59Q4TdpYPg==",
+  "dgSpecHash": "pZ7LArzkgAKo6Wbh6pIFHVG970ibGePk5GO5hsbrSL1/dQOQrxXQX6Ri7wLl2EQPDm7zUefZ8ZOktN/oH3qgqg==",
   "success": true,
-  "projectFilePath": "D:\\VS\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
+  "projectFilePath": "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fles\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fles\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

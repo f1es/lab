@@ -38,6 +38,7 @@ class Program
 				catch (Exception ex)
 				{
 					Console.WriteLine(ex.Message);
+					//Console.ResetColor();
 					break;
 				}
 			}
@@ -86,14 +87,16 @@ class Program
 		command.Connection = connection;
 		try
 		{
+
 			SqlDataReader reader = await command.ExecuteReaderAsync();
 			await WriteTable(reader);
 		}
 		catch (Exception ex)
 		{
+			Console.ForegroundColor = ConsoleColor.Red;
 			Console.WriteLine(ex.Message);
 		}
-
+		Console.ResetColor();
 
 		if (connection.State == ConnectionState.Open)
 		{

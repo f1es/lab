@@ -170,5 +170,4 @@ D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-wind
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\Windows\EncouragementWindow.baml
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\Windows\TestFilterPage.g.cs
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\Windows\TestFilterPage.baml
-D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Git\lab\sem6\bd\6-7\DataBaseInterface\DataBaseInterface\obj\Debug\net6.0-windows\Windows\Style.baml

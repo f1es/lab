@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS\\SQLConnection\\SQLConnection\\SQLConnection.csproj": {}
+    "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\SQLConnection.csproj": {}
   },
   "projects": {
-    "D:\\VS\\SQLConnection\\SQLConnection\\SQLConnection.csproj": {
+    "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\SQLConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
+        "projectUniqueName": "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
         "projectName": "SQLConnection",
-        "projectPath": "D:\\VS\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
+        "projectPath": "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\SQLConnection.csproj",
         "packagesPath": "C:\\Users\\fles\\.nuget\\packages\\",
-        "outputPath": "D:\\VS\\SQLConnection\\SQLConnection\\obj\\",
+        "outputPath": "D:\\Git\\lab\\sem6\\bd\\9\\SQLConnection\\SQLConnection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fles\\AppData\\Roaming\\NuGet\\NuGet.Config",
