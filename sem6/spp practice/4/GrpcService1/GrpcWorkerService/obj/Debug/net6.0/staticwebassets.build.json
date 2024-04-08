@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bdQ4XglwTTbVNBNf1EMDVxrhj8Soz4vvCOuAwXnUnxM=",
+  "Source": "GrpcMessangeService",
+  "BasePath": "_content/GrpcMessangeService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

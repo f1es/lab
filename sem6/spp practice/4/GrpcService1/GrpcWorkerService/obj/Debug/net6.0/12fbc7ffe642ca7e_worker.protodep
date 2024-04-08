@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Worker.cs \
+obj\Debug\net6.0\Protos/WorkerGrpc.cs: Protos/worker.proto

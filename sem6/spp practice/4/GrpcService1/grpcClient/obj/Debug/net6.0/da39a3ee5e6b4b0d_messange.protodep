@@ -1,0 +1,2 @@
+obj\Debug\net6.0/Messange.cs \
+obj\Debug\net6.0/MessangeGrpc.cs: messange.proto

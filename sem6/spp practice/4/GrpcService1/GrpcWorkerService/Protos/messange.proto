@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcWorkerService";
+
+package worker;
+
+// The greeting service definition.
+service Messenger {
+  // Sends a greeting
+  rpc ServerDataStream (Request) returns (stream Response);
+}
+
+// The request message containing the user's name.
+message Request {
+  //string content = 1;
+}
+
+// The response message containing the greetings.
+message Response{
+  string content = 1;
+}
